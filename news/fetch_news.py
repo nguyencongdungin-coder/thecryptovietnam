@@ -23,6 +23,56 @@ FEEDS = (
 USER_AGENT = "TheCryptoVietnam-Headlines/1.0 (+https://thecryptovietnam.com)"
 MAX_AGE_HOURS = 72
 
+# Chấm điểm theo tiêu đề RSS, KHÔNG suy diễn nội dung bài báo.
+TOPICS = (
+    ("Pháp lý", r"\b(regulat(?:ion|ory|or)|sec|cftc|law|bill|legislation|license|court|lawsuit|policy|ban|approval|approved|government|senate|congress|compliance)\b", 7),
+    ("ETF & tổ chức", r"\b(etf|etps?|institutional|blackrock|grayscale|fidelity|inflow|outflow|fund flows?|treasury|holdings|whale|strategy)\b", 7),
+    ("Bảo mật", r"\b(hack|hacker|exploit|breach|phish(?:ing)?|attack|stolen|scam|fraud|vulnerability|security)\b", 7),
+    ("Bitcoin", r"\b(bitcoin|btc|satoshi|mining|miner|halving)\b", 5),
+    ("Ethereum", r"\b(ethereum|ether|eth|layer.?2|rollups?|staking)\b", 5),
+    ("Altcoin & DeFi", r"\b(sol(?:ana)?|xrp|bnb|altcoin|defi|stablecoin|usdt|usdc|token|blockchain|dex|dao|airdrop|onchain|on-chain)\b", 4),
+    ("Sàn & giao dịch", r"\b(exchange|futures|perpetual|derivatives|trading|liquidation|leverage|binance|okx|bybit|coinbase|kraken)\b", 4),
+)
+CORE = re.compile(r"\b(bitcoin|btc|ethereum|ether|eth|crypto|cryptocurrency|blockchain|token|solana|defi|stablecoin|web3|digital assets?|on-chain|onchain|futures|perpetual|coinbase|binance|okx|bybit|xrp|etf)\b",re.I)
+OFF_TOPIC = re.compile(r"\b(nvidia|semiconductor|chipmaker|earnings|football|celebrity|recipe|sports|dating|hollywood)\b",re.I)
+PROMO = re.compile(r"\b(sponsored|advertorial|press release|giveaway|casino|betting|price prediction|100x|guaranteed returns?)\b",re.I)
+
+
+def classify(title):
+    matches=[(label,weight) for label,pattern,weight in TOPICS if re.search(pattern,title,re.I)]
+    category = max(matches,key=lambda pair:pair[1])[0] if matches else "Thị trường"
+    return category, max((score for _,score in matches),default=0)
+
+
+def score_article(item, now):
+    title=item['title']
+    if PROMO.search(title):return -100
+    category, weight=classify(title)
+    age_hours=max(0.0,(now-pub_time(item['published_at'])).total_seconds()/3600)
+    score=weight + (4 if CORE.search(title) else -7) - (11 if OFF_TOPIC.search(title) and not CORE.search(title) else 0)
+    # Ưu tiên tính mới nhưng không lấn át hoàn toàn tin pháp lý/bảo mật.
+    score+=max(0,4 - age_hours/12)
+    return round(score,2)
+
+
+def rank_articles(items, now, limit=18):
+    # RSS có thể chứa tin công nghệ rộng. Loại tin không trực tiếp nói đến crypto.
+    suitable=[]
+    for item in items:
+        score=score_article(item,now)
+        if score<2:continue
+        category,_=classify(item['title'])
+        suitable.append({**item,'category':category,'priority':score})
+    suitable.sort(key=lambda i:(-i['priority'],i['published_at']),reverse=False)
+    # Chọn 3 vị trí đầu có nguồn đa dạng nếu có, để tránh một nhà xuất bản chiếm cả trang chủ.
+    selected=[];pool=suitable.copy()
+    while pool and len(selected)<min(3,limit):
+        previous={v['source'] for v in selected}
+        pick=next((i for i,x in enumerate(pool) if x['source'] not in previous),0)
+        selected.append(pool.pop(pick))
+    return (selected+pool)[:limit]
+
+
 def clean(value):
     return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]*>", " ", value or ""))).strip()[:250]
 
@@ -108,12 +158,12 @@ def collect(fetcher=None, now=None):
         if it['url'] in seen_links or title_key in seen_titles:
             continue
         seen_links.add(it['url']);seen_titles.add(title_key);unique.append(it)
-    return successful,unique[:18]
+    return successful,rank_articles(unique,now,limit=18)
 
 def main():
     success,items=collect()
     if not items:
-        print('No recent verified headlines; preserving previous feed file, no fabricated news')
+        print('No recent high-relevance headlines; preserving previous feed file, no fabricated news')
         return 0
     output={'updated_at':dt.datetime.now(dt.timezone.utc).isoformat(timespec='seconds').replace('+00:00','Z'), 'items':items}
     OUTPUT.parent.mkdir(parents=True,exist_ok=True)
