@@ -55,7 +55,7 @@
         .filter(x => /^[A-Z0-9]{2,24}USDT$/.test(x.symbol) && x.change_pct_24h !== null && x.quote_volume_24h !== null && x.quote_volume_24h >= 0);
       if (!coins.length) throw new Error('No validated coins');
       status.textContent = `ĐÃ CẬP NHẬT · ${coins.length} COIN`;
-      updated.textContent = `Cập nhật: ${new Date(stamp).toLocaleString('vi-VN')} · Nguồn: Bybit USDT Perpetual Futures`;
+      updated.textContent = `Cập nhật: ${new Date(stamp).toLocaleString('vi-VN')} · Nguồn: OKX USDT Perpetual Futures`;
       render();
     } catch (err) {
       status.textContent = 'CHƯA CÓ DỮ LIỆU';

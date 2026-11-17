@@ -1,10 +1,11 @@
-"""TCV research scanner: Bybit V5 public USDT linear perpetual market data.
-No trading/authentication. Fails closed when data is missing or inaccessible.
+"""TCV research scanner: OKX V5 public USDT-margined perpetual SWAP data.
+No orders, account authentication or synthetic signals. Fails closed if inaccessible.
 """
 from __future__ import annotations
 import argparse
 import asyncio
 import json
+import math
 import os
 import time
 from datetime import datetime, timezone
@@ -14,78 +15,86 @@ from engine import candles_frame, build_signal, backtest
 
 ROOT = Path(__file__).resolve().parent
 DATA = ROOT / 'ai-signal' / 'data'
-BASE = 'https://api.bybit.com'
+BASE = 'https://www.okx.com'
 INTERVALS = ('15m', '1h', '4h')
-BYBIT_INTERVALS = {'15m': '15', '1h': '60', '4h': '240'}
+OKX_INTERVALS = {'15m': '15m', '1h': '1H', '4h': '4H'}
 INTERVAL_MS = {'15m': 900_000, '1h': 3_600_000, '4h': 14_400_000}
 MAX_ALERT_AGE_MS = 20 * 60 * 1000
 
 async def fetch(client, endpoint, params=None):
-    url = BASE + endpoint
     try:
-        response = await client.get(url, params=params)
+        response = await client.get(BASE + endpoint, params=params)
         response.raise_for_status()
         payload = response.json()
     except httpx.HTTPStatusError as exc:
-        status = exc.response.status_code
-        raise RuntimeError(f'Bybit market API HTTP {status}; kiểm tra điều kiện truy cập và GitHub Actions, không dùng dữ liệu giả') from exc
-    if not isinstance(payload, dict) or payload.get('retCode') != 0:
-        raise RuntimeError(f'Bybit API rejected {endpoint}: {str(payload.get("retMsg") if isinstance(payload, dict) else payload)[:200]}')
-    result = payload.get('result')
-    if not isinstance(result, dict):
-        raise RuntimeError(f'Bybit API missing result in {endpoint}')
+        raise RuntimeError(f'OKX market API HTTP {exc.response.status_code}; keep last valid data') from exc
+    except (httpx.RequestError, ValueError) as exc:
+        raise RuntimeError(f'OKX connection/data error: {type(exc).__name__}') from exc
+    if not isinstance(payload, dict) or payload.get('code') != '0':
+        raise RuntimeError(f'OKX API rejected {endpoint}: {str(payload.get("msg") if isinstance(payload, dict) else payload)[:180]}')
+    result = payload.get('data')
+    if not isinstance(result, list):
+        raise RuntimeError(f'OKX API missing data array in {endpoint}')
     return result
 
-async def top20(client):
-    # Obtain all instruments: Bybit linear listings may exceed 500 instruments.
-    eligible = set()
-    cursor = None
-    for _ in range(10):
-        params = {'category': 'linear', 'limit': 1000}
-        if cursor:
-            params['cursor'] = cursor
-        info = await fetch(client, '/v5/market/instruments-info', params)
-        for s in info.get('list', []):
-            if (s.get('status') == 'Trading' and s.get('contractType') == 'LinearPerpetual'
-                    and s.get('quoteCoin') == 'USDT' and s.get('settleCoin') == 'USDT'):
-                eligible.add(s.get('symbol'))
-        next_cursor = info.get('nextPageCursor') or ''
-        if not next_cursor:
-            break
-        if next_cursor == cursor:
-            raise RuntimeError('Bybit instrument pagination repeated cursor')
-        cursor = next_cursor
-    else:
-        raise RuntimeError('Bybit instrument pagination exceeded safety limit')
-    tickers = await fetch(client, '/v5/market/tickers', {'category': 'linear'})
-    pool = []
-    for t in tickers.get('list', []):
-        if t.get('symbol') not in eligible:
+def okx_id(symbol):
+    if not symbol.endswith('USDT'):
+        raise ValueError('Invalid USDT symbol')
+    return symbol[:-4] + '-USDT-SWAP'
+
+def parse_market_instruments(instruments, tickers):
+    eligible = {x.get('instId') for x in instruments if
+                x.get('state') == 'live' and x.get('instType') == 'SWAP' and
+                x.get('settleCcy') == 'USDT' and
+                str(x.get('instId', '')).endswith('-USDT-SWAP')}
+    pool=[]
+    for t in tickers:
+        inst=t.get('instId')
+        if inst not in eligible:
             continue
         try:
-            volume = float(t['turnover24h'])
-            change = float(t['price24hPcnt']) * 100.0
-        except (KeyError, ValueError, TypeError):
+            price=float(t['last']); old=float(t['open24h']); base_volume=float(t['volCcy24h'])
+            if not (math.isfinite(price) and math.isfinite(old) and math.isfinite(base_volume)
+                    and price>0 and old>0 and base_volume>=0):
+                continue
+            # For OKX derivatives, volCcy24h is base asset volume, NOT USDT.
+            # Value is a current-price ESTIMATE of 24h quote volume, not exact turnover.
+            volume=base_volume*price
+            change=(price/old-1)*100
+            if not -100<=change<=100000:
+                continue
+            symbol=inst.removesuffix('-SWAP').replace('-','')
+            pool.append({'symbol':symbol,'quote_volume_24h':volume,'change_pct_24h':change})
+        except (KeyError,TypeError,ValueError,OverflowError):
             continue
-        if not (volume >= 0 and -100 <= change <= 100000):
+    return sorted(pool,key=lambda t:t['quote_volume_24h'],reverse=True)[:20]
+
+async def top20(client):
+    instruments, tickers = await asyncio.gather(
+        fetch(client,'/api/v5/public/instruments',{'instType':'SWAP'}),
+        fetch(client,'/api/v5/market/tickers',{'instType':'SWAP'}))
+    return parse_market_instruments(instruments,tickers)
+
+def parse_okx_candles(raw, interval, now_ms):
+    rows=[]
+    for c in raw:
+        if not isinstance(c,list) or len(c)<9 or c[8]!='1':
             continue
-        pool.append({'symbol': t['symbol'], 'quote_volume_24h': volume,
-                     'change_pct_24h': change})
-    return sorted(pool, key=lambda t: t['quote_volume_24h'], reverse=True)[:20]
+        start=int(c[0]); close=start+INTERVAL_MS[interval]-1
+        if close >= now_ms:
+            continue
+        # OKX array: ts,o,h,l,c,vol(contracts),volCcy(base),volCcyQuote(USDT),confirm.
+        # Use quote volume for comparisons across differing contract sizes.
+        rows.append([start,c[1],c[2],c[3],c[4],c[7],close])
+    rows.sort(key=lambda r:r[0])
+    return candles_frame(rows,now_ms)
 
 async def get_candles(client, symbol, interval, limit, now_ms):
-    result = await fetch(client, '/v5/market/kline', {
-        'category': 'linear', 'symbol': symbol, 'interval': BYBIT_INTERVALS[interval],
-        'limit': limit})
-    rows = []
-    for c in result.get('list', []):
-        # Bybit V5 returns newest first and no candle closeTime field.
-        # Map to Binance-shaped array expected by engine.candles_frame().
-        start = int(c[0])
-        close = start + INTERVAL_MS[interval] - 1
-        rows.append([start, c[1], c[2], c[3], c[4], c[5], close])
-    rows.sort(key=lambda r: r[0])
-    return candles_frame(rows, now_ms)
+    # OKX most-recent candle endpoint supports max 300 observations.
+    # Use <= 300 to avoid silent truncation; no invented candle history.
+    raw = await fetch(client,'/api/v5/market/candles',{
+        'instId':okx_id(symbol),'bar':OKX_INTERVALS[interval],'limit':min(300,limit)})
+    return parse_okx_candles(raw,interval,now_ms)
 
 async def scan_one(client, sem, item, interval, now_ms):
     async with sem:
@@ -159,9 +168,9 @@ async def run(args):
                 except Exception as exc:
                     errors.append('Telegram: ' + str(exc))
         sent = {k: v for k, v in sent.items() if isinstance(v, int) and now_ms - v < 14 * 86400_000}
-        ranking = 'Bybit linear USDT perpetual, Trading, ranked by turnover24h (USDT)'
+        ranking = 'OKX live USDT-settled SWAP; ranked by estimated 24h USDT volume = base volume * latest price'
         payload = {'status': 'live' if not errors else 'partial',
-                   'source': 'Bybit V5 public market data — USDT linear perpetual',
+                   'source': 'OKX V5 public SWAP market data — USDT settled (volume ranking is estimated)',
                    'generated_at': now_ms, 'scan_minutes': 15,
                    'ranking_method': ranking, 'symbols': symbols,
                    'signals': signals, 'errors': errors[:4],
@@ -182,7 +191,7 @@ async def run(args):
                                 'signal_15m': s15['signal'] if s15 else None})
         radar = {'status': payload['status'], 'generated_at': now_ms,
                  'source': payload['source'], 'ranking_method': ranking,
-                 'metric': '24h price change, 24h turnover, closed 15m candle volume / previous 20',
+                 'metric': '24h price change, estimated 24h USDT notional, closed 15m USDT volume / previous 20',
                  'coins': radar_coins, 'note': 'Rules-based anomaly score; not a probability or advice.'}
         write_json(DATA / 'latest.json', payload)
         write_json(ROOT / 'market-radar' / 'data' / 'latest.json', radar)
@@ -192,7 +201,7 @@ async def run(args):
             tests = []
             for t in symbols[:5]:
                 try:
-                    frame = await get_candles(client, t['symbol'], '1h', 1000, now_ms)
+                    frame = await get_candles(client, t['symbol'], '1h', 300, now_ms)
                     result = backtest(frame)
                     tests.append({'symbol': t['symbol'], 'interval': '1h',
                                   'from': int(frame.iloc[0].open_time),
@@ -203,7 +212,7 @@ async def run(args):
                 except Exception as exc:
                     tests.append({'symbol': t['symbol'], 'error': str(exc)})
             write_json(DATA / 'backtests.json', {'generated_at': now_ms, 'sample': tests,
-                       'source': 'Bybit V5 public market data'})
+                       'source': 'OKX V5 public market data'})
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()

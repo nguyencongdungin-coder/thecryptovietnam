@@ -1,35 +1,31 @@
-import sys
 import unittest
-from pathlib import Path
-from unittest.mock import AsyncMock, patch
-sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-import scan
+from scan import parse_market_instruments, parse_okx_candles, okx_id
 
-class BybitAdapterTests(unittest.IsolatedAsyncioTestCase):
-    async def test_top20_filters_real_perpetual_usdt_and_uses_turnover(self):
-        instruments = {'list': [
-            {'symbol':'BTCUSDT', 'status':'Trading','contractType':'LinearPerpetual','quoteCoin':'USDT','settleCoin':'USDT'},
-            {'symbol':'ETHUSDC','status':'Trading','contractType':'LinearPerpetual','quoteCoin':'USDC','settleCoin':'USDC'},
-            {'symbol':'FOOUSDT','status':'PreLaunch','contractType':'LinearPerpetual','quoteCoin':'USDT','settleCoin':'USDT'}
-        ], 'nextPageCursor': ''}
-        tickers = {'list': [
-            {'symbol':'BTCUSDT','turnover24h':'1234567.89','price24hPcnt':'0.0175'},
-            {'symbol':'ETHUSDC','turnover24h':'900000000','price24hPcnt':'0.01'}]}
-        with patch.object(scan,'fetch', new=AsyncMock(side_effect=[instruments,tickers])):
-            result = await scan.top20(None)
-        self.assertEqual(len(result), 1)
-        self.assertEqual(result[0]['symbol'], 'BTCUSDT')
-        self.assertAlmostEqual(result[0]['change_pct_24h'], 1.75)
+class OKXAdapterTests(unittest.TestCase):
+    def test_instruments_ranked_usdt_not_contracts(self):
+        instruments=[{'instId':'BTC-USDT-SWAP','instType':'SWAP','state':'live','settleCcy':'USDT'},
+                     {'instId':'ETH-USDT-SWAP','instType':'SWAP','state':'live','settleCcy':'USDT'},
+                     {'instId':'BTC-USD-SWAP','instType':'SWAP','state':'live','settleCcy':'BTC'}]
+        tickers=[{'instId':'BTC-USDT-SWAP','last':'100','open24h':'90','volCcy24h':'2','vol24h':'300000'},
+                 {'instId':'ETH-USDT-SWAP','last':'20','open24h':'20','volCcy24h':'20','vol24h':'1'},
+                 {'instId':'BTC-USD-SWAP','last':'100','open24h':'90','volCcy24h':'9999'}]
+        got=parse_market_instruments(instruments,tickers)
+        self.assertEqual([x['symbol'] for x in got],['ETHUSDT','BTCUSDT'])
+        self.assertEqual(got[0]['quote_volume_24h'],400)
+        self.assertAlmostEqual(got[1]['change_pct_24h'],100/90*100-100)
+        self.assertEqual(okx_id('BTCUSDT'),'BTC-USDT-SWAP')
 
-    async def test_kline_converts_reverse_order_and_computes_close_time(self):
+    def test_only_confirmed_candles_and_quote_volume(self):
+        now=200*900000
         candles=[]
-        for i in range(100):
-            candles.append([str(i*900000),'100','110','90','100','100','10000'])
-        with patch.object(scan,'fetch',new=AsyncMock(return_value={'list': list(reversed(candles))})):
-            df = await scan.get_candles(None,'BTCUSDT','15m',260, 100*900000-1)
-        self.assertEqual(len(df), 99)
-        self.assertEqual(df.iloc[0].open_time, 0)
-        self.assertEqual(df.iloc[-1].close_time, 99*900000-1)
+        for i in range(95):
+            row=[str(i*900000),'1','2','0.5','1.5','999','20','45','1']
+            candles.append(row)
+        candles[-1][-1]='0'
+        frame=parse_okx_candles(candles,'15m',now)
+        self.assertEqual(len(frame),94)
+        self.assertEqual(frame.iloc[0].volume,45)
+        self.assertEqual(int(frame.iloc[-1].open_time),93*900000)
 
 if __name__=='__main__':
     unittest.main()

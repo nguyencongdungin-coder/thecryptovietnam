@@ -49,7 +49,7 @@
       if (!Number.isFinite(generated) || generated <= 0) {
         setState('CHƯA CÓ DỮ LIỆU');
         updated.textContent = 'Chưa chạy bộ quét Futures';
-        placeholder('Chưa có dữ liệu xác thực. Hệ thống cần chạy lần quét Binance đầu tiên.');
+        placeholder('Chưa có dữ liệu xác thực. Hệ thống cần chạy lần quét OKX đầu tiên.');
         return;
       }
       updated.textContent = 'Quét lúc ' + fmt(generated) + ' (GMT+7)';
