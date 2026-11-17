@@ -10,36 +10,58 @@ permissions:
 jobs:
   test-api:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Test OKX public market API
+      - name: Test OKX instruments and candles
         run: |
           python - <<'PY'
           import json
           import urllib.request
-          import urllib.error
+          import urllib.parse
 
-          url = (
-              "https://www.okx.com/api/v5/market/tickers"
-              "?instType=SWAP"
-          )
+          BASE = "https://www.okx.com"
 
-          try:
+          def get(path, params):
+              url = BASE + path + "?" + urllib.parse.urlencode(params)
               req = urllib.request.Request(
                   url,
                   headers={"User-Agent": "TCV-Market-Research/1.0"}
               )
-              with urllib.request.urlopen(req, timeout=20) as response:
-                  data = json.load(response)
-                  print("HTTP:", response.status)
-                  print("API code:", data.get("code"))
-                  print("Number of tickers:",
-                        len(data.get("data", [])))
-                  if data.get("code") != "0":
-                      raise RuntimeError("OKX API returned an error")
-                  if not data.get("data"):
-                      raise RuntimeError("No market data")
-                  print("OKX public API test successful")
-          except urllib.error.HTTPError as e:
-              print("HTTP error:", e.code)
-              raise
+              with urllib.request.urlopen(req, timeout=25) as r:
+                  payload = json.load(r)
+                  print(path, "HTTP:", r.status)
+              if payload.get("code") != "0":
+                  raise RuntimeError(payload.get("msg", "API error"))
+              return payload.get("data", [])
+
+          instruments = get(
+              "/api/v5/public/instruments",
+              {"instType": "SWAP"}
+          )
+
+          usdt = [
+              item for item in instruments
+              if item.get("instId", "").endswith("-USDT-SWAP")
+              and item.get("state") == "live"
+          ]
+          print("Active USDT swaps:", len(usdt))
+          if not usdt:
+              raise RuntimeError("No active USDT swap instruments")
+
+          for interval in ["15m", "1H", "4H"]:
+              candles = get(
+                  "/api/v5/market/candles",
+                  {
+                      "instId": "BTC-USDT-SWAP",
+                      "bar": interval,
+                      "limit": "100"
+                  }
+              )
+              print(interval, "candles:", len(candles))
+              if len(candles) < 50:
+                  raise RuntimeError("Insufficient candle data")
+              if not all(len(c) >= 9 for c in candles):
+                  raise RuntimeError("Invalid candle format")
+
+          print("OKX instrument and candle tests PASSED")
           PY
