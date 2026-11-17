@@ -159,3 +159,27 @@ body.dashboard-home{background:radial-gradient(ellipse 95% 34% at 48% 14%,#0b315
 /* Consistent dashboard tool heading: MARKET RADAR (homepage only) */
 .dashboard-home .radar-heading h2{font-size:20px;font-weight:800;line-height:1.35;letter-spacing:-.3px;margin:5px 0 6px}
 .dashboard-home .radar-heading .radar-symbol{font-size:24px;line-height:1;vertical-align:-1px;display:inline-block;margin-right:5px}
+
+/* TCV RSS news: compact text-only editorial card, avoids copyrighted thumbnails. */
+.tcv-news-card .tcv-news-list{display:grid;gap:0;min-height:145px}
+.tcv-news-item{padding:9px 0;border-bottom:1px solid #24506f}
+.tcv-news-item:last-child{border-bottom:0}
+.tcv-news-item>a{display:block;color:#edf6ff;text-decoration:none;font-size:12px;line-height:1.45;font-weight:750;overflow-wrap:anywhere}
+.tcv-news-item>a:hover,.tcv-news-item>a:focus-visible{color:#ffc83d;text-decoration:underline}
+.tcv-news-meta{display:flex;flex-wrap:wrap;gap:5px 12px;margin-top:5px;font-size:10px;color:#a9c6dd}
+.tcv-news-meta span{color:#f0c456;font-weight:700}
+.tcv-news-empty{font-size:12px;color:#b1c8da;line-height:1.65;padding:14px 0}
+.tcv-news-footer{display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px;margin-top:12px;font-size:9px;color:#87abc7}
+.tcv-news-page{padding-top:42px;padding-bottom:75px}
+.tcv-news-page-head{display:flex;justify-content:space-between;gap:20px;align-items:end;margin-bottom:25px}
+.tcv-news-kicker{font-size:10px;color:#e9b32b;letter-spacing:1.8px;font-weight:800}
+.tcv-news-page h1{font-size:clamp(26px,4vw,44px);margin:12px 0;color:#f1f6fc}
+.tcv-news-page h1 em{font-style:normal;color:#ffc131}
+.tcv-news-page-head p{max-width:770px;font-size:13px;line-height:1.75;color:#b4cce2}
+.tcv-news-back{font-size:12px;color:#ffcb3f;white-space:nowrap;text-decoration:none}
+.tcv-news-full{border:1px solid #23608c;border-radius:16px;background:linear-gradient(150deg,#0b2c4f,#071d34);padding:20px 24px}
+.tcv-news-full-head{display:flex;justify-content:space-between;align-items:center;gap:10px;padding-bottom:12px;border-bottom:1px solid #2a5d81;color:#fff;font-size:16px}
+.tcv-news-full-head small{font-size:11px;color:#99bcd2}
+.tcv-news-full .tcv-news-item{padding:16px 0}
+.tcv-news-full .tcv-news-item>a{font-size:15px}
+@media(max-width:750px){.tcv-news-page-head{display:block}.tcv-news-back{display:inline-block;margin-top:12px}.tcv-news-full{padding:15px}.tcv-news-full .tcv-news-item>a{font-size:13px}}
