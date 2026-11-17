@@ -47,7 +47,7 @@
       if (!stamp || stamp > Date.now() + 120000 || Date.now() - stamp > currentMaxAge) {
         status.textContent = 'DỮ LIỆU CHƯA SẴN SÀNG';
         if (stamp) updated.textContent = `Lần cập nhật: ${new Date(stamp).toLocaleString('vi-VN')} · Dữ liệu đã quá 40 phút`;
-        renderEmpty('Chưa có dữ liệu mới từ bộ quét Binance. Vui lòng kiểm tra GitHub Actions.');
+        renderEmpty('Chưa có dữ liệu mới từ bộ quét Futures. Vui lòng kiểm tra GitHub Actions.');
         return;
       }
       if (!Array.isArray(payload.coins) || !payload.coins.length) throw new Error('No verified coins');
@@ -55,7 +55,7 @@
         .filter(x => /^[A-Z0-9]{2,24}USDT$/.test(x.symbol) && x.change_pct_24h !== null && x.quote_volume_24h !== null && x.quote_volume_24h >= 0);
       if (!coins.length) throw new Error('No validated coins');
       status.textContent = `ĐÃ CẬP NHẬT · ${coins.length} COIN`;
-      updated.textContent = `Cập nhật: ${new Date(stamp).toLocaleString('vi-VN')} · Nguồn: Binance USDⓈ-M Futures`;
+      updated.textContent = `Cập nhật: ${new Date(stamp).toLocaleString('vi-VN')} · Nguồn: Bybit USDT Perpetual Futures`;
       render();
     } catch (err) {
       status.textContent = 'CHƯA CÓ DỮ LIỆU';
