@@ -1,0 +1,161 @@
+/* TCV Dashboard — new homepage only; other pages retain the original stylesheet. */
+body.dashboard-home{background:radial-gradient(ellipse 95% 34% at 48% 14%,#0b3155 0%,#06172e 55%,#041020 100%);color:#edf6ff}
+.dashboard-home .shell{max-width:1500px;width:calc(100% - 56px)}
+.dashboard-home .site-header{background:#041324;border-bottom:1px solid #17446a;box-shadow:0 5px 25px #0004}
+.dashboard-home .header-inner{min-height:77px}
+.dashboard-home .nav{gap:clamp(9px,1.7vw,28px)}
+.dashboard-home .nav a{font-size:12px;white-space:nowrap}
+.dashboard-home .nav a.active{color:#ffca31}
+.dashboard-home .header-join{background:linear-gradient(#ffe37b,#e8a509);color:#162039;border:1px solid #f9da78;box-shadow:0 4px 17px #eeb61138}
+.dashboard-home .brand img{max-width:260px;max-height:58px;object-fit:contain}
+.dashboard-home .dash-hero{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(180px,.63fr) minmax(0,1fr);align-items:center;gap:24px;background:linear-gradient(104deg,#08254a,#06162f 72%,#082f50);border:1px solid #1777bd;border-radius:24px;margin-top:19px;min-height:198px;padding:24px 30px;box-shadow:inset 0 0 38px #0162ad1d,0 12px 28px #0004}
+.dash-hero-pulse,.dash-fng{border-right:1px solid #2a628d;padding-right:24px;min-height:132px;display:flex;flex-direction:column;justify-content:center}
+.dashboard-home .tcv-pulse{display:flex;align-items:flex-start;gap:16px;background:none;border:none;box-shadow:none;padding:0;min-height:auto;width:100%}
+.dashboard-home .tcv-pulse-icon,.dashboard-home .tcv-pulse-icon svg{height:43px;width:43px;flex-basis:43px}
+.dashboard-home .tcv-pulse-name{font-size:clamp(17px,1.8vw,26px);letter-spacing:-.6px}
+.dashboard-home .tcv-pulse-numbers{margin-top:11px;font-size:12px}
+.dashboard-home .tcv-pulse-numbers b{font-size:14px}
+.dashboard-home .tcv-pulse-bar{height:14px;margin-top:13px;border-radius:14px;background:#203a56}
+.dashboard-home .tcv-pulse-status{font-size:10px;min-height:16px;margin-top:10px}
+.dash-market-feel{align-self:flex-start;margin:10px 0 0 59px;font-size:11px;font-weight:800;padding:7px 14px;border:1px solid #346b90;border-radius:999px;color:#bcd6eb;background:#102c4e}
+.dash-market-feel.positive{color:#b7ffcc;border-color:#19a966;background:#0b3e35}.dash-market-feel.negative{color:#ffb7c1;border-color:#c75668;background:#4d2436}
+.dash-kicker{font-size:12px;font-weight:800;color:#d5e5f4;text-align:center;letter-spacing:.4px}
+.dash-fng{align-items:center;gap:4px}.dash-gauge{height:97px;width:170px;position:relative;margin:8px auto 0}.dash-gauge svg{width:100%;height:100%}.dash-gauge-value{position:absolute;top:42px;left:0;width:100%;text-align:center;font-size:32px;font-weight:900;color:white}.dash-fng-label{font-size:11px;font-weight:800;color:#fbd484}.dash-sourcemark{font-size:9px;color:#8caac9}
+.dash-hero-trend{display:grid;gap:12px}.dash-hero-trend .dash-kicker{text-align:left;color:#ffce4b}.dash-hero-trend>div{display:flex;justify-content:space-between;gap:10px;align-items:center}.dash-hero-trend>div span{font-size:11px;color:#9fc0df}.dash-hero-trend strong{font-size:13px;color:#d6e6f5;text-align:right}.dash-hero-trend strong.positive{color:#29ec8e}.dash-hero-trend strong.negative{color:#ff8195}.dash-hero-trend small{font-size:9px;line-height:1.6;color:#7899b8}
+.dashboard-home .tcv-tradingview-ticker{margin-top:11px;margin-bottom:10px}
+.dash-stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:9px;margin-top:10px;margin-bottom:16px}.dash-stats>div{display:flex;justify-content:space-between;align-items:center;gap:8px;background:#082444;border:1px solid #164c77;border-radius:11px;padding:11px 16px}.dash-stats span{font-size:10px;color:#a5c3e1}.dash-stats strong{font-size:14px;font-weight:800;color:#eff8ff;white-space:nowrap}.dash-stats small{font-size:9px}
+.dash-main-grid,.dash-secondary-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px;align-items:stretch;margin-top:16px}
+.dashboard-home .dash-card{min-width:0;margin:0;background:linear-gradient(145deg,#08284b,#051a32);border:1.5px solid #148ee5;border-radius:18px;padding:20px 19px;box-shadow:inset 0 0 14px #0b65ac24,0 8px 20px #0004;transition:border-color .2s,transform .2s;overflow:hidden}
+.dashboard-home .dash-card:hover{border-color:#68c9ff}
+.dashboard-home .panel-title{margin-bottom:8px;border-bottom:1px solid #245e8b;padding-bottom:13px;display:flex;align-items:center;gap:10px}
+.dashboard-home .panel-title h2{font-size:clamp(16px,1.38vw,21px);color:#fff;line-height:1.35;letter-spacing:-.3px}
+.dashboard-home .panel-title .title-icon{color:#ffcc31;font-size:27px;background:none}
+.dashboard-home .market-panel table{font-size:11px}.dashboard-home .market-panel th,.dashboard-home .market-panel td{padding:11px 5px;border-bottom-color:#2b4d70}.dashboard-home .market-panel .coin-name{gap:6px}.dashboard-home .market-panel .coin-name span:not(.coin-live-icon){overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.dashboard-home .market-panel .table-wrap{overflow:auto}.dashboard-home .market-panel .panel-bottom{min-height:7px}
+.dash-movers{border-color:#e4b437!important;box-shadow:inset 0 0 18px #ae750d21,0 0 15px #f5bd261c!important}.dash-subtitle{margin:0 0 11px;font-size:11px;color:#abc8e0}.dash-card-status{font-size:10px;color:#90abc6;min-height:16px;margin-bottom:12px}.dash-mover-block{border:1px solid;border-radius:11px;padding:11px 12px;margin-bottom:11px;min-height:83px}.dash-mover-block h3{margin:0 0 8px;font-size:12px;font-weight:800}.dash-mover-up{background:#094b3b;border-color:#0dc66a;color:#a0ffcb}.dash-mover-down{background:#512337;border-color:#e34a66;color:#ffb4c0}.dash-mover-volume{background:#292254;border-color:#946dec;color:#dccaff}.dash-mover-entries{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;color:#fff}.dash-mover-entry{font-size:11px;display:grid;gap:3px;border-right:1px solid #ffffff27;padding-right:4px;min-width:0}.dash-mover-entry:last-child{border-right:0}.dash-mover-entry strong{font-size:11px;white-space:nowrap}.dash-mover-entry span{font-size:10px;color:inherit;font-weight:800}.dash-mover-entry small{font-size:9px;opacity:.9}.dash-method{font-size:9px;color:#8cacc9;line-height:1.6;margin:6px 0 0}
+.dashboard-home .tcv-mini .mini-intro{margin:0 0 14px}.dashboard-home .tcv-mini .mini-signals{min-height:200px}.dashboard-home .tcv-mini .mini-footer{margin-top:auto}.dashboard-home .tcv-mini .mini-risk{font-size:10px}
+.dash-secondary-grid{margin-top:16px;margin-bottom:22px}.dashboard-home .dash-bottom-card{min-height:240px;padding:19px}.dash-bottom-head{display:flex;align-items:center;justify-content:space-between;gap:9px;border-bottom:1px solid #27577d;padding-bottom:13px;margin-bottom:14px}.dash-bottom-head h2{margin:0;color:#fff;font-size:clamp(15px,1.3vw,19px)}.dash-bottom-head h2 span{color:#ffca31;font-size:23px;vertical-align:middle;margin-right:5px}.dash-bottom-head a,.dash-bottom-head small{font-size:10px;color:#aac7e0;white-space:nowrap}.dash-news-art{display:grid;grid-template-columns:115px 1fr;gap:13px;align-items:center}.dash-news-mark{height:120px;display:flex;flex-direction:column;justify-content:center;align-items:center;border:1px solid #b87a1f;border-radius:12px;background:radial-gradient(circle at 60% 30%,#a46a13,#102e53 75%);font-size:31px;font-weight:900;color:#ffdb74;text-shadow:0 2px 9px #0007}.dash-news-mark span{font-size:13px;letter-spacing:3px;color:white}.dash-news-art strong{font-size:13px;line-height:1.6}.dash-news-art p{color:#a8c3da;font-size:11px;line-height:1.7;margin:8px 0}.dash-news-art a{font-size:10px;color:#ffcc40;font-weight:800}.dash-alert-intro,.dash-watch-tip{color:#9bb9d7;font-size:11px;line-height:1.55;margin:0 0 10px}.dash-alert-list{display:grid}.dash-alert-list p{color:#a9c5df;font-size:11px}.dash-alert-row{display:flex;align-items:start;gap:10px;font-size:11px;line-height:1.6;padding:8px 0;border-bottom:1px solid #28577d}.dash-alert-row .dash-alert-dot{width:8px;height:8px;border-radius:50%;background:#f8c42e;margin-top:5px;flex-shrink:0}.dash-card-foot{font-size:9px;color:#89afcb;display:block;margin-top:11px}.dash-add{background:#0c518a;color:#fff;border:1px solid #239fe8;border-radius:8px;padding:9px 11px;font-size:10px;font-weight:700;cursor:pointer}.dash-add:hover{background:#1679bd}.dash-watch-list{display:grid}.dash-watch-item{display:grid;grid-template-columns:30px 1fr auto auto 23px;align-items:center;gap:8px;min-height:47px;border-bottom:1px solid #225173;font-size:11px}.dash-watch-symbol{font-weight:900;color:#fff}.dash-watch-symbol span{font-size:9px;color:#9dbbda;margin-left:3px}.dash-watch-icon{display:grid;place-items:center;width:25px;height:25px;background:#194772;color:#fbd055;border-radius:50%;font-size:15px;font-weight:900}.dash-watch-price{color:#e8f4fc;font-weight:700}.dash-watch-change{font-size:10px;font-weight:800}.dash-watch-change.positive{color:#45eba2}.dash-watch-change.negative{color:#ff7c90}.dash-watch-remove{background:none;color:#a9c6dc;border:0;cursor:pointer;font-size:16px}.dash-watch-select{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-top:12px;font-size:11px}.dash-watch-select[hidden]{display:none}.dash-watch-select select,.dash-watch-select button{background:#103d63;border:1px solid #2c7dac;color:#fff;border-radius:7px;padding:7px 8px}.dash-watch-select button{cursor:pointer;background:#d99e1b;color:#0a1830;font-weight:900}
+.dashboard-home .explore,.dashboard-home .radar-section,.dashboard-home .socials{margin-top:27px}.dashboard-home .explore h2,.dashboard-home .socials h2{font-size:21px}
+@media(max-width:1200px){.dashboard-home .dash-hero{grid-template-columns:1fr 230px;gap:16px}.dash-hero-trend{grid-column:1/-1;grid-template-columns:1fr 1fr 1fr;align-items:center;border-top:1px solid #235477;padding-top:15px}.dash-hero-trend>div{flex-direction:column;align-items:flex-start}.dash-fng{border-right:0}.dash-hero-pulse{min-height:125px}.dash-main-grid,.dash-secondary-grid{gap:11px}.dashboard-home .dash-card{padding:14px}.dash-mover-entries{gap:3px}.dash-mover-entry{font-size:10px}}
+@media(max-width:950px){.dash-main-grid,.dash-secondary-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.dashboard-home .tcv-mini{grid-column:1/-1}.dashboard-home .tcv-mini .mini-signals{grid-template-columns:repeat(3,minmax(0,1fr))}.dashboard-home .tcv-mini .mini-placeholder{grid-column:1/-1}.dash-stats{grid-template-columns:repeat(2,minmax(0,1fr))}.dashboard-home .nav{gap:11px}}
+@media(max-width:760px){.dashboard-home .shell{width:calc(100% - 28px)}.dashboard-home .header-inner{min-height:65px}.dashboard-home .brand img{max-width:200px}.dashboard-home .dash-hero{display:flex;flex-direction:column;align-items:stretch;padding:20px;gap:16px;border-radius:17px}.dash-hero-pulse,.dash-fng{border-right:0;border-bottom:1px solid #245b81;padding-right:0;padding-bottom:17px;min-height:0}.dash-hero-trend{grid-column:auto;border:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:13px}.dash-hero-trend .dash-kicker{grid-column:1/-1}.dashboard-home .tcv-pulse-name{font-size:20px}.dashboard-home .tcv-pulse-icon{display:grid!important}.dash-market-feel{margin-left:0}.dash-main-grid,.dash-secondary-grid{grid-template-columns:1fr}.dashboard-home .tcv-mini{grid-column:auto}.dashboard-home .tcv-mini .mini-signals{grid-template-columns:1fr}.dash-stats{margin-bottom:10px}.dash-stats>div{flex-direction:column;align-items:flex-start}.dash-news-art{grid-template-columns:95px 1fr}.dash-news-mark{height:105px}.dashboard-home .dash-card{padding:17px}.dashboard-home .dash-bottom-card{min-height:auto}}
+@media(max-width:420px){.dashboard-home .shell{width:calc(100% - 20px)}.dashboard-home .dash-hero{padding:14px}.dashboard-home .tcv-pulse-name{font-size:17px}.dashboard-home .tcv-pulse-numbers{gap:7px;font-size:10px}.dash-mover-entry strong{font-size:10px}.dash-mover-entry span{font-size:9px}.dashboard-home .dash-card{padding:13px}.dash-watch-item{gap:4px;grid-template-columns:27px 1fr auto auto 20px}.dash-watch-item .dash-watch-price{font-size:10px}}
+
+/* TCV Market Outlook — full-width live market assessment */
+.dashboard-home .dash-hero{grid-template-columns:minmax(0,1.4fr) minmax(215px,.6fr);min-height:166px}
+.dashboard-home .dash-fng{border-right:0;padding-right:0}
+.outlook{margin-top:15px;background:linear-gradient(125deg,#092849,#05172f 76%,#08284b);border:1px solid #1684d0;border-radius:22px;padding:23px 27px 17px;box-shadow:0 9px 26px #0005,inset 0 0 32px #0572ba22;color:#f4f9ff}
+.outlook-header,.outlook-heading{display:flex;align-items:center;gap:16px}.outlook-header{justify-content:space-between;gap:18px;margin-bottom:20px}.outlook-brand-icon{display:grid;place-items:center;flex:none;width:52px;height:52px;color:#ffd03a;font-size:36px;font-weight:900}.outlook-heading h2{font-size:clamp(21px,2.4vw,31px);letter-spacing:-.5px;line-height:1.25;margin:0}.outlook-heading p{color:#a7c7e4;margin:3px 0 0;font-size:11px}.outlook-updated{color:#c3ddf3;background:#103960;border:1px solid #226aa0;padding:10px 15px;border-radius:999px;font-size:11px;white-space:nowrap}
+.outlook-primary{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(230px,.64fr);gap:24px}.outlook-directions{display:grid;gap:11px}.outlook-trend{border:1px solid #168cc1;background:linear-gradient(100deg,#082f4c,#062340);border-radius:15px;min-height:114px;display:flex;align-items:center;justify-content:space-between;gap:15px;padding:16px 20px;box-shadow:inset 0 0 20px #056d9a20}.outlook-trend-copy{display:grid;gap:5px}.outlook-horizon{font-size:15px;font-weight:800}.outlook-horizon small{font-size:11px;color:#bed7e8;font-weight:500}.outlook-trend strong{font-size:clamp(18px,2vw,25px);line-height:1.4}.outlook-trend strong.positive{color:#2bed97}.outlook-trend strong.negative{color:#ff6e83}.outlook-trend strong.neutral{color:#ffcf41}.outlook-trend strong.outlook-wait{color:#9fbdd6;font-size:16px}.outlook-trend-copy>small{font-size:10px;color:#7caacb;line-height:1.6}.outlook-spark{width:28%;height:76px;max-width:190px;flex:none}
+.outlook-strength{border-left:1px solid #295e84;padding-left:21px;display:flex;align-items:center;flex-direction:column;text-align:center;justify-content:center}.outlook-strength h3{font-size:18px;margin:0 0 14px}.outlook-dial{position:relative;width:200px;height:110px;overflow:hidden}.outlook-dial:before{content:'';position:absolute;top:0;left:0;width:200px;height:200px;box-sizing:border-box;border:24px solid transparent;border-radius:50%;background:conic-gradient(from 270deg,#ef5b63 0deg,#f59e3c 55deg,#f6cf37 95deg,#6bcf55 135deg,#13c992 180deg,transparent 180deg) border-box;mask:radial-gradient(farthest-side,transparent calc(100% - 25px),#000 calc(100% - 24px))}.outlook-dial-inner{position:absolute;bottom:0;width:100%;display:flex;justify-content:center;align-items:baseline;gap:3px}.outlook-dial-inner strong{font-size:42px;line-height:1.05}.outlook-dial-inner span{font-size:20px;color:#9fc2db}.outlook-score-label{background:#194362;border:1px solid #296c91;border-radius:10px;padding:7px 17px;margin:13px 0 7px;font-size:13px;font-weight:800}.outlook-score-label.positive{background:#0a4a38;border-color:#05b66c;color:#b1ffcf}.outlook-score-label.negative{background:#54273b;border-color:#ce5266;color:#ffc0c9}.outlook-strength p{font-size:10px;color:#a1c0da;max-width:260px;line-height:1.55;margin:0}
+.outlook-insights{display:grid;grid-template-columns:1.1fr .9fr;gap:16px;margin-top:17px}.outlook-insight{min-width:0;background:#092b4b;border:1px solid #1d70a3;border-radius:15px;padding:16px 19px}.outlook-insight h3{font-size:17px;margin:0 0 11px}.outlook-insight h3 span{font-size:21px;color:#ffce38;vertical-align:middle;margin-right:7px}.outlook-insight p{font-size:13px;line-height:1.8;color:#e6f5ff;margin:0 0 10px}.outlook-insight small{font-size:10px;line-height:1.6;color:#8fb3d0}.outlook-scenario{border-radius:9px;padding:9px 12px;display:flex;align-items:center;gap:8px;justify-content:space-between;margin:8px 0;font-size:11px}.outlook-scenario strong{white-space:nowrap;font-size:14px}.outlook-up{background:#0a4639;border:1px solid #119f67;color:#bbf9d7}.outlook-down{background:#4b263a;border:1px solid #b84866;color:#ffb3c5}.outlook-note{margin:14px 0 0;color:#7ca4c7;font-size:10px;line-height:1.65}
+@media(max-width:1100px){.outlook-primary{grid-template-columns:1.4fr .8fr}.outlook-scenario{flex-wrap:wrap}.outlook-header{align-items:flex-start}.outlook-updated{white-space:normal}}
+@media(max-width:760px){.dashboard-home .dash-hero{display:flex;flex-direction:column}.dashboard-home .dash-fng{padding-bottom:0;border-bottom:0}.outlook{padding:18px 15px;border-radius:17px}.outlook-header{flex-direction:column;gap:10px}.outlook-primary,.outlook-insights{grid-template-columns:1fr}.outlook-strength{border-left:0;border-top:1px solid #255b80;padding:18px 0 0}.outlook-trend{padding:13px;min-height:103px}.outlook-horizon{font-size:13px}.outlook-spark{width:30%}.outlook-heading h2{font-size:22px}.outlook-heading p{font-size:10px}.outlook-insight{padding:15px}.outlook-dial{transform:scale(.9);margin:-6px 0}}
+@media(max-width:420px){.outlook-spark{width:26%}.outlook-trend strong{font-size:17px}.outlook-trend-copy>small{font-size:9px}.outlook-scenario strong{font-size:12px}}
+
+/* Market Outlook – compact edition, overriding original oversized layout. */
+.dashboard-home .outlook-compact{margin-top:12px;padding:16px 20px 12px;border-radius:16px;background:linear-gradient(115deg,#082642,#071c34);box-shadow:0 4px 18px #0002;border-color:#21577d}
+.outlook-compact .outlook-header{margin-bottom:12px;gap:12px}
+.outlook-compact .outlook-heading{gap:10px}
+.outlook-compact .outlook-brand-icon{height:29px;width:29px;font-size:24px}
+.outlook-compact .outlook-heading h2{font-size:17px;letter-spacing:.1px}
+.outlook-compact .outlook-heading p{font-size:10px;line-height:1.45}
+.outlook-compact .outlook-updated{font-size:10px;border:0;background:transparent;color:#83a7c4;padding:2px 0}
+.outlook-compact .outlook-primary{display:grid;grid-template-columns:minmax(0,2fr) minmax(230px,.9fr);gap:12px;align-items:stretch}
+.outlook-compact .outlook-directions{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.outlook-compact .outlook-trend{min-height:106px;padding:12px 14px;border-radius:11px;border-color:#235b80;background:#092d4a;box-shadow:none;gap:8px}
+.outlook-compact .outlook-trend-copy{min-width:0;gap:5px}
+.outlook-compact .outlook-horizon{font-size:12px;font-weight:700;color:#c7d9e8}
+.outlook-compact .outlook-horizon small{display:inline-block;margin-left:3px;color:#709fbd;font-size:10px}
+.outlook-compact .outlook-trend strong{font-size:clamp(12px,1.2vw,16px);line-height:1.35;font-weight:800}
+.outlook-compact .outlook-trend strong.outlook-wait{font-size:12px}
+.outlook-compact .outlook-trend-copy>small{font-size:9px;line-height:1.45;color:#7fa5c0;max-width:260px}
+.outlook-compact .outlook-spark{width:28%;height:45px;max-width:92px}
+.outlook-compact .outlook-strength{border:1px solid #235b80;background:#092d4a;border-radius:11px;padding:11px 14px;align-items:stretch;justify-content:space-between;text-align:left;gap:4px}
+.outlook-compact .outlook-strength-head{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.outlook-compact .outlook-strength h3{font-size:12px;margin:0;font-weight:700;color:#c7d9e8}
+.outlook-compact .outlook-score-label{font-size:10px;margin:0;padding:3px 8px;border-radius:99px;white-space:nowrap}
+.outlook-compact .outlook-strength-meter{display:flex;align-items:center;gap:14px}
+.outlook-compact .outlook-score-reading{display:flex;align-items:baseline;gap:2px}
+.outlook-compact .outlook-score-reading strong{font-size:28px;line-height:1;font-weight:800}
+.outlook-compact .outlook-score-reading span{font-size:12px;color:#7fa7c5}
+.outlook-compact .outlook-score-track{height:7px;border-radius:99px;flex:1;background:linear-gradient(90deg,#e44c6f,#eda43b,#efd54f,#24c787);position:relative;overflow:hidden}
+.outlook-compact .outlook-score-track i{display:none}
+.outlook-compact .outlook-strength p{max-width:none;font-size:9px;line-height:1.4;color:#7fa5c0;margin:0}
+.outlook-compact .outlook-details{margin-top:10px;border-top:1px solid #1e4b70}
+.outlook-compact .outlook-details summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:8px;padding:9px 0 0;font-size:11px;color:#a5c7e1;font-weight:700}
+.outlook-compact .outlook-details summary::-webkit-details-marker{display:none}
+.outlook-compact .outlook-details summary:hover{color:#fff}
+.outlook-compact .outlook-details[open] summary span{transform:rotate(180deg)}
+.outlook-compact .outlook-insights{margin-top:13px;gap:10px}
+.outlook-compact .outlook-insight{padding:14px;border:1px solid #235b80;border-radius:10px;background:#092a47}
+.outlook-compact .outlook-insight h3{font-size:12px;margin-bottom:6px}
+.outlook-compact .outlook-insight p{font-size:11px;line-height:1.55}
+.outlook-compact .outlook-scenario{padding:7px 9px;margin:5px 0;font-size:10px}
+.outlook-compact .outlook-scenario strong{font-size:11px}
+.outlook-compact .outlook-note{font-size:9px;margin:10px 0 1px}
+@media(max-width:1100px){.outlook-compact .outlook-primary{grid-template-columns:1fr}.outlook-compact .outlook-strength{min-height:85px}}
+@media(max-width:760px){.dashboard-home .outlook-compact{padding:14px;border-radius:13px}.outlook-compact .outlook-header{flex-direction:row;flex-wrap:wrap;align-items:center;margin-bottom:10px}.outlook-compact .outlook-updated{width:100%;padding-left:39px}.outlook-compact .outlook-directions{grid-template-columns:1fr 1fr}.outlook-compact .outlook-trend{min-height:112px;padding:11px}.outlook-compact .outlook-trend strong{font-size:13px}.outlook-compact .outlook-spark{display:none}.outlook-compact .outlook-strength{border-top:1px solid #235b80;padding:12px}.outlook-compact .outlook-strength-head{flex-wrap:wrap}.outlook-compact .outlook-insights{grid-template-columns:1fr}}
+@media(max-width:390px){.outlook-compact .outlook-directions{grid-template-columns:1fr}.outlook-compact .outlook-trend{min-height:84px}.outlook-compact .outlook-heading h2{font-size:15px}.outlook-compact .outlook-heading p{font-size:9px}}
+
+
+/* 17/11/2026 — Hai công cụ cùng hàng, ưu tiên dữ liệu, không banner. */
+.dashboard-home .tcv-dual-tools{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:stretch;gap:14px;margin-top:17px}
+.dashboard-home .tcv-dual-tools>.dash-hero,.dashboard-home .tcv-dual-tools>.outlook{width:auto;max-width:none;margin:0;min-width:0;min-height:0;height:100%;box-sizing:border-box;border-radius:15px;background:linear-gradient(120deg,#082641,#071c34 85%);border:1px solid #237aa8;box-shadow:0 4px 15px #0003}
+.dashboard-home .tcv-dual-tools>.dash-hero{display:grid;grid-template-columns:minmax(0,1fr) 114px;gap:12px;align-items:stretch;padding:17px 19px}
+.dashboard-home .tcv-dual-tools .dash-hero-pulse{min-width:0;min-height:0;border-right:1px solid #1e557b;padding-right:13px;display:flex;flex-direction:column;justify-content:center}
+.dashboard-home .tcv-dual-tools .tcv-pulse{gap:9px;align-items:flex-start}
+.dashboard-home .tcv-dual-tools .tcv-pulse-icon,.dashboard-home .tcv-dual-tools .tcv-pulse-icon svg{width:32px;height:32px;flex-basis:32px}
+.dashboard-home .tcv-dual-tools .tcv-pulse-name{font-size:clamp(14px,1.23vw,19px);letter-spacing:0;line-height:1.35}
+.dashboard-home .tcv-dual-tools .tcv-pulse-numbers{display:flex;flex-wrap:wrap;gap:9px 13px;margin-top:10px;font-size:10px}
+.dashboard-home .tcv-dual-tools .tcv-pulse-numbers b{font-size:14px}
+.dashboard-home .tcv-dual-tools .tcv-pulse-bar{height:9px;margin-top:12px}
+.dashboard-home .tcv-dual-tools .tcv-pulse-status{font-size:9px;min-height:0;margin-top:8px;color:#86acc8}
+.dashboard-home .tcv-dual-tools .dash-market-feel{font-size:10px;padding:5px 9px;margin:9px 0 0 40px;max-width:calc(100% - 42px)}
+.dashboard-home .tcv-dual-tools .dash-fng{padding:0;border:0;min-height:0;justify-content:center;gap:2px}
+.dashboard-home .tcv-dual-tools .dash-kicker{font-size:9px;letter-spacing:0;line-height:1.4}
+.dashboard-home .tcv-dual-tools .dash-gauge{width:104px;height:62px;margin:3px auto 0}
+.dashboard-home .tcv-dual-tools .dash-gauge-value{top:24px;font-size:22px}
+.dashboard-home .tcv-dual-tools .dash-fng-label{font-size:10px;text-align:center}
+.dashboard-home .tcv-dual-tools .dash-sourcemark{font-size:8px}
+.dashboard-home .tcv-dual-tools>.outlook{padding:15px 18px 10px}
+.dashboard-home .tcv-dual-tools .outlook-header{gap:7px;margin-bottom:12px;align-items:start;flex-wrap:wrap}
+.dashboard-home .tcv-dual-tools .outlook-heading{gap:7px}
+.dashboard-home .tcv-dual-tools .outlook-brand-icon{width:26px;height:26px;font-size:22px}
+.dashboard-home .tcv-dual-tools .outlook-heading h2{font-size:clamp(14px,1.16vw,18px)}
+.dashboard-home .tcv-dual-tools .outlook-heading p{font-size:9px;line-height:1.4}
+.dashboard-home .tcv-dual-tools .outlook-updated{font-size:9px;padding:0;color:#86aeca}
+.dashboard-home .tcv-dual-tools .outlook-primary{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,.85fr);gap:9px}
+.dashboard-home .tcv-dual-tools .outlook-directions{grid-template-columns:repeat(2,minmax(0,1fr));gap:7px}
+.dashboard-home .tcv-dual-tools .outlook-trend{min-height:79px;padding:8px 9px;gap:2px}
+.dashboard-home .tcv-dual-tools .outlook-horizon{font-size:10px}
+.dashboard-home .tcv-dual-tools .outlook-horizon small{font-size:8px}
+.dashboard-home .tcv-dual-tools .outlook-trend strong{font-size:11px;line-height:1.32;overflow-wrap:anywhere}
+.dashboard-home .tcv-dual-tools .outlook-trend strong.outlook-wait{font-size:10px}
+.dashboard-home .tcv-dual-tools .outlook-trend-copy>small{font-size:8px;line-height:1.35}
+.dashboard-home .tcv-dual-tools .outlook-spark{display:none}
+.dashboard-home .tcv-dual-tools .outlook-strength{padding:8px 9px;min-width:0;gap:3px}
+.dashboard-home .tcv-dual-tools .outlook-strength-head{display:block}
+.dashboard-home .tcv-dual-tools .outlook-strength h3{font-size:10px}
+.dashboard-home .tcv-dual-tools .outlook-score-label{display:inline-block;font-size:8px;white-space:normal;padding:2px 6px;margin-top:4px}
+.dashboard-home .tcv-dual-tools .outlook-score-reading strong{font-size:24px}
+.dashboard-home .tcv-dual-tools .outlook-strength-meter{gap:7px}
+.dashboard-home .tcv-dual-tools .outlook-strength p{font-size:8px;line-height:1.3}
+.dashboard-home .tcv-dual-tools .outlook-details{margin-top:9px}
+.dashboard-home .tcv-dual-tools .outlook-details summary{font-size:10px;padding-top:6px}
+@media(max-width:1130px){.dashboard-home .tcv-dual-tools{grid-template-columns:1fr 1fr;gap:10px}.dashboard-home .tcv-dual-tools>.dash-hero{grid-template-columns:minmax(0,1fr);gap:6px}.dashboard-home .tcv-dual-tools .dash-hero-pulse{border:0;padding:0}.dashboard-home .tcv-dual-tools .dash-fng{display:flex;flex-direction:row;align-items:center;gap:7px;padding-top:6px;border-top:1px solid #215577}.dashboard-home .tcv-dual-tools .dash-gauge{width:55px;height:30px;margin:0}.dashboard-home .tcv-dual-tools .dash-gauge-value{font-size:13px;top:11px}.dashboard-home .tcv-dual-tools .dash-market-feel{margin-left:40px}.dashboard-home .tcv-dual-tools .outlook-primary{grid-template-columns:1fr}.dashboard-home .tcv-dual-tools .outlook-strength{min-height:0}.dashboard-home .tcv-dual-tools .outlook-strength-head{display:flex}.dashboard-home .tcv-dual-tools .outlook-strength p{display:none}}
+@media(max-width:760px){.dashboard-home .tcv-dual-tools{grid-template-columns:1fr;margin-top:12px}.dashboard-home .tcv-dual-tools>.dash-hero,.dashboard-home .tcv-dual-tools>.outlook{height:auto}.dashboard-home .tcv-dual-tools>.dash-hero{display:grid;grid-template-columns:1fr 105px;padding:13px 14px}.dashboard-home .tcv-dual-tools .dash-hero-pulse{padding-right:9px;border-right:1px solid #215577}.dashboard-home .tcv-dual-tools .dash-fng{flex-direction:column;border:0;padding:0}.dashboard-home .tcv-dual-tools .dash-gauge{width:92px;height:52px}.dashboard-home .tcv-dual-tools .dash-gauge-value{font-size:19px;top:22px}.dashboard-home .tcv-dual-tools .outlook-primary{grid-template-columns:minmax(0,2fr) minmax(0,1fr)}.dashboard-home .tcv-dual-tools .outlook-strength-head{display:block}.dashboard-home .tcv-dual-tools .outlook-strength p{display:block}}
+@media(max-width:480px){.dashboard-home .tcv-dual-tools>.dash-hero{grid-template-columns:1fr 88px}.dashboard-home .tcv-dual-tools .tcv-pulse-name{font-size:14px}.dashboard-home .tcv-dual-tools .tcv-pulse-numbers{gap:5px}.dashboard-home .tcv-dual-tools .dash-gauge{width:78px}.dashboard-home .tcv-dual-tools>.outlook{padding:12px}.dashboard-home .tcv-dual-tools .outlook-primary{grid-template-columns:1fr}.dashboard-home .tcv-dual-tools .outlook-strength-head{display:flex}.dashboard-home .tcv-dual-tools .outlook-strength p{display:none}}
+
+/* TCV Market Movers: SVG icon cố định, tránh lỗi font glyph ϟ */
+.dash-movers .tcv-movers-icon {display:inline-flex;align-items:center;justify-content:center;flex:none;width:28px;height:28px;line-height:1;color:#ffcc31}
+.dash-movers .tcv-movers-icon svg {display:block;width:25px;height:25px}
+
+/* Outlook: caption above the candle-date timestamp, aligned right */
+.dashboard-home .tcv-dual-tools .outlook-meta{display:flex;flex-direction:column;align-items:flex-end;gap:4px;min-width:0;text-align:right;margin-left:auto}
+.dashboard-home .tcv-dual-tools .outlook-meta-label{font-size:10px;line-height:1.4;font-weight:500;color:#b6d2e7;white-space:nowrap}
+.dashboard-home .tcv-dual-tools .outlook-meta .outlook-updated{display:block;width:auto;padding:0;line-height:1.4;white-space:nowrap}
+@media(max-width:760px){.dashboard-home .tcv-dual-tools .outlook-meta{width:100%;align-items:flex-end;margin-left:0}.dashboard-home .tcv-dual-tools .outlook-meta .outlook-updated{padding-left:0;width:auto;white-space:normal}.dashboard-home .tcv-dual-tools .outlook-meta-label{white-space:normal}}
+
+/* Consistent dashboard tool heading: MARKET RADAR (homepage only) */
+.dashboard-home .radar-heading h2{font-size:20px;font-weight:800;line-height:1.35;letter-spacing:-.3px;margin:5px 0 6px}
+.dashboard-home .radar-heading .radar-symbol{font-size:24px;line-height:1;vertical-align:-1px;display:inline-block;margin-right:5px}

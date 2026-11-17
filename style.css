@@ -1,0 +1,305 @@
+:root{--bg:#041126;--panel:#071d3a;--panel2:#09284b;--gold:#ffc31a;--cyan:#08b8ff;--text:#f7fbff;--muted:#b8cbe1;--line:#0e80c6}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--text);font-family:'Be Vietnam Pro',system-ui,sans-serif;background:radial-gradient(ellipse 80% 45% at 50% 20%,#0b315f 0%,transparent 70%),linear-gradient(180deg,#06142c,#031026 75%,#07172e);font-size:14px}a{color:inherit;text-decoration:none}button{font:inherit}.shell{width:min(1500px,calc(100% - 60px));margin-inline:auto}.site-header{position:sticky;top:0;z-index:20;background:#03142beF;border-bottom:1px solid #175282;backdrop-filter:blur(18px)}.header-inner{height:76px;display:flex;align-items:center;gap:24px}.brand{display:flex;align-items:center;gap:18px;flex-shrink:0}.brand img{width:205px;height:70px;object-fit:contain}.brand span{border-left:1px solid #6684a6;padding-left:16px;white-space:nowrap;font-size:12px;color:#dbe7f8}.nav{display:flex;gap:22px;align-items:center;margin-left:auto}.nav a{font-weight:700;font-size:13px;white-space:nowrap;padding:29px 0 24px;border-bottom:3px solid transparent}.nav a:hover,.nav a.active{color:var(--gold);border-color:var(--gold)}.header-join{border:1px solid #3d83af;border-radius:20px;padding:9px 13px;white-space:nowrap;font-weight:700;color:var(--gold)}.menu-toggle{display:none}.hero{min-height:290px;display:grid;grid-template-columns:49% 51%;align-items:center;position:relative;overflow:hidden}.hero-copy{position:relative;z-index:2;padding:22px 0 28px 12px}.eyebrow{font-size:11px;letter-spacing:2px;color:#ffda65;font-weight:800;margin-bottom:10px}.hero h1{font-size:clamp(27px,3vw,46px);line-height:1.25;font-weight:900;margin:0;letter-spacing:-.7px;text-wrap:balance}.hero h1 em{display:block;font-style:normal;color:var(--gold)}.hero p{font-size:clamp(13px,1.2vw,17px);margin:15px 0 21px;color:#f2f5fc}.hero-actions{display:flex;gap:12px;flex-wrap:wrap}.btn{min-height:46px;border-radius:28px;padding:12px 20px;font-weight:800;display:inline-flex;align-items:center;gap:12px;justify-content:center}.btn-primary{color:#081221;background:linear-gradient(180deg,#ffe477,#ffbf00);box-shadow:0 0 19px #ffb80055}.btn-primary:hover{filter:brightness(1.1)}.btn-primary span{font-size:21px}.btn-outline{border:1px solid #d5e6ff;background:#081a38b5}.hero-visual{height:290px;position:relative;overflow:hidden}.hero-visual img{width:100%;height:100%;object-fit:cover;object-position:center;mask-image:linear-gradient(to right,transparent,#000 14%,#000 86%,transparent)}.hero-quote{position:absolute;right:0;top:28px;width:210px;text-align:right;font-size:19px;font-weight:900;font-style:italic;line-height:1.4;text-shadow:0 2px 15px #001027;background:#061b37b0;border-radius:12px;padding:12px}.hero-quote strong{color:var(--gold)}.market-strip{border:1px solid #00a8ff;border-radius:17px;min-height:76px;background:linear-gradient(90deg,#061b37,#08234a,#061b37);box-shadow:inset 0 0 16px #0076e033,0 0 13px #008cff22;display:grid;grid-template-columns:1.3fr repeat(4,1fr);align-items:center;margin-top:0;margin-bottom:16px}.strip-heading,.metric{min-height:46px;display:flex;flex-direction:column;justify-content:center;padding:5px 20px;border-right:1px solid #51789c}.strip-heading{flex-direction:row;gap:13px;align-items:center;justify-content:flex-start}.strip-heading strong{display:block}.strip-heading small,.metric span,.metric small{display:block;color:var(--muted);font-size:11px;margin-top:4px}.gold-icon{font-size:35px;color:var(--gold)}.metric strong{font-size:20px;margin-top:3px}.metric:last-child{border:0}.positive{color:#2cfb75!important}.negative{color:#ff6679!important}.three-cols{display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px}.panel{min-width:0;background:linear-gradient(165deg,#0a2c56,#06182f 75%);border:1px solid var(--cyan);border-radius:18px;padding:18px;box-shadow:inset 0 0 18px #0088ff19,0 0 11px #0088ff17;min-height:320px}.panel-title{display:flex;align-items:center;gap:10px;margin-bottom:12px}.title-icon{color:var(--gold);font-size:28px}.panel h2{font-size:clamp(16px,1.4vw,22px);line-height:1.3;margin:0;font-weight:900}.panel h2 small{font-size:13px;font-weight:500}.table-wrap{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:12px}th{text-align:left;color:#cbdcf1;font-size:11px;font-weight:600;background:#09284a}th,td{padding:9px 5px;border-bottom:1px solid #1c4a72}td:first-child{color:#d7e4f6}td:nth-child(2){font-weight:700}.coin-name{display:flex;align-items:center;gap:7px}.coin-name img{height:22px;width:22px;object-fit:contain}.coin-name small{color:#a3bad1;margin-left:4px}.loading{text-align:center;color:#bed4eb;padding:30px 4px}.panel-bottom{display:flex;justify-content:space-between;align-items:end;gap:12px;margin-top:16px;flex-wrap:wrap}.panel-bottom>a,.topic-more{color:var(--gold);font-weight:800}.panel-bottom small{color:#91aac7;font-size:10px}.panel-bottom small a{text-decoration:underline}.values-panel{border-color:#ffc12d;box-shadow:0 0 16px #ffb4003d,inset 0 0 20px #dba50012}.values-panel h2{margin-bottom:13px}.values-panel h2 span,.explore h2 span,.socials h2 span{display:block;color:var(--gold)}.value-list{display:grid;gap:7px}.value{display:flex;align-items:center;gap:13px;padding:9px 12px;background:linear-gradient(90deg,#082348,#0a2c52);border:1px solid #1768a2;border-radius:12px}.value b{font-size:24px;color:var(--gold);width:32px;text-align:center;flex-shrink:0}.value strong,.value small{display:block}.value strong{font-size:12px}.value small{font-size:10px;color:#c1d2e5;margin-top:3px;line-height:1.5}.topic{display:flex;gap:11px;align-items:center;border:1px solid #1768a2;background:#09274b;border-radius:12px;padding:10px;margin:7px 0;min-height:66px}.topic:hover,.social-grid a:hover,.explore-links a:hover{border-color:var(--gold);background:#12375d}.topic-symbol{height:44px;width:47px;flex-shrink:0;display:grid;place-items:center;font-size:30px;font-weight:900;color:#ffb400;background:#5a3b09;border-radius:10px}.topic-symbol.purple{background:#2d205a;color:#ac9bff}.topic-symbol.cyan{background:#0b4862;color:#55dcff}.topic span:nth-child(2){flex:1}.topic strong,.topic small{display:block}.topic strong{font-size:12px;line-height:1.4}.topic small{color:#c3d5e9;font-size:10px;margin-top:4px}.topic>b{font-size:20px}.topic-note{font-size:10px;color:#9cb6d0;line-height:1.5;margin:9px 0}.topic-more{display:block;text-align:center;margin-top:8px}.explore,.socials{border:1px solid #0a91db;border-radius:17px;background:linear-gradient(90deg,#071b38,#0a2a50,#071b38);margin-top:17px;display:flex;align-items:center;padding:17px 22px;gap:22px}.explore h2,.socials h2{font-size:18px;line-height:1.4;margin:0;min-width:245px}.explore-links{display:grid;grid-template-columns:repeat(4,1fr);flex:1}.explore-links a{display:flex;align-items:center;gap:10px;border-left:1px solid #466b8e;padding:8px 12px}.explore-links a>span{color:var(--gold);font-size:29px}.explore-links strong,.explore-links small{display:block}.explore-links small{font-size:10px;color:#b9cee3;margin-top:5px}.socials{margin-top:18px;margin-bottom:28px}.social-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;flex:1}.social-grid a{border:1px solid #1d90d2;border-radius:14px;background:#0a284b;display:flex;align-items:center;gap:9px;padding:10px;min-width:0}.social-icon{width:42px;height:42px;display:grid;place-items:center;border-radius:50%;background:#1677ef;font-size:27px;font-weight:900;flex-shrink:0}.social-icon.facebook{font-family:Arial}.social-icon.x{background:#02070e}.social-icon.telegram{background:#11a9db}.social-grid a>div{min-width:0;flex:1}.social-grid strong,.social-grid small{display:block}.social-grid strong{font-size:11px}.social-grid small{font-size:10px;color:#c1d5eb;margin-top:4px}.social-grid b{color:#d8eaff}.footer{border-top:1px solid #17619a;background:#04152d}.footer-inner{display:flex;align-items:center;gap:25px;padding:15px 0}.footer img{width:145px;height:66px;object-fit:contain}.footer p{flex:1;color:#c4d2e5;font-size:11px}.footer small{color:#8ca5c0}.sr-only{position:absolute;clip:rect(0,0,0,0);width:1px;height:1px;overflow:hidden}section[id],article[id]{scroll-margin-top:90px}@media(max-width:1180px){.brand span{display:none}.nav{gap:14px}.hero-quote{font-size:15px;width:160px}.three-cols{grid-template-columns:1fr 1fr}.topics-panel{grid-column:1/-1;min-height:auto}.topics-panel .topic{display:inline-flex;width:calc(33.333% - 10px);vertical-align:top;margin-right:7px}.explore,.socials{flex-direction:column;align-items:stretch}.explore h2 span,.socials h2 span{display:inline}.explore-links a:first-child{border-left:0}}@media(max-width:780px){.shell{width:min(100% - 28px,650px)}.header-inner{height:65px;gap:10px}.brand img{width:160px;height:62px}.menu-toggle{display:block;margin-left:auto;background:none;border:1px solid #3379a7;color:white;padding:7px 12px;border-radius:8px;font-size:21px}.header-join{font-size:11px;padding:8px}.nav{display:none;position:absolute;top:65px;left:0;right:0;background:#051a36;flex-direction:column;align-items:stretch;gap:0;padding:10px 20px 20px;border-bottom:1px solid #2b7ba7}.nav.open{display:flex}.nav a{padding:12px;border-bottom:1px solid #173b5c}.hero{display:flex;flex-direction:column;align-items:stretch}.hero-copy{padding:25px 4px 0}.hero h1{font-size:clamp(26px,6.5vw,40px)}.hero p{font-size:13px;line-height:1.7}.hero-visual{height:190px;margin-top:8px}.hero-quote{top:22px;right:3px;width:145px;font-size:13px}.market-strip{grid-template-columns:1fr 1fr;gap:0}.strip-heading{grid-column:1/-1;border-right:0;border-bottom:1px solid #41688a}.metric{border-bottom:1px solid #254e76}.metric:nth-child(3){border-right:0}.metric:nth-child(5),.metric:nth-child(4){border-bottom:0}.metric strong{font-size:17px}.three-cols{grid-template-columns:1fr}.topics-panel{grid-column:auto}.topics-panel .topic{display:flex;width:auto;margin:7px 0}.panel{min-height:auto}.explore-links,.social-grid{grid-template-columns:1fr 1fr}.explore-links a:nth-child(odd){border-left:0}.footer-inner{flex-wrap:wrap;gap:10px}.footer p{min-width:55%}}@media(max-width:430px){.brand img{width:135px}.header-join{display:none}.hero-actions{flex-direction:column}.btn{width:100%}.hero-visual{height:170px}.hero-quote{font-size:11px;width:130px}.explore-links,.social-grid{grid-template-columns:1fr}.explore-links a{border-left:0;border-top:1px solid #244b6d}.social-grid a{min-height:65px}.metric{padding:10px}.footer img{width:120px}}
+
+/* Chỉ dịch bố cục người đàn ông và Bitcoin về gần trung tâm vùng ảnh. */
+.hero-visual img{object-position:100% center}
+@media(max-width:780px){.hero-visual img{object-position:85% center}}
+
+
+/* Hero update: future digital-assets artwork, no person or quote.
+   Original layout, content, and market functions remain unchanged. */
+.hero-visual img{
+  object-position: 65% center;
+  mask-image: linear-gradient(to right, transparent 0%, #000 12%, #000 100%);
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, #000 12%, #000 100%);
+}
+@media(max-width:760px){
+  .hero-visual img{object-position:68% center}
+}
+
+/* Dedicated market and analysis pages; homepage design untouched. */
+.detail-page{padding-top:42px;padding-bottom:54px;min-height:70vh}
+.detail-heading{margin-bottom:26px}
+.detail-heading h1{font-size:clamp(29px,4vw,49px);line-height:1.25;margin:12px 0;color:#f7f9ff;font-weight:900}
+.detail-heading h1 em{font-style:normal;color:#ffbe12}
+.detail-heading p,.detail-note{color:#b5c8e2;font-size:13px;line-height:1.7}
+.detail-panel{background:#08203d;border:1px solid #116b9f;border-radius:17px;padding:20px;margin:18px 0 24px}
+.detail-panel h2{font-size:20px;color:#fff;margin:0 0 12px}
+.tradingview-widget-container{width:100%;min-height:550px}
+.detail-chart-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.detail-chart-grid .tradingview-widget-container{height:480px;min-height:480px}
+.analysis-chart .tradingview-widget-container{height:690px;min-height:690px}
+.coin-quick-links{display:flex;flex-wrap:wrap;gap:12px}
+.coin-quick-links a{border:1px solid #2178a9;border-radius:10px;padding:12px 17px;color:#ffbe12;text-decoration:none;background:#0a2c50}
+.update-frequency{display:block;opacity:.7}
+@media(max-width:760px){.detail-page{padding-top:26px}.detail-panel{padding:12px}.detail-chart-grid{grid-template-columns:1fr}.analysis-chart .tradingview-widget-container{height:560px;min-height:560px}}
+
+/* Knowledge page */
+.knowledge-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:18px}.knowledge-grid article{border:1px solid #24699b;background:#092849;border-radius:12px;padding:17px}.knowledge-grid h3{color:#ffcc42;margin:0 0 10px;font-size:15px}.knowledge-grid p{color:#c4d4e7;line-height:1.75;font-size:13px;margin:0}#bitcoin,#altcoin,#quan-tri-rui-ro{scroll-margin-top:100px}@media(max-width:700px){.knowledge-grid{grid-template-columns:1fr}}
+
+/* Live Binance ticker enhancements */
+.coin-live-icon{display:inline-flex;align-items:center;justify-content:center;width:23px;height:23px;border-radius:50%;color:#fff;font-weight:800;font-size:14px;flex-shrink:0}
+#live-status{display:block;line-height:1.5}
+#live-status[data-state="live"]{color:#38d99b}
+#live-status[data-state="offline"]{color:#ffb56b}
+#live-status[data-state="paused"]{color:#9eafc7}
+@keyframes flashPriceUp{0%{background:rgba(34,197,94,.3)}100%{background:transparent}}
+@keyframes flashPriceDown{0%{background:rgba(239,68,68,.3)}100%{background:transparent}}
+.flash-up{animation:flashPriceUp 1.1s ease-out}
+.flash-down{animation:flashPriceDown 1.1s ease-out}
+@media(prefers-reduced-motion:reduce){.flash-up,.flash-down{animation:none}}
+
+/* Hide technical live feed status; retain DOM node for WebSocket updates. */
+#live-status{display:none!important}
+
+/* TCV AI Signal navigation integration */
+.explore-links{grid-template-columns:repeat(5,minmax(0,1fr))}
+@media(max-width:900px){.explore-links{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:430px){.explore-links{grid-template-columns:1fr}}
+
+
+/* TCV AI Signal: compact homepage panel, shared with /ai-signal/data/latest.json */
+.tcv-mini{display:flex;flex-direction:column;gap:0}
+.tcv-mini-title{gap:8px;margin-bottom:5px}
+.tcv-mini-title h2{font-size:clamp(17px,1.5vw,22px)}
+.mini-state{margin-left:auto;white-space:nowrap;font-size:9px;line-height:1.35;letter-spacing:.35px;border-radius:30px;padding:5px 8px;background:#163c64;color:#c9def4;border:1px solid #355e83;font-weight:800}
+.mini-state.is-fresh{background:#103b39;color:#80f0c9;border-color:#2f8c78}
+.mini-state.is-stale{background:#493418;color:#ffd18a;border-color:#8f642b}
+.mini-state.is-error{background:#4a2532;color:#ffb8c5;border-color:#8e4058}
+.mini-intro{margin:0 0 12px;color:#9dbbd9;font-size:11px;line-height:1.5}
+.mini-signals{display:grid;gap:8px;min-height:142px;align-content:start}
+.mini-signal{display:flex;align-items:center;justify-content:space-between;gap:12px;background:#0a294b;border:1px solid #396d98;border-radius:11px;padding:11px 12px;min-height:65px}
+.mini-signal-main{min-width:0}.mini-symbol{font-weight:800;font-size:12px;color:#f6fbff;overflow-wrap:anywhere}.mini-detail{font-size:10px;color:#9ebcd9;margin-top:5px}
+.mini-direction{font-size:11px;letter-spacing:.4px;font-weight:900;border-radius:7px;min-width:66px;text-align:center;padding:7px 9px}
+.mini-direction.long{background:#0d4c3f;color:#7af3bf}.mini-direction.short{background:#602636;color:#ffb3bd}
+.mini-placeholder{border:1px dashed #36648a;background:#0a2544;border-radius:12px;padding:20px 13px;color:#b6d1e9;font-size:12px;line-height:1.6;text-align:center}
+.mini-footer{display:flex;justify-content:space-between;gap:5px 12px;flex-wrap:wrap;font-size:9px;color:#94b4d1;margin:10px 0 13px}
+.mini-link{display:flex;align-items:center;justify-content:center;gap:9px;text-align:center;border-radius:10px;min-height:40px;padding:10px;background:#ffc21b;color:#082036;font-weight:900;font-size:12px;transition:background .15s}
+.mini-link:hover{background:#ffe17a}.mini-risk{font-size:9px;color:#8eabc8;line-height:1.5;text-align:center;margin:9px 0 0}
+@media(max-width:1180px){.topics-panel.tcv-mini{grid-column:1/-1}.tcv-mini .mini-signals{grid-template-columns:repeat(3,minmax(0,1fr))}.tcv-mini .mini-placeholder{grid-column:1/-1}}
+@media(max-width:780px){.topics-panel.tcv-mini{grid-column:auto}.tcv-mini .mini-signals{grid-template-columns:1fr}}
+@media(max-width:380px){.mini-state{font-size:8px;padding:4px 6px}.tcv-mini-title h2{font-size:17px}}
+
+
+/* TCV Market Radar: responsive homepage module */
+.radar-section{margin-top:24px;margin-bottom:26px}.radar-heading{display:flex;justify-content:space-between;align-items:end;gap:18px;margin-bottom:14px}.radar-eyebrow{font-size:10px;letter-spacing:1.7px;color:#88add0;font-weight:800}.radar-heading h2{margin:5px 0 6px;font-size:clamp(20px,2.1vw,29px);letter-spacing:.2px;font-weight:900}.radar-heading h2 span:last-child{color:#ffc31a}.radar-symbol{font-size:30px;color:#ffc31a;vertical-align:middle}.radar-heading p{margin:0;font-size:12px;color:#afc8e4;line-height:1.5}.radar-view-link{color:#ffc31a;font-size:12px;font-weight:800;white-space:nowrap}.radar-container{border:1px solid #176ca5;border-radius:16px;background:linear-gradient(125deg,#072344,#061a34);padding:17px 20px;box-shadow:inset 0 0 24px #006ac318}.radar-toolbar{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:13px;flex-wrap:wrap}.radar-legend{display:flex;gap:16px;flex-wrap:wrap;color:#b6cbe1;font-size:11px}.radar-legend span{display:inline-flex;align-items:center;gap:6px}.radar-dot{display:inline-block;width:9px;height:9px;border-radius:2px}.radar-dot-up{background:#167c5f}.radar-dot-down{background:#a83c50}.radar-dot-flat{background:#385675}.radar-status{font-size:10px;color:#a8c6df}.radar-grid{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:7px;min-height:98px}.radar-tile{border:1px solid #ffffff18;border-radius:9px;padding:13px 8px;min-height:93px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;gap:6px;color:#fff;transition:transform .15s,border-color .15s}.radar-tile:hover,.radar-tile:focus-visible{transform:translateY(-2px);border-color:#ffcc55;outline:none}.radar-tile strong{font-size:15px}.radar-tile small{font-size:12px;font-weight:800}.radar-tile em{font-size:9px;color:#ffffffde;font-style:normal}.radar-up{background:linear-gradient(140deg,#186f55,#10503f)}.radar-down{background:linear-gradient(140deg,#9b364b,#602636)}.radar-flat{background:#244461}.radar-empty{grid-column:1/-1;min-height:125px;display:flex;align-items:center;justify-content:center;text-align:center;padding:20px;border:1px dashed #376a94;border-radius:10px;color:#b3cce4;line-height:1.6}.radar-bottom{margin-top:14px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;font-size:11px;color:#abc4dd}.radar-bottom a{font-weight:800;color:#ffcb32}.radar-disclaimer{margin:9px 1px 0;font-size:10px;color:#93b0ca;line-height:1.6}
+@media(max-width:900px){.radar-grid{grid-template-columns:repeat(4,minmax(0,1fr))}}@media(max-width:600px){.radar-heading{align-items:start;flex-direction:column}.radar-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}.radar-container{padding:13px}.radar-tile{min-height:79px;padding:9px 4px}.radar-tile strong{font-size:13px}.radar-tile small{font-size:11px}.radar-legend{gap:8px;font-size:9px}}
+
+/* Hero typography update: keep old site layout unchanged */
+.hero .tcv-hero-title{font-size:clamp(23px,2.6vw,37px);line-height:1.18;letter-spacing:-.7px;white-space:nowrap;text-wrap:nowrap;margin:0 0 19px}
+.hero .tcv-hero-title em{display:inline;color:var(--gold);font-style:normal}
+.tcv-hero-highlights{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin:0 0 23px;color:#dcebf7;font-size:12px;font-weight:600}
+.tcv-hero-highlights span{display:inline-flex;align-items:center;gap:6px;white-space:nowrap}
+.tcv-hero-highlights i{display:grid;place-items:center;width:20px;height:20px;border-radius:50%;background:#0f395b;color:#62d8ff;font-size:13px;font-style:normal;flex-shrink:0}
+.tcv-hero-highlights span:first-child i{background:#3e3825;color:#ffc400}
+@media(max-width:1120px){.hero .tcv-hero-title{font-size:clamp(21px,2.7vw,32px)}.tcv-hero-highlights{gap:8px;font-size:11px}}
+@media(max-width:780px){.hero .tcv-hero-title{white-space:normal;text-wrap:balance;font-size:clamp(26px,5.5vw,37px)}.tcv-hero-highlights{gap:9px 13px;font-size:12px}}
+
+
+/* Hero alignment adjustment */
+.hero-copy{padding:8px 0 40px 12px}
+@media(max-width:780px){.hero-copy{padding:25px 4px 0}}
+
+/* Compact banner: reduce the empty space above and below the title. */
+@media(min-width:781px){
+  .hero{min-height:210px}
+  .hero-visual{height:210px}
+  .hero-copy{padding:10px 0 10px 12px}
+  .hero .tcv-hero-title{margin-bottom:13px}
+  .tcv-hero-highlights{margin-bottom:0}
+}
+@media(max-width:780px){
+  .hero{min-height:0}
+  .hero-copy{padding:18px 4px 7px}
+  .hero .tcv-hero-title{margin-bottom:12px}
+  .tcv-hero-highlights{margin-bottom:0}
+  .hero-visual{height:155px;margin-top:4px}
+}
+@media(max-width:430px){
+  .hero-visual{height:145px}
+}
+
+/* TCV live crypto ticker: beneath hero and above market overview */
+.tcv-price-ticker{height:43px;margin:0 auto 11px;display:flex;align-items:center;gap:0;background:#051122;border:1px solid #224763;border-radius:10px;overflow:hidden;isolation:isolate}
+.tcv-ticker-title{display:flex;flex:0 0 auto;gap:7px;align-items:center;padding:0 13px;color:#ffd03d;font-size:10px;letter-spacing:.35px;border-right:1px solid #34506c;height:100%;background:#071c33;white-space:nowrap;z-index:1}
+.tcv-ticker-live-dot{width:6px;height:6px;border-radius:50%;background:#ffbf00;box-shadow:0 0 7px #ffbf0080}
+.tcv-ticker-title[data-state="live"] .tcv-ticker-live-dot{background:#1dde90;box-shadow:0 0 7px #1dde9080}
+.tcv-ticker-viewport{flex:1;min-width:0;overflow:hidden;outline-offset:-2px;mask-image:linear-gradient(90deg,transparent,#000 2%,#000 98%,transparent)}
+.tcv-ticker-track{display:flex;align-items:center;width:max-content;will-change:transform}
+.tcv-ticker-track.is-running{animation:tcv-ticker-scroll var(--ticker-seconds,110s) linear infinite}
+.tcv-ticker-viewport:hover .tcv-ticker-track,.tcv-ticker-viewport:focus .tcv-ticker-track,.tcv-ticker-viewport:focus-within .tcv-ticker-track{animation-play-state:paused}
+.tcv-ticker-lane{display:flex;align-items:center;gap:27px;flex:0 0 auto;padding-right:27px}
+.tcv-ticker-coin{display:inline-flex;align-items:baseline;gap:7px;white-space:nowrap;font-size:12px;line-height:1;font-variant-numeric:tabular-nums}
+.tcv-ticker-coin b{color:#f4f7fb;font-size:12px}.tcv-ticker-coin .tcv-ticker-price{color:#cedbeb;font-weight:650}.tcv-ticker-coin .tcv-ticker-change{font-size:11px;font-weight:800}
+.tcv-ticker-change.is-up{color:#21d990}.tcv-ticker-change.is-down{color:#ff6576}.tcv-ticker-change.is-flat{color:#9fb2c9}
+.tcv-ticker-message{display:block;padding:0 18px;color:#abc0d5;font-size:11px}
+.tcv-ticker-status{font-size:10px;flex:0 0 auto;min-width:55px;padding:0 11px;text-align:right;white-space:nowrap;color:#8db6d2;background:#071c33;height:100%;display:flex;align-items:center;justify-content:flex-end;border-left:1px solid #34506c}
+@keyframes tcv-ticker-scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@media(max-width:780px){.tcv-price-ticker{height:39px;margin-bottom:10px}.tcv-ticker-title{font-size:9px;padding:0 9px}.tcv-ticker-status{font-size:9px;padding:0 7px;min-width:44px}.tcv-ticker-coin{font-size:11px}}
+@media(prefers-reduced-motion:reduce){.tcv-ticker-track.is-running{animation:none}.tcv-ticker-viewport{overflow-x:auto;mask-image:none;scrollbar-width:thin}}
+
+/* TradingView Ticker Tape replacing the old Binance ticker. */
+.tcv-tradingview-ticker{display:flex;align-items:center;margin:0 auto 11px;min-height:70px;background:#071527;border:1px solid #244e70;border-radius:10px;overflow:hidden}
+.tcv-tradingview-label{display:flex;align-items:center;gap:7px;flex:0 0 auto;height:70px;padding:0 13px;border-right:1px solid #34506c;color:#ffce38;font-size:10px;white-space:nowrap;letter-spacing:.25px;background:#081f38}
+.tcv-tv-dot{width:7px;height:7px;background:#22c55e;border-radius:50%;box-shadow:0 0 6px rgba(34,197,94,.45)}
+.tcv-tradingview-frame{min-width:0;flex:1;height:70px;overflow:hidden}
+.tcv-tradingview-frame .tradingview-widget-container,.tcv-tradingview-frame .tradingview-widget-container__widget{width:100%;height:70px}
+.tcv-tradingview-frame iframe{display:block;width:100%;min-height:70px;border:0}
+.tcv-tv-loading{display:block;padding:22px 14px;font-size:12px;color:#b5c9da}
+@media(max-width:780px){.tcv-tradingview-ticker{min-height:68px}.tcv-tradingview-label{height:68px;padding:0 9px;font-size:9px}.tcv-tradingview-frame,.tcv-tradingview-frame .tradingview-widget-container,.tcv-tradingview-frame .tradingview-widget-container__widget{height:68px}}
+
+/* TradingView Web Component ticker, replacing legacy iframe widget. */
+.tcv-tradingview-ticker{min-height:62px}
+.tcv-tradingview-label{height:62px}
+.tcv-tradingview-frame{height:62px;display:flex;align-items:center}
+.tcv-tradingview-frame tv-ticker-tape{width:100%;min-height:58px;display:block}
+@media(max-width:780px){.tcv-tradingview-ticker{min-height:60px}.tcv-tradingview-label{height:60px}.tcv-tradingview-frame{height:60px}}
+
+/* Prevent TradingView connection error from looking like an endless loading state. */
+.tcv-tradingview-frame .tcv-tv-error{color:#ffc46a;font-size:11px;line-height:1.4;padding:12px 14px}
+
+/* Keep TradingView ticker visible and animated without opening external symbols.
+   A transparent overlay intercepts clicks/taps, while the widget remains free to render. */
+.tcv-tradingview-frame{position:relative}
+.tcv-tv-no-links{position:absolute;inset:0;z-index:5;background:transparent;cursor:default;touch-action:pan-y}
+
+/* 16-11-2026: Reduce vertical whitespace above and below headline/checkmarks only. */
+@media (min-width:781px){
+  .hero{min-height:156px}
+  .hero-visual{height:156px}
+  .hero-copy{padding:0 0 0 12px}
+  .hero .tcv-hero-title{margin-bottom:10px}
+  .tcv-hero-highlights{margin-bottom:0}
+}
+@media (max-width:780px){
+  .hero-copy{padding:12px 4px 0}
+  .hero .tcv-hero-title{margin-bottom:10px}
+  .tcv-hero-highlights{margin-bottom:0}
+  .hero-visual{height:125px;margin-top:3px}
+}
+
+/* TCV: give the ticker the full available width (no left caption). */
+.tcv-tradingview-ticker{display:block}
+.tcv-tradingview-frame{width:100%;height:62px;min-width:0;display:flex;align-items:center}
+.tcv-tradingview-frame tv-ticker-tape{width:100%;max-width:100%;flex:1 1 auto}
+@media(max-width:780px){.tcv-tradingview-frame{height:60px}}
+
+/* TCV: compact vertical spacing of scrolling ticker without altering width. */
+.tcv-tradingview-ticker{height:50px!important;min-height:50px!important;margin-top:0;margin-bottom:8px;padding:0}
+.tcv-tradingview-frame{height:48px!important;min-height:0!important}
+.tcv-tradingview-frame tv-ticker-tape{height:48px!important;min-height:0!important}
+@media(max-width:780px){.tcv-tradingview-ticker{height:48px!important;min-height:48px!important;margin-bottom:7px}.tcv-tradingview-frame,.tcv-tradingview-frame tv-ticker-tape{height:46px!important}}
+
+/* Adjust only the empty space above the ticker by shortening the hero. */
+@media (min-width:781px){
+  .hero{min-height:142px}
+  .hero-visual{height:142px}
+}
+@media (max-width:780px){
+  .hero-visual{height:112px}
+}
+
+/* Thu hẹp thêm khoảng trống ngay phía trên Ticker – không thay đổi thanh chạy. */
+@media (min-width:781px){
+  .hero{min-height:130px}
+  .hero-visual{height:130px}
+}
+@media (max-width:780px){
+  .hero-visual{height:100px}
+}
+
+/* TCV 2026-11-16: reduce only the gap above the scrolling ticker, keep lower gap. */
+@media (min-width:781px){
+  .hero + .tcv-tradingview-ticker{margin-top:-5px!important;position:relative;z-index:2}
+}
+@media (max-width:780px){
+  .hero + .tcv-tradingview-ticker{margin-top:-3px!important;position:relative;z-index:2}
+}
+
+/* Fix actual inner TradingView whitespace: move tape content 6px up and crop its top inset.
+   Earlier margin-only adjustments did not affect the contents of the web component. */
+.tcv-tradingview-ticker {height:43px!important; min-height:43px!important; overflow:hidden!important;}
+.tcv-tradingview-frame {height:43px!important; min-height:43px!important; overflow:hidden!important; align-items:flex-start!important;}
+.tcv-tradingview-frame tv-ticker-tape {display:block!important; flex:none!important; height:49px!important; min-height:49px!important; width:100%!important; transform:translateY(-6px);}
+@media(max-width:780px){
+ .tcv-tradingview-ticker,.tcv-tradingview-frame {height:42px!important;min-height:42px!important;}
+ .tcv-tradingview-frame tv-ticker-tape {height:48px!important;min-height:48px!important;transform:translateY(-6px);}
+}
+
+
+/* 17-11-2026: Trang chủ không banner – ticker ngay dưới menu, cách 7px. */
+main#trang-chu > .tcv-tradingview-ticker:first-child {
+  margin-top: 7px !important;
+}
+@media (max-width: 780px) {
+  main#trang-chu > .tcv-tradingview-ticker:first-child {
+    margin-top: 7px !important;
+  }
+}
+
+/* TCV logo mới: giữ nguyên hình dáng, nền trong suốt và vừa với thanh điều hướng */
+.site-header .brand img{width:315px;height:58px;object-fit:contain;object-position:left center}
+.footer img{width:260px;height:54px;object-fit:contain;object-position:left center}
+@media(max-width:1180px){.site-header .brand img{width:245px;height:54px}}
+@media(max-width:780px){.site-header .brand img{width:215px;height:52px}}
+@media(max-width:430px){.site-header .brand img{width:185px;height:44px}.footer img{width:225px;height:46px}}
+
+/* 17-11-2026: Thu gọn chiều cao thanh menu, giữ nguyên nội dung và ticker. */
+@media (min-width:781px) {
+  .site-header .header-inner { height:60px; }
+  .site-header .brand img { height:46px; }
+  .site-header .nav a { padding-top:20px; padding-bottom:17px; }
+  .site-header .header-join { padding-top:7px; padding-bottom:7px; }
+}
+@media (max-width:780px) {
+  .site-header .header-inner { height:58px; }
+  .site-header .brand img { height:46px; }
+  .site-header .nav { top:58px; }
+}
+@media (max-width:430px) {
+  .site-header .header-inner { height:54px; }
+  .site-header .brand img { height:42px; }
+  .site-header .nav { top:54px; }
+}
+
+
+/* TCV Market Pulse: replaces only the first overview tile, preserving four market metrics. */
+.market-strip{grid-template-columns:minmax(345px,1.6fr) repeat(4,minmax(0,1fr));}
+.tcv-pulse{min-width:0;gap:10px;padding:10px 15px;align-items:center;justify-content:flex-start;}
+.tcv-pulse-icon{width:38px;height:38px;flex:0 0 38px;display:grid;place-items:center;border-radius:50%;box-shadow:inset 0 0 8px #08b8ff30;overflow:hidden;}
+.tcv-pulse-icon svg{display:block;width:38px;height:38px;}
+.tcv-pulse-content{flex:1;min-width:0;}
+.tcv-pulse-name{font-size:14px;line-height:1.2;font-weight:900;color:#fff;white-space:nowrap;}
+.tcv-pulse-caption{font-size:9px;color:#b9d3ea;margin-top:3px;white-space:nowrap;}
+.tcv-pulse-numbers{display:flex;align-items:center;gap:11px;flex-wrap:wrap;margin-top:6px;font-size:10px;white-space:nowrap;}
+.tcv-pulse-numbers b{font-size:12px;font-weight:900;}
+.tcv-pulse-up{color:#3bf293}.tcv-pulse-down{color:#ff6b7b}.tcv-pulse-flat{color:#bbccdf}
+.tcv-pulse-bar{display:flex;width:100%;height:7px;margin-top:7px;background:#294561;border-radius:7px;overflow:hidden;}
+.tcv-pulse-bar i{display:block;width:0;transition:width .3s ease;}
+#tcv-pulse-up-bar{background:#17c96d}#tcv-pulse-down-bar{background:#f34762}#tcv-pulse-flat-bar{background:#9caabd}
+.tcv-pulse-status{font-size:9px;line-height:1.35;margin-top:4px;color:#91b7d5;min-height:12px;display:block;}
+@media(max-width:1250px) and (min-width:781px){.market-strip{grid-template-columns:minmax(310px,1.5fr) repeat(4,minmax(0,1fr))}.market-strip .metric{padding:5px 9px}.tcv-pulse{padding:8px 9px}.tcv-pulse-icon{display:none}.tcv-pulse-numbers{gap:7px}}
+@media(max-width:780px){.market-strip{grid-template-columns:1fr 1fr}.market-strip .tcv-pulse{grid-column:1/-1;border-right:0;border-bottom:1px solid #41688a;min-height:93px}.market-strip .metric{min-width:0}.tcv-pulse-icon{display:grid}.tcv-pulse-caption{white-space:normal}}
+@media(max-width:430px){.tcv-pulse{padding:10px}.tcv-pulse-numbers{gap:10px}.tcv-pulse-icon{width:34px;height:34px;flex-basis:34px}.tcv-pulse-icon svg{width:34px;height:34px}}
+
+/* TCV Market Pulse: align its right edge exactly with the Top 5 card below.
+   The three cards below have two 14px gaps, so one card is (100% - 28px)/3. */
+@media (min-width: 1181px) {
+  .market-strip {
+    grid-template-columns: calc((100% - 28px) / 3) repeat(4, minmax(0, 1fr));
+  }
+}
+
+/* Danh mục Tiện ích - giữ nguyên bố cục trang chủ */
+.tcv-tools-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:22px 0}
+.tcv-tool-card{display:block;padding:23px;border:1px solid #2178a9;background:linear-gradient(160deg,#0b2c51,#06182f);border-radius:16px;min-width:0}
+.tcv-tool-card:hover,.tcv-tool-card:focus-visible{border-color:#ffc31a;outline:none}
+.tcv-tool-icon{color:#ffc31a;font-size:30px;line-height:1}
+.tcv-tool-card h2{font-size:19px;margin:12px 0;color:#fff}
+.tcv-tool-card p{font-size:13px;line-height:1.7;color:#b9cfe6;min-height:65px}
+.tcv-tool-card strong{display:block;margin-top:17px;color:#ffc31a;font-size:12px}
+@media(max-width:700px){.tcv-tools-grid{grid-template-columns:1fr}.tcv-tool-card p{min-height:0}}
+
+/* TCV tools official product attribution */
+.tcv-built-by{display:inline-flex;align-items:center;gap:7px;width:fit-content;color:#ffce55;font-size:11px;font-weight:700;letter-spacing:.15px;line-height:1.5;margin:5px 0 8px;}
+.tcv-built-by::before{content:"";display:inline-block;width:5px;height:5px;flex:0 0 5px;background:#ffc31a;border-radius:50%;box-shadow:0 0 6px #ffc31a44;}
+@media(max-width:780px){.tcv-built-by{font-size:10px;}}
