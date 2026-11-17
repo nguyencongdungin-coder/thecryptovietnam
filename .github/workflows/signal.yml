@@ -1,0 +1,67 @@
+
+name: TCV AI Signal - Futures Scanner and Site
+
+on:
+  schedule:
+    - cron: '7,22,37,52 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: tcv-signal-site
+  cancel-in-progress: false
+
+jobs:
+  scan-and-publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run unit tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Scan Binance Futures
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python scan.py --telegram --backtest
+
+      - name: Save scanner data
+        run: |
+          git config user.name 'tcv-signal-bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add ai-signal/data/latest.json ai-signal/data/backtests.json ai-signal/data/sent.json market-radar/data/latest.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'data: update futures scanner [skip ci]'
+            git push
+          fi
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - name: Deploy THE CRYPTO VIETNAM
+        id: deploy
+        uses: actions/deploy-pages@v4
