@@ -1,13 +1,21 @@
 {
-  "updated_at": "2026-11-18T05:03:46Z",
+  "updated_at": "2026-11-18T06:08:38Z",
   "items": [
+    {
+      "title": "U.S. judge says Ethereum has ‘no terms of use,’ clears MIT brothers of $25 million fraud",
+      "url": "https://www.coindesk.com/policy/2026/11/18/u-s-judge-says-ethereum-has-no-terms-of-use-clears-mit-brothers-of-usd25-million-fraud",
+      "source": "CoinDesk",
+      "published_at": "2026-11-18T05:30:10Z",
+      "category": "Bảo mật",
+      "priority": 14.95
+    },
     {
       "title": "Fed’s Waller cites Binance hack in warning over tokenized finance",
       "url": "https://cointelegraph.com/news/feds-waller-cites-binance-hack-in-warning-over-tokenized-finance?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
       "published_at": "2026-11-17T17:39:41Z",
       "category": "Bảo mật",
-      "priority": 14.05
+      "priority": 13.96
     },
     {
       "title": "Binance Hack Wallets Move $137 Million in Ethereum After Two Weeks of Silence",
@@ -15,7 +23,7 @@
       "source": "Decrypt",
       "published_at": "2026-11-17T17:18:41Z",
       "category": "Bảo mật",
-      "priority": 14.02
+      "priority": 13.93
     },
     {
       "title": "Bitcoin remains penned in near $64,000 even as ETF outflow streak ends",
@@ -23,7 +31,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-17T11:36:07Z",
       "category": "ETF & tổ chức",
-      "priority": 13.54
+      "priority": 13.45
     },
     {
       "title": "New DeFi-yield generation targets ‘scam-like’ bank accounts that keep all the interest",
@@ -31,7 +39,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-17T11:25:58Z",
       "category": "Bảo mật",
-      "priority": 13.53
+      "priority": 13.44
     },
     {
       "title": "BlackRock’s Bitcoin ETF snaps $2.35B outflow streak amid extreme fear",
@@ -39,7 +47,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-17T11:18:18Z",
       "category": "ETF & tổ chức",
-      "priority": 13.52
+      "priority": 13.43
     },
     {
       "title": "Optimizely Hack Hijacked Ledger, BBC and 176 Other Sites to Swap Crypto Wallet Addresses",
@@ -47,7 +55,7 @@
       "source": "Decrypt",
       "published_at": "2026-11-17T11:05:25Z",
       "category": "Bảo mật",
-      "priority": 13.5
+      "priority": 13.41
     },
     {
       "title": "Binance hacker moves $63 million in stolen ether after 2 weeks of silence",
@@ -55,7 +63,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-17T09:21:19Z",
       "category": "Bảo mật",
-      "priority": 13.36
+      "priority": 13.27
     },
     {
       "title": "Wells Fargo's reported BlackRock bitcoin ETF holdings double to $2.35 billion",
@@ -63,15 +71,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-17T05:37:23Z",
       "category": "ETF & tổ chức",
-      "priority": 13.05
-    },
-    {
-      "title": "Ripple-backed Evernorth has written down its pre-listing XRP holdings by 60%",
-      "url": "https://www.coindesk.com/markets/2026/11/17/ripple-backed-evernorth-has-written-down-its-pre-listing-xrp-holdings-by-60",
-      "source": "CoinDesk",
-      "published_at": "2026-11-17T05:02:05Z",
-      "category": "ETF & tổ chức",
-      "priority": 13.0
+      "priority": 12.96
     },
     {
       "title": "Bitcoin's 12% slide through key support looks scary, but history says give it 3 months.",
@@ -79,7 +79,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-18T04:34:21Z",
       "category": "Bitcoin",
-      "priority": 12.96
+      "priority": 12.87
     },
     {
       "title": "Binance hack may push institutions to outside custody, FalconX exec says",
@@ -87,7 +87,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-16T22:19:41Z",
       "category": "Bảo mật",
-      "priority": 12.44
+      "priority": 12.35
     },
     {
       "title": "Hackers Redirected Bitcoin Miner Rewards via AI Attack, Luxor CEO Says",
@@ -95,7 +95,7 @@
       "source": "Decrypt",
       "published_at": "2026-11-16T21:16:03Z",
       "category": "Bảo mật",
-      "priority": 12.35
+      "priority": 12.26
     },
     {
       "title": "Bitcoin Investors Are Capitulating—That’s Historically Been a Bottom Signal",
@@ -103,7 +103,7 @@
       "source": "Decrypt",
       "published_at": "2026-11-17T20:36:03Z",
       "category": "Bitcoin",
-      "priority": 12.29
+      "priority": 12.2
     },
     {
       "title": "Ethereum Devs Weigh a Scaling Upgrade That Could Break 15,000 Apps",
@@ -111,7 +111,7 @@
       "source": "Decrypt",
       "published_at": "2026-11-17T19:26:02Z",
       "category": "Ethereum",
-      "priority": 12.2
+      "priority": 12.11
     },
     {
       "title": "Saylor’s Strategy Keeps Buying Bitcoin, Adding 'A Little Orange' Through the Dip",
@@ -119,7 +119,7 @@
       "source": "Decrypt",
       "published_at": "2026-11-16T17:20:26Z",
       "category": "ETF & tổ chức",
-      "priority": 12.02
+      "priority": 11.93
     },
     {
       "title": "Bitcoin drops 2.5% as Nvidia stock risks new 5-month lows into Q3 earnings",
@@ -127,7 +127,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-17T16:39:43Z",
       "category": "Bitcoin",
-      "priority": 11.97
+      "priority": 11.88
     },
     {
       "title": "XRP whales moved $270 million during the selloff. The coins didn’t go to exchanges",
@@ -135,7 +135,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-18T04:28:37Z",
       "category": "Altcoin & DeFi",
-      "priority": 11.95
+      "priority": 11.86
     },
     {
       "title": "Bitcoin to $1M by 2030? ‘Almost certainly not,’ says Dragonfly’s Qureshi",
@@ -143,7 +143,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-17T13:30:00Z",
       "category": "Bitcoin",
-      "priority": 11.7
+      "priority": 11.61
     }
   ]
 }
