@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T14:00:59Z",
+  "updated_at": "2026-11-18T14:58:10Z",
   "items": [
     {
       "title": "CoinShares sells all treasury ETH, halves SOL holdings for buybacks",
@@ -7,7 +7,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-18T13:42:37Z",
       "category": "ETF & tổ chức",
-      "priority": 14.97
+      "priority": 14.9
     },
     {
       "title": "Bullish beats revenue estimates as institutional services offset sluggish spot crypto volumes",
@@ -15,7 +15,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-18T12:41:09Z",
       "category": "ETF & tổ chức",
-      "priority": 14.89
+      "priority": 14.81
     },
     {
       "title": "AI Will Make the Next 12 Months 'a Slaughterhouse' for Crypto Security: Anchorage Exec",
@@ -23,7 +23,7 @@
       "source": "Decrypt",
       "published_at": "2026-11-18T12:10:27Z",
       "category": "Bảo mật",
-      "priority": 14.85
+      "priority": 14.77
     },
     {
       "title": "Bitwise seeks Texas Stock Exchange listing for Zcash ETF",
@@ -31,7 +31,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-18T10:33:07Z",
       "category": "ETF & tổ chức",
-      "priority": 14.71
+      "priority": 14.63
     },
     {
       "title": "Scattered Spider Hacker Sentenced to 6 Years Over $11.6M in Stolen Crypto",
@@ -39,7 +39,7 @@
       "source": "Decrypt",
       "published_at": "2026-11-18T10:17:17Z",
       "category": "Bảo mật",
-      "priority": 14.69
+      "priority": 14.61
     },
     {
       "title": "U.S. judge says Ethereum has ‘no terms of use,’ clears MIT brothers of $25 million fraud",
@@ -47,7 +47,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-18T05:30:10Z",
       "category": "Bảo mật",
-      "priority": 14.29
+      "priority": 14.21
     },
     {
       "title": "Fed’s Waller cites Binance hack in warning over tokenized finance",
@@ -55,7 +55,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-17T17:39:41Z",
       "category": "Bảo mật",
-      "priority": 13.3
+      "priority": 13.22
     },
     {
       "title": "Binance Hack Wallets Move $137 Million in Ethereum After Two Weeks of Silence",
@@ -63,7 +63,23 @@
       "source": "Decrypt",
       "published_at": "2026-11-17T17:18:41Z",
       "category": "Bảo mật",
-      "priority": 13.27
+      "priority": 13.2
+    },
+    {
+      "title": "Movie2K Defendant Could Hand Over 40,000 Bitcoin to End Trial—and Stay a Billionaire",
+      "url": "https://decrypt.co/383533/movie2k-defendant-could-hand-over-40000-bitcoin-to-end-trial-and-stay-a-billionaire",
+      "source": "Decrypt",
+      "published_at": "2026-11-18T14:20:52Z",
+      "category": "Bitcoin",
+      "priority": 12.95
+    },
+    {
+      "title": "Bitcoin Covenants Part 6: FE Covenants — Enforcing covenants through cryptographically restricted signing keys",
+      "url": "https://cointelegraph.com/research/bitcoin-covenants-part-6-fe-covenants-enforcing-covenants-through-cryptographically-restricted-signing-keys?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-18T14:04:50Z",
+      "category": "Bitcoin",
+      "priority": 12.93
     },
     {
       "title": "Bitcoin miner MARA raises $185 million in debt after selling $1 billion BTC to repay loans",
@@ -71,7 +87,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-18T12:53:34Z",
       "category": "Bitcoin",
-      "priority": 12.91
+      "priority": 12.83
     },
     {
       "title": "Blaming Anthropic’s IPO for bitcoin’s slide is 'easy to believe,' but flawed, analysts say",
@@ -79,7 +95,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-18T12:15:00Z",
       "category": "Bitcoin",
-      "priority": 12.85
+      "priority": 12.77
     },
     {
       "title": "Bitcoin drops as Nvidia earnings report drives stock index futures higher",
@@ -87,7 +103,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-18T11:42:52Z",
       "category": "Bitcoin",
-      "priority": 12.81
+      "priority": 12.73
     },
     {
       "title": "Bitcoin remains penned in near $64,000 even as ETF outflow streak ends",
@@ -95,7 +111,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-17T11:36:07Z",
       "category": "ETF & tổ chức",
-      "priority": 12.8
+      "priority": 12.72
     },
     {
       "title": "BlackRock’s Bitcoin ETF snaps $2.35B outflow streak amid extreme fear",
@@ -103,7 +119,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-17T11:18:18Z",
       "category": "ETF & tổ chức",
-      "priority": 12.77
+      "priority": 12.69
     },
     {
       "title": "Optimizely Hack Hijacked Ledger, BBC and 176 Other Sites to Swap Crypto Wallet Addresses",
@@ -111,7 +127,7 @@
       "source": "Decrypt",
       "published_at": "2026-11-17T11:05:25Z",
       "category": "Bảo mật",
-      "priority": 12.76
+      "priority": 12.68
     },
     {
       "title": "Bitcoin outpaces gold even as both assets tumble ahead of a likely Fed rate hike",
@@ -119,7 +135,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-18T10:58:36Z",
       "category": "Bitcoin",
-      "priority": 12.75
+      "priority": 12.67
     },
     {
       "title": "Bitcoin steadies after Nvidia’s earnings beat as $60K bids stand out",
@@ -127,23 +143,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-18T10:31:20Z",
       "category": "Bitcoin",
-      "priority": 12.71
-    },
-    {
-      "title": "Bitcoin ETFs lose $240M as CryptoQuant flags bearish market phase",
-      "url": "https://cointelegraph.com/markets/bitcoin-etf-240-million-outflow-bearish-phase?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-18T08:09:23Z",
-      "category": "Bitcoin",
-      "priority": 12.51
-    },
-    {
-      "title": "Live updates: Bitcoin lower even as Nasdaq rises on Nvidia relief",
-      "url": "https://www.coindesk.com/business/2026/11/18/live-updates-bitcoin-stuck-near-usd65-000-as-popular-basis-trade-returns-dry-up",
-      "source": "CoinDesk",
-      "published_at": "2026-11-18T07:27:48Z",
-      "category": "Bitcoin",
-      "priority": 12.45
+      "priority": 12.63
     }
   ]
 }
