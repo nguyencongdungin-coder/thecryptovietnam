@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-11-18T19:22:43Z",
+  "updated_at": "2026-11-18T20:30:44Z",
   "items": [
     {
-      "title": "CoinShares sells all treasury ETH, halves SOL holdings for buybacks",
-      "url": "https://cointelegraph.com/news/coinshares-sells-eth-treasury-holdings-halves-sol-share-buybacks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "title": "Binance says it won $6.5B worldwide freezing order after hack",
+      "url": "https://cointelegraph.com/news/binance-says-won-65b-worldwide-freezing-order-after-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
-      "published_at": "2026-11-18T13:42:37Z",
-      "category": "ETF & tổ chức",
-      "priority": 14.53
+      "published_at": "2026-11-18T20:20:37Z",
+      "category": "Bảo mật",
+      "priority": 14.99
     },
     {
       "title": "Bullish beats revenue estimates as institutional services offset sluggish spot crypto volumes",
@@ -15,7 +15,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-18T12:41:09Z",
       "category": "ETF & tổ chức",
-      "priority": 14.44
+      "priority": 14.35
     },
     {
       "title": "AI Will Make the Next 12 Months 'a Slaughterhouse' for Crypto Security: Anchorage Exec",
@@ -23,7 +23,15 @@
       "source": "Decrypt",
       "published_at": "2026-11-18T12:10:27Z",
       "category": "Bảo mật",
-      "priority": 14.4
+      "priority": 14.31
+    },
+    {
+      "title": "CoinShares sells all treasury ETH, halves SOL holdings for buybacks",
+      "url": "https://cointelegraph.com/news/coinshares-sells-eth-treasury-holdings-halves-sol-share-buybacks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-18T13:42:37Z",
+      "category": "ETF & tổ chức",
+      "priority": 14.43
     },
     {
       "title": "Bitwise seeks Texas Stock Exchange listing for Zcash ETF",
@@ -31,7 +39,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-18T10:33:07Z",
       "category": "ETF & tổ chức",
-      "priority": 14.26
+      "priority": 14.17
     },
     {
       "title": "Scattered Spider Hacker Sentenced to 6 Years Over $11.6M in Stolen Crypto",
@@ -39,7 +47,7 @@
       "source": "Decrypt",
       "published_at": "2026-11-18T10:17:17Z",
       "category": "Bảo mật",
-      "priority": 14.24
+      "priority": 14.15
     },
     {
       "title": "Live updates: Bitcoin falls below $63,000, with Strategy’s STRC hitting lowest since August",
@@ -47,7 +55,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-18T07:27:48Z",
       "category": "ETF & tổ chức",
-      "priority": 14.01
+      "priority": 13.91
     },
     {
       "title": "U.S. judge says Ethereum has ‘no terms of use,’ clears MIT brothers of $25 million fraud",
@@ -55,7 +63,15 @@
       "source": "CoinDesk",
       "published_at": "2026-11-18T05:30:10Z",
       "category": "Bảo mật",
-      "priority": 13.84
+      "priority": 13.75
+    },
+    {
+      "title": "Why CoinShares Just Sold All Its Ethereum and Half Its Solana",
+      "url": "https://decrypt.co/383570/why-coinshares-just-sold-all-ethereum-half-solana",
+      "source": "Decrypt",
+      "published_at": "2026-11-18T19:46:02Z",
+      "category": "Ethereum",
+      "priority": 12.94
     },
     {
       "title": "Bitcoin Tanks Ahead of Anthropic’s IPO. Should We Really Blame AI?",
@@ -63,7 +79,7 @@
       "source": "Decrypt",
       "published_at": "2026-11-18T19:16:02Z",
       "category": "Bitcoin",
-      "priority": 12.99
+      "priority": 12.9
     },
     {
       "title": "Bitcoin Miners Are Selling Their Stacks to Fund the AI Boom",
@@ -71,7 +87,7 @@
       "source": "Decrypt",
       "published_at": "2026-11-18T18:46:03Z",
       "category": "Bitcoin",
-      "priority": 12.95
+      "priority": 12.85
     },
     {
       "title": "MARA prices $185M debt offering after $1.1B Bitcoin sale",
@@ -79,7 +95,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-18T18:27:52Z",
       "category": "Bitcoin",
-      "priority": 12.92
+      "priority": 12.83
     },
     {
       "title": "Fed’s Waller cites Binance hack in warning over tokenized finance",
@@ -87,7 +103,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-17T17:39:41Z",
       "category": "Bảo mật",
-      "priority": 12.86
+      "priority": 12.76
     },
     {
       "title": "Binance Hack Wallets Move $137 Million in Ethereum After Two Weeks of Silence",
@@ -95,7 +111,7 @@
       "source": "Decrypt",
       "published_at": "2026-11-17T17:18:41Z",
       "category": "Bảo mật",
-      "priority": 12.83
+      "priority": 12.73
     },
     {
       "title": "$25M Ethereum MEV acquittal tests criminal enforcement limits",
@@ -103,7 +119,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-18T17:05:04Z",
       "category": "Ethereum",
-      "priority": 12.81
+      "priority": 12.71
     },
     {
       "title": "Bitcoin, stocks wobble as Fed’s Waller talks of ‘shock’ 50-point rate hike",
@@ -111,7 +127,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-18T16:34:20Z",
       "category": "Bitcoin",
-      "priority": 12.77
+      "priority": 12.67
     },
     {
       "title": "German judge proposes dropping Movie2k case if operator hands over $2.56 billion in bitcoin",
@@ -119,7 +135,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-18T15:38:38Z",
       "category": "Bitcoin",
-      "priority": 12.69
+      "priority": 12.59
     },
     {
       "title": "Movie2K Defendant Could Hand Over 40,000 Bitcoin to End Trial—and Stay a Billionaire",
@@ -127,23 +143,7 @@
       "source": "Decrypt",
       "published_at": "2026-11-18T14:20:52Z",
       "category": "Bitcoin",
-      "priority": 12.58
-    },
-    {
-      "title": "Bitcoin Covenants Part 6: FE Covenants — Enforcing covenants through cryptographically restricted signing keys",
-      "url": "https://cointelegraph.com/research/bitcoin-covenants-part-6-fe-covenants-enforcing-covenants-through-cryptographically-restricted-signing-keys?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-18T14:04:50Z",
-      "category": "Bitcoin",
-      "priority": 12.56
-    },
-    {
-      "title": "Bitcoin miner MARA raises $185 million in debt after selling $1 billion BTC to repay loans",
-      "url": "https://www.coindesk.com/markets/2026/11/18/bitcoin-miner-mara-raises-usd185-million-in-debt-after-selling-usd1-billion-btc-to-repay-loans",
-      "source": "CoinDesk",
-      "published_at": "2026-11-18T12:53:34Z",
-      "category": "Bitcoin",
-      "priority": 12.46
+      "priority": 12.49
     }
   ]
 }
