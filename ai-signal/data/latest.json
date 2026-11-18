@@ -1,109 +1,109 @@
 {
-  "status": "partial",
+  "status": "live",
   "source": "OKX V5 public SWAP market data — USDT settled (volume ranking is estimated)",
-  "generated_at": 1794991537284,
+  "generated_at": 1794995087546,
   "scan_minutes": 15,
   "ranking_method": "OKX live USDT-settled SWAP; ranked by estimated 24h USDT volume = base volume * latest price",
   "symbols": [
     {
       "symbol": "BTCUSDT",
-      "quote_volume_24h": 7066106263.97872,
-      "change_pct_24h": 0.5256072432870518
+      "quote_volume_24h": 6890439219.85575,
+      "change_pct_24h": 0.3523040279731493
     },
     {
       "symbol": "ETHUSDT",
-      "quote_volume_24h": 6469956433.13607,
-      "change_pct_24h": -0.5403418690891559
+      "quote_volume_24h": 6242505645.9613495,
+      "change_pct_24h": -0.08323594911031629
     },
     {
       "symbol": "SOXLUSDT",
-      "quote_volume_24h": 1821304344.1866,
-      "change_pct_24h": 6.047819971870605
+      "quote_volume_24h": 1767614246.7724998,
+      "change_pct_24h": 10.820973469814078
     },
     {
       "symbol": "SNDKUSDT",
-      "quote_volume_24h": 1776748339.6959999,
-      "change_pct_24h": 2.2279665189561815
+      "quote_volume_24h": 1698188655.8746002,
+      "change_pct_24h": 4.404177677110854
     },
     {
       "symbol": "ZECUSDT",
-      "quote_volume_24h": 1159243997.6438003,
-      "change_pct_24h": 3.5158463751689295
+      "quote_volume_24h": 1141479293.6098,
+      "change_pct_24h": 3.613576567429777
     },
     {
       "symbol": "SOLUSDT",
-      "quote_volume_24h": 906110290.3495,
-      "change_pct_24h": 3.216454997239082
+      "quote_volume_24h": 889519792.699,
+      "change_pct_24h": 3.407836644591611
     },
     {
       "symbol": "NVDAUSDT",
-      "quote_volume_24h": 763506855.7114999,
-      "change_pct_24h": 1.7180169899835063
+      "quote_volume_24h": 752116121.6852,
+      "change_pct_24h": 3.6777920410782983
     },
     {
       "symbol": "ANTHROPICUSDT",
-      "quote_volume_24h": 464989886.52110994,
-      "change_pct_24h": 2.015584415584404
+      "quote_volume_24h": 484813716.43833,
+      "change_pct_24h": 2.004339291249102
     },
     {
       "symbol": "XAUUSDT",
-      "quote_volume_24h": 416936264.2748,
-      "change_pct_24h": -2.618138671068926
+      "quote_volume_24h": 434630805.25869995,
+      "change_pct_24h": -2.150565394743642
     },
     {
       "symbol": "MUUSDT",
-      "quote_volume_24h": 309808220.4945,
-      "change_pct_24h": 2.2255151783735716
+      "quote_volume_24h": 302044417.2288,
+      "change_pct_24h": 3.131950369986991
     },
     {
       "symbol": "SKHYNIXUSDT",
-      "quote_volume_24h": 296850366.8078,
-      "change_pct_24h": 4.938869386272837
+      "quote_volume_24h": 294830789.5976,
+      "change_pct_24h": 6.118710307767472
     },
     {
       "symbol": "XRPUSDT",
-      "quote_volume_24h": 283663116.7548,
-      "change_pct_24h": 4.585814269299071
-    },
-    {
-      "symbol": "BREVUSDT",
-      "quote_volume_24h": 252980285.1994,
-      "change_pct_24h": 70.52778261626894
+      "quote_volume_24h": 282998340.4192,
+      "change_pct_24h": 4.392386530014636
     },
     {
       "symbol": "MMTUSDT",
-      "quote_volume_24h": 248384576.968,
-      "change_pct_24h": 107.7797202797203
+      "quote_volume_24h": 278879935.2,
+      "change_pct_24h": 113.33333333333333
+    },
+    {
+      "symbol": "BREVUSDT",
+      "quote_volume_24h": 255228235.6365,
+      "change_pct_24h": 67.65670868589189
     },
     {
       "symbol": "SOXSUSDT",
-      "quote_volume_24h": 216896092.822,
-      "change_pct_24h": -6.354399862235227
+      "quote_volume_24h": 208411075.242,
+      "change_pct_24h": -10.501904919662074
     },
     {
       "symbol": "HYPEUSDT",
-      "quote_volume_24h": 186811958.5608,
-      "change_pct_24h": -0.6355318779315389
+      "quote_volume_24h": 181416395.85300002,
+      "change_pct_24h": 0.06690033304732612
     },
     {
       "symbol": "KORUUSDT",
-      "quote_volume_24h": 180252328.38,
-      "change_pct_24h": 7.819687212511495
+      "quote_volume_24h": 179673409.2505,
+      "change_pct_24h": 10.000000000000009
     },
     {
       "symbol": "DOGEUSDT",
-      "quote_volume_24h": 167793277.30200002,
-      "change_pct_24h": 1.5651582170806533
+      "quote_volume_24h": 163436113.88910002,
+      "change_pct_24h": 1.8433179723502224
     },
     {
       "symbol": "PEPEUSDT",
-      "quote_volume_24h": 144317354.33200002,
-      "change_pct_24h": -2.272845207825236
+      "quote_volume_24h": 139158779.6324,
+      "change_pct_24h": -2.5968619083552302
     },
     {
       "symbol": "SPCXUSDT",
-      "quote_volume_24h": 138253176.1905,
-      "change_pct_24h": 3.8126361655773433
+      "quote_volume_24h": 134170264.9109,
+      "change_pct_24h": 4.530815400380606
     }
   ],
   "signals": [
@@ -112,34 +112,34 @@
       "interval": "15m",
       "signal": "WAIT",
       "score": 0,
-      "price": 64706.1,
+      "price": 64657.4,
       "entry": null,
       "sl": null,
       "tp": null,
       "rr": null,
-      "rsi": 53.6,
-      "volume_ratio": 0.56,
-      "close_time": 1794991499999,
+      "rsi": 51.8,
+      "volume_ratio": 0.45,
+      "close_time": 1794994199999,
       "reason": "Chưa đồng thuận xu hướng, động lượng, RSI và khối lượng",
-      "quote_volume_24h": 7066106263.97872,
-      "change_pct_24h": 0.5256072432870518
+      "quote_volume_24h": 6890439219.85575,
+      "change_pct_24h": 0.3523040279731493
     },
     {
       "symbol": "BTCUSDT",
       "interval": "1h",
       "signal": "WAIT",
       "score": 0,
-      "price": 64849.0,
+      "price": 64654.1,
       "entry": null,
       "sl": null,
       "tp": null,
       "rr": null,
-      "rsi": 55.8,
-      "volume_ratio": 0.54,
-      "close_time": 1794988799999,
+      "rsi": 52.3,
+      "volume_ratio": 0.5,
+      "close_time": 1794992399999,
       "reason": "Chưa đồng thuận xu hướng, động lượng, RSI và khối lượng",
-      "quote_volume_24h": 7066106263.97872,
-      "change_pct_24h": 0.5256072432870518
+      "quote_volume_24h": 6890439219.85575,
+      "change_pct_24h": 0.3523040279731493
     },
     {
       "symbol": "BTCUSDT",
@@ -155,42 +155,42 @@
       "volume_ratio": 0.45,
       "close_time": 1794988799999,
       "reason": "Chưa đồng thuận xu hướng, động lượng, RSI và khối lượng",
-      "quote_volume_24h": 7066106263.97872,
-      "change_pct_24h": 0.5256072432870518
+      "quote_volume_24h": 6890439219.85575,
+      "change_pct_24h": 0.3523040279731493
     },
     {
       "symbol": "ETHUSDT",
       "interval": "15m",
       "signal": "WAIT",
       "score": 0,
-      "price": 1811.93,
+      "price": 1812.78,
       "entry": null,
       "sl": null,
       "tp": null,
       "rr": null,
-      "rsi": 51.8,
-      "volume_ratio": 0.39,
-      "close_time": 1794991499999,
+      "rsi": 52.8,
+      "volume_ratio": 0.42,
+      "close_time": 1794994199999,
       "reason": "Chưa đồng thuận xu hướng, động lượng, RSI và khối lượng",
-      "quote_volume_24h": 6469956433.13607,
-      "change_pct_24h": -0.5403418690891559
+      "quote_volume_24h": 6242505645.9613495,
+      "change_pct_24h": -0.08323594911031629
     },
     {
       "symbol": "ETHUSDT",
       "interval": "1h",
       "signal": "WAIT",
       "score": 0,
-      "price": 1816.23,
+      "price": 1811.01,
       "entry": null,
       "sl": null,
       "tp": null,
       "rr": null,
-      "rsi": 53.5,
-      "volume_ratio": 0.56,
-      "close_time": 1794988799999,
+      "rsi": 50.8,
+      "volume_ratio": 0.49,
+      "close_time": 1794992399999,
       "reason": "Chưa đồng thuận xu hướng, động lượng, RSI và khối lượng",
-      "quote_volume_24h": 6469956433.13607,
-      "change_pct_24h": -0.5403418690891559
+      "quote_volume_24h": 6242505645.9613495,
+      "change_pct_24h": -0.08323594911031629
     },
     {
       "symbol": "ETHUSDT",
@@ -206,42 +206,42 @@
       "volume_ratio": 0.43,
       "close_time": 1794988799999,
       "reason": "Chưa đồng thuận xu hướng, động lượng, RSI và khối lượng",
-      "quote_volume_24h": 6469956433.13607,
-      "change_pct_24h": -0.5403418690891559
+      "quote_volume_24h": 6242505645.9613495,
+      "change_pct_24h": -0.08323594911031629
     },
     {
       "symbol": "SOXLUSDT",
       "interval": "15m",
       "signal": "WAIT",
       "score": 0,
-      "price": 52.74,
+      "price": 53.22,
       "entry": null,
       "sl": null,
       "tp": null,
       "rr": null,
-      "rsi": 56.0,
-      "volume_ratio": 0.62,
-      "close_time": 1794991499999,
+      "rsi": 58.9,
+      "volume_ratio": 0.93,
+      "close_time": 1794994199999,
       "reason": "Chưa đồng thuận xu hướng, động lượng, RSI và khối lượng",
-      "quote_volume_24h": 1821304344.1866,
-      "change_pct_24h": 6.047819971870605
+      "quote_volume_24h": 1767614246.7724998,
+      "change_pct_24h": 10.820973469814078
     },
     {
       "symbol": "SOXLUSDT",
       "interval": "1h",
       "signal": "WAIT",
       "score": 0,
-      "price": 53.41,
+      "price": 52.47,
       "entry": null,
       "sl": null,
       "tp": null,
       "rr": null,
-      "rsi": 59.1,
-      "volume_ratio": 0.39,
-      "close_time": 1794988799999,
+      "rsi": 55.3,
+      "volume_ratio": 0.48,
+      "close_time": 1794992399999,
       "reason": "Chưa đồng thuận xu hướng, động lượng, RSI và khối lượng",
-      "quote_volume_24h": 1821304344.1866,
-      "change_pct_24h": 6.047819971870605
+      "quote_volume_24h": 1767614246.7724998,
+      "change_pct_24h": 10.820973469814078
     },
     {
       "symbol": "SOXLUSDT",
@@ -257,42 +257,42 @@
       "volume_ratio": 0.74,
       "close_time": 1794988799999,
       "reason": "Chưa đồng thuận xu hướng, động lượng, RSI và khối lượng",
-      "quote_volume_24h": 1821304344.1866,
-      "change_pct_24h": 6.047819971870605
+      "quote_volume_24h": 1767614246.7724998,
+      "change_pct_24h": 10.820973469814078
     },
     {
       "symbol": "SNDKUSDT",
       "interval": "15m",
       "signal": "WAIT",
       "score": 0,
-      "price": 830.0,
+      "price": 833.6,
       "entry": null,
       "sl": null,
       "tp": null,
       "rr": null,
-      "rsi": 57.3,
-      "volume_ratio": 0.81,
-      "close_time": 1794991499999,
+      "rsi": 60.0,
+      "volume_ratio": 1.39,
+      "close_time": 1794994199999,
       "reason": "Chưa đồng thuận xu hướng, động lượng, RSI và khối lượng",
-      "quote_volume_24h": 1776748339.6959999,
-      "change_pct_24h": 2.2279665189561815
+      "quote_volume_24h": 1698188655.8746002,
+      "change_pct_24h": 4.404177677110854
     },
     {
       "symbol": "SNDKUSDT",
       "interval": "1h",
       "signal": "WAIT",
       "score": 0,
-      "price": 833.8,
+      "price": 827.1,
       "entry": null,
       "sl": null,
       "tp": null,
       "rr": null,
-      "rsi": 57.4,
-      "volume_ratio": 0.29,
-      "close_time": 1794988799999,
+      "rsi": 54.1,
+      "volume_ratio": 0.4,
+      "close_time": 1794992399999,
       "reason": "Chưa đồng thuận xu hướng, động lượng, RSI và khối lượng",
-      "quote_volume_24h": 1776748339.6959999,
-      "change_pct_24h": 2.2279665189561815
+      "quote_volume_24h": 1698188655.8746002,
+      "change_pct_24h": 4.404177677110854
     },
     {
       "symbol": "SNDKUSDT",
@@ -308,42 +308,42 @@
       "volume_ratio": 0.48,
       "close_time": 1794988799999,
       "reason": "Chưa đồng thuận xu hướng, động lượng, RSI và khối lượng",
-      "quote_volume_24h": 1776748339.6959999,
-      "change_pct_24h": 2.2279665189561815
+      "quote_volume_24h": 1698188655.8746002,
+      "change_pct_24h": 4.404177677110854
     },
     {
       "symbol": "ZECUSDT",
       "interval": "15m",
       "signal": "WAIT",
       "score": 0,
-      "price": 949.54,
+      "price": 949.23,
       "entry": null,
       "sl": null,
       "tp": null,
       "rr": null,
-      "rsi": 46.2,
-      "volume_ratio": 0.69,
-      "close_time": 1794991499999,
+      "rsi": 46.6,
+      "volume_ratio": 0.62,
+      "close_time": 1794994199999,
       "reason": "Chưa đồng thuận xu hướng, động lượng, RSI và khối lượng",
-      "quote_volume_24h": 1159243997.6438003,
-      "change_pct_24h": 3.5158463751689295
+      "quote_volume_24h": 1141479293.6098,
+      "change_pct_24h": 3.613576567429777
     },
     {
       "symbol": "ZECUSDT",
       "interval": "1h",
       "signal": "WAIT",
       "score": 0,
-      "price": 953.96,
+      "price": 946.99,
       "entry": null,
       "sl": null,
       "tp": null,
       "rr": null,
-      "rsi": 57.3,
-      "volume_ratio": 0.56,
-      "close_time": 1794988799999,
+      "rsi": 53.7,
+      "volume_ratio": 0.65,
+      "close_time": 1794992399999,
       "reason": "Chưa đồng thuận xu hướng, động lượng, RSI và khối lượng",
-      "quote_volume_24h": 1159243997.6438003,
-      "change_pct_24h": 3.5158463751689295
+      "quote_volume_24h": 1141479293.6098,
+      "change_pct_24h": 3.613576567429777
     },
     {
       "symbol": "ZECUSDT",
@@ -359,42 +359,42 @@
       "volume_ratio": 0.6,
       "close_time": 1794988799999,
       "reason": "Chưa đồng thuận xu hướng, động lượng, RSI và khối lượng",
-      "quote_volume_24h": 1159243997.6438003,
-      "change_pct_24h": 3.5158463751689295
+      "quote_volume_24h": 1141479293.6098,
+      "change_pct_24h": 3.613576567429777
     },
     {
       "symbol": "SOLUSDT",
       "interval": "15m",
       "signal": "WAIT",
       "score": 0,
-      "price": 74.74,
+      "price": 74.82,
       "entry": null,
       "sl": null,
       "tp": null,
       "rr": null,
-      "rsi": 49.0,
-      "volume_ratio": 0.55,
-      "close_time": 1794991499999,
+      "rsi": 50.6,
+      "volume_ratio": 0.6,
+      "close_time": 1794994199999,
       "reason": "Chưa đồng thuận xu hướng, động lượng, RSI và khối lượng",
-      "quote_volume_24h": 906110290.3495,
-      "change_pct_24h": 3.216454997239082
+      "quote_volume_24h": 889519792.699,
+      "change_pct_24h": 3.407836644591611
     },
     {
       "symbol": "SOLUSDT",
       "interval": "1h",
       "signal": "WAIT",
       "score": 0,
-      "price": 75.12,
+      "price": 74.73,
       "entry": null,
       "sl": null,
       "tp": null,
       "rr": null,
-      "rsi": 63.3,
-      "volume_ratio": 0.62,
-      "close_time": 1794988799999,
+      "rsi": 59.0,
+      "volume_ratio": 0.5,
+      "close_time": 1794992399999,
       "reason": "Chưa đồng thuận xu hướng, động lượng, RSI và khối lượng",
-      "quote_volume_24h": 906110290.3495,
-      "change_pct_24h": 3.216454997239082
+      "quote_volume_24h": 889519792.699,
+      "change_pct_24h": 3.407836644591611
     },
     {
       "symbol": "SOLUSDT",
@@ -410,42 +410,42 @@
       "volume_ratio": 0.59,
       "close_time": 1794988799999,
       "reason": "Chưa đồng thuận xu hướng, động lượng, RSI và khối lượng",
-      "quote_volume_24h": 906110290.3495,
-      "change_pct_24h": 3.216454997239082
+      "quote_volume_24h": 889519792.699,
+      "change_pct_24h": 3.407836644591611
     },
     {
       "symbol": "NVDAUSDT",
       "interval": "15m",
       "signal": "WAIT",
       "score": 0,
-      "price": 160.44,
+      "price": 160.99,
       "entry": null,
       "sl": null,
       "tp": null,
       "rr": null,
-      "rsi": 60.3,
-      "volume_ratio": 0.87,
-      "close_time": 1794991499999,
+      "rsi": 62.9,
+      "volume_ratio": 1.62,
+      "close_time": 1794994199999,
       "reason": "Chưa đồng thuận xu hướng, động lượng, RSI và khối lượng",
-      "quote_volume_24h": 763506855.7114999,
-      "change_pct_24h": 1.7180169899835063
+      "quote_volume_24h": 752116121.6852,
+      "change_pct_24h": 3.6777920410782983
     },
     {
       "symbol": "NVDAUSDT",
       "interval": "1h",
       "signal": "WAIT",
       "score": 0,
-      "price": 160.55,
+      "price": 160.12,
       "entry": null,
       "sl": null,
       "tp": null,
       "rr": null,
-      "rsi": 57.8,
-      "volume_ratio": 0.36,
-      "close_time": 1794988799999,
+      "rsi": 56.3,
+      "volume_ratio": 0.32,
+      "close_time": 1794992399999,
       "reason": "Chưa đồng thuận xu hướng, động lượng, RSI và khối lượng",
-      "quote_volume_24h": 763506855.7114999,
-      "change_pct_24h": 1.7180169899835063
+      "quote_volume_24h": 752116121.6852,
+      "change_pct_24h": 3.6777920410782983
     },
     {
       "symbol": "NVDAUSDT",
@@ -461,42 +461,42 @@
       "volume_ratio": 0.5,
       "close_time": 1794988799999,
       "reason": "Chưa đồng thuận xu hướng, động lượng, RSI và khối lượng",
-      "quote_volume_24h": 763506855.7114999,
-      "change_pct_24h": 1.7180169899835063
+      "quote_volume_24h": 752116121.6852,
+      "change_pct_24h": 3.6777920410782983
     },
     {
       "symbol": "ANTHROPICUSDT",
       "interval": "15m",
       "signal": "WAIT",
       "score": 0,
-      "price": 98.18,
+      "price": 98.67,
       "entry": null,
       "sl": null,
       "tp": null,
       "rr": null,
-      "rsi": 59.0,
-      "volume_ratio": 0.82,
-      "close_time": 1794991499999,
+      "rsi": 64.0,
+      "volume_ratio": 4.84,
+      "close_time": 1794994199999,
       "reason": "Chưa đồng thuận xu hướng, động lượng, RSI và khối lượng",
-      "quote_volume_24h": 464989886.52110994,
-      "change_pct_24h": 2.015584415584404
+      "quote_volume_24h": 484813716.43833,
+      "change_pct_24h": 2.004339291249102
     },
     {
       "symbol": "ANTHROPICUSDT",
       "interval": "1h",
       "signal": "WAIT",
       "score": 0,
-      "price": 98.43,
+      "price": 98.04,
       "entry": null,
       "sl": null,
       "tp": null,
       "rr": null,
-      "rsi": 54.8,
-      "volume_ratio": 0.17,
-      "close_time": 1794988799999,
+      "rsi": 52.3,
+      "volume_ratio": 0.13,
+      "close_time": 1794992399999,
       "reason": "Chưa đồng thuận xu hướng, động lượng, RSI và khối lượng",
-      "quote_volume_24h": 464989886.52110994,
-      "change_pct_24h": 2.015584415584404
+      "quote_volume_24h": 484813716.43833,
+      "change_pct_24h": 2.004339291249102
     },
     {
       "symbol": "ANTHROPICUSDT",
@@ -512,42 +512,42 @@
       "volume_ratio": 0.57,
       "close_time": 1794988799999,
       "reason": "Chưa đồng thuận xu hướng, động lượng, RSI và khối lượng",
-      "quote_volume_24h": 464989886.52110994,
-      "change_pct_24h": 2.015584415584404
+      "quote_volume_24h": 484813716.43833,
+      "change_pct_24h": 2.004339291249102
     },
     {
       "symbol": "XAUUSDT",
       "interval": "15m",
       "signal": "WAIT",
       "score": 0,
-      "price": 3774.9,
+      "price": 3785.2,
       "entry": null,
       "sl": null,
       "tp": null,
       "rr": null,
-      "rsi": 31.0,
-      "volume_ratio": 1.43,
-      "close_time": 1794991499999,
+      "rsi": 44.0,
+      "volume_ratio": 1.05,
+      "close_time": 1794994199999,
       "reason": "Chưa đồng thuận xu hướng, động lượng, RSI và khối lượng",
-      "quote_volume_24h": 416936264.2748,
-      "change_pct_24h": -2.618138671068926
+      "quote_volume_24h": 434630805.25869995,
+      "change_pct_24h": -2.150565394743642
     },
     {
       "symbol": "XAUUSDT",
       "interval": "1h",
       "signal": "WAIT",
       "score": 0,
-      "price": 3781.6,
+      "price": 3776.9,
       "entry": null,
       "sl": null,
       "tp": null,
       "rr": null,
-      "rsi": 23.3,
-      "volume_ratio": 1.93,
-      "close_time": 1794988799999,
+      "rsi": 22.3,
+      "volume_ratio": 2.18,
+      "close_time": 1794992399999,
       "reason": "Chưa đồng thuận xu hướng, động lượng, RSI và khối lượng",
-      "quote_volume_24h": 416936264.2748,
-      "change_pct_24h": -2.618138671068926
+      "quote_volume_24h": 434630805.25869995,
+      "change_pct_24h": -2.150565394743642
     },
     {
       "symbol": "XAUUSDT",
@@ -563,42 +563,42 @@
       "volume_ratio": 1.94,
       "close_time": 1794988799999,
       "reason": "Chưa đồng thuận xu hướng, động lượng, RSI và khối lượng",
-      "quote_volume_24h": 416936264.2748,
-      "change_pct_24h": -2.618138671068926
+      "quote_volume_24h": 434630805.25869995,
+      "change_pct_24h": -2.150565394743642
     },
     {
       "symbol": "MUUSDT",
       "interval": "15m",
       "signal": "WAIT",
       "score": 0,
-      "price": 738.16,
+      "price": 740.31,
       "entry": null,
       "sl": null,
       "tp": null,
       "rr": null,
-      "rsi": 57.1,
-      "volume_ratio": 0.39,
-      "close_time": 1794991499999,
+      "rsi": 58.9,
+      "volume_ratio": 0.75,
+      "close_time": 1794994199999,
       "reason": "Chưa đồng thuận xu hướng, động lượng, RSI và khối lượng",
-      "quote_volume_24h": 309808220.4945,
-      "change_pct_24h": 2.2255151783735716
+      "quote_volume_24h": 302044417.2288,
+      "change_pct_24h": 3.131950369986991
     },
     {
       "symbol": "MUUSDT",
       "interval": "1h",
       "signal": "WAIT",
       "score": 0,
-      "price": 742.32,
+      "price": 735.31,
       "entry": null,
       "sl": null,
       "tp": null,
       "rr": null,
-      "rsi": 58.6,
-      "volume_ratio": 0.26,
-      "close_time": 1794988799999,
+      "rsi": 54.4,
+      "volume_ratio": 0.47,
+      "close_time": 1794992399999,
       "reason": "Chưa đồng thuận xu hướng, động lượng, RSI và khối lượng",
-      "quote_volume_24h": 309808220.4945,
-      "change_pct_24h": 2.2255151783735716
+      "quote_volume_24h": 302044417.2288,
+      "change_pct_24h": 3.131950369986991
     },
     {
       "symbol": "MUUSDT",
@@ -614,42 +614,42 @@
       "volume_ratio": 0.89,
       "close_time": 1794988799999,
       "reason": "Chưa đồng thuận xu hướng, động lượng, RSI và khối lượng",
-      "quote_volume_24h": 309808220.4945,
-      "change_pct_24h": 2.2255151783735716
+      "quote_volume_24h": 302044417.2288,
+      "change_pct_24h": 3.131950369986991
     },
     {
       "symbol": "SKHYNIXUSDT",
       "interval": "15m",
       "signal": "WAIT",
       "score": 0,
-      "price": 866.7,
+      "price": 870.9,
       "entry": null,
       "sl": null,
       "tp": null,
       "rr": null,
-      "rsi": 56.2,
-      "volume_ratio": 0.32,
-      "close_time": 1794991499999,
+      "rsi": 59.6,
+      "volume_ratio": 0.69,
+      "close_time": 1794994199999,
       "reason": "Chưa đồng thuận xu hướng, động lượng, RSI và khối lượng",
-      "quote_volume_24h": 296850366.8078,
-      "change_pct_24h": 4.938869386272837
+      "quote_volume_24h": 294830789.5976,
+      "change_pct_24h": 6.118710307767472
     },
     {
       "symbol": "SKHYNIXUSDT",
       "interval": "1h",
       "signal": "WAIT",
       "score": 0,
-      "price": 867.7,
+      "price": 864.8,
       "entry": null,
       "sl": null,
       "tp": null,
       "rr": null,
-      "rsi": 59.7,
-      "volume_ratio": 0.42,
-      "close_time": 1794988799999,
+      "rsi": 58.1,
+      "volume_ratio": 0.41,
+      "close_time": 1794992399999,
       "reason": "Chưa đồng thuận xu hướng, động lượng, RSI và khối lượng",
-      "quote_volume_24h": 296850366.8078,
-      "change_pct_24h": 4.938869386272837
+      "quote_volume_24h": 294830789.5976,
+      "change_pct_24h": 6.118710307767472
     },
     {
       "symbol": "SKHYNIXUSDT",
@@ -665,42 +665,42 @@
       "volume_ratio": 1.33,
       "close_time": 1794988799999,
       "reason": "Chưa đồng thuận xu hướng, động lượng, RSI và khối lượng",
-      "quote_volume_24h": 296850366.8078,
-      "change_pct_24h": 4.938869386272837
+      "quote_volume_24h": 294830789.5976,
+      "change_pct_24h": 6.118710307767472
     },
     {
       "symbol": "XRPUSDT",
       "interval": "15m",
       "signal": "WAIT",
       "score": 0,
-      "price": 1.0008,
+      "price": 0.9978,
       "entry": null,
       "sl": null,
       "tp": null,
       "rr": null,
-      "rsi": 70.3,
-      "volume_ratio": 0.66,
-      "close_time": 1794991499999,
+      "rsi": 64.2,
+      "volume_ratio": 0.5,
+      "close_time": 1794994199999,
       "reason": "Chưa đồng thuận xu hướng, động lượng, RSI và khối lượng",
-      "quote_volume_24h": 283663116.7548,
-      "change_pct_24h": 4.585814269299071
+      "quote_volume_24h": 282998340.4192,
+      "change_pct_24h": 4.392386530014636
     },
     {
       "symbol": "XRPUSDT",
       "interval": "1h",
       "signal": "WAIT",
       "score": 0,
-      "price": 1.0014,
+      "price": 0.9989,
       "entry": null,
       "sl": null,
       "tp": null,
       "rr": null,
-      "rsi": 72.1,
-      "volume_ratio": 2.64,
-      "close_time": 1794988799999,
+      "rsi": 69.5,
+      "volume_ratio": 1.37,
+      "close_time": 1794992399999,
       "reason": "Chưa đồng thuận xu hướng, động lượng, RSI và khối lượng",
-      "quote_volume_24h": 283663116.7548,
-      "change_pct_24h": 4.585814269299071
+      "quote_volume_24h": 282998340.4192,
+      "change_pct_24h": 4.392386530014636
     },
     {
       "symbol": "XRPUSDT",
@@ -716,93 +716,42 @@
       "volume_ratio": 0.91,
       "close_time": 1794988799999,
       "reason": "Chưa đồng thuận xu hướng, động lượng, RSI và khối lượng",
-      "quote_volume_24h": 283663116.7548,
-      "change_pct_24h": 4.585814269299071
-    },
-    {
-      "symbol": "BREVUSDT",
-      "interval": "15m",
-      "signal": "WAIT",
-      "score": 0,
-      "price": 0.09794,
-      "entry": null,
-      "sl": null,
-      "tp": null,
-      "rr": null,
-      "rsi": 41.1,
-      "volume_ratio": 0.5,
-      "close_time": 1794991499999,
-      "reason": "Chưa đồng thuận xu hướng, động lượng, RSI và khối lượng",
-      "quote_volume_24h": 252980285.1994,
-      "change_pct_24h": 70.52778261626894
-    },
-    {
-      "symbol": "BREVUSDT",
-      "interval": "1h",
-      "signal": "WAIT",
-      "score": 0,
-      "price": 0.10222,
-      "entry": null,
-      "sl": null,
-      "tp": null,
-      "rr": null,
-      "rsi": 62.7,
-      "volume_ratio": 0.32,
-      "close_time": 1794988799999,
-      "reason": "Chưa đồng thuận xu hướng, động lượng, RSI và khối lượng",
-      "quote_volume_24h": 252980285.1994,
-      "change_pct_24h": 70.52778261626894
-    },
-    {
-      "symbol": "BREVUSDT",
-      "interval": "4h",
-      "signal": "WAIT",
-      "score": 0,
-      "price": 0.10222,
-      "entry": null,
-      "sl": null,
-      "tp": null,
-      "rr": null,
-      "rsi": 80.2,
-      "volume_ratio": 3.3,
-      "close_time": 1794988799999,
-      "reason": "Chưa đồng thuận xu hướng, động lượng, RSI và khối lượng",
-      "quote_volume_24h": 252980285.1994,
-      "change_pct_24h": 70.52778261626894
+      "quote_volume_24h": 282998340.4192,
+      "change_pct_24h": 4.392386530014636
     },
     {
       "symbol": "MMTUSDT",
       "interval": "15m",
       "signal": "WAIT",
       "score": 0,
-      "price": 0.2356,
+      "price": 0.2458,
       "entry": null,
       "sl": null,
       "tp": null,
       "rr": null,
-      "rsi": 80.3,
-      "volume_ratio": 0.57,
-      "close_time": 1794991499999,
+      "rsi": 81.1,
+      "volume_ratio": 1.19,
+      "close_time": 1794994199999,
       "reason": "Chưa đồng thuận xu hướng, động lượng, RSI và khối lượng",
-      "quote_volume_24h": 248384576.968,
-      "change_pct_24h": 107.7797202797203
+      "quote_volume_24h": 278879935.2,
+      "change_pct_24h": 113.33333333333333
     },
     {
       "symbol": "MMTUSDT",
       "interval": "1h",
       "signal": "WAIT",
       "score": 0,
-      "price": 0.234,
+      "price": 0.2427,
       "entry": null,
       "sl": null,
       "tp": null,
       "rr": null,
-      "rsi": 88.0,
-      "volume_ratio": 2.68,
-      "close_time": 1794988799999,
+      "rsi": 88.9,
+      "volume_ratio": 2.01,
+      "close_time": 1794992399999,
       "reason": "Chưa đồng thuận xu hướng, động lượng, RSI và khối lượng",
-      "quote_volume_24h": 248384576.968,
-      "change_pct_24h": 107.7797202797203
+      "quote_volume_24h": 278879935.2,
+      "change_pct_24h": 113.33333333333333
     },
     {
       "symbol": "MMTUSDT",
@@ -818,42 +767,93 @@
       "volume_ratio": 25.63,
       "close_time": 1794988799999,
       "reason": "Chưa đồng thuận xu hướng, động lượng, RSI và khối lượng",
-      "quote_volume_24h": 248384576.968,
-      "change_pct_24h": 107.7797202797203
+      "quote_volume_24h": 278879935.2,
+      "change_pct_24h": 113.33333333333333
+    },
+    {
+      "symbol": "BREVUSDT",
+      "interval": "15m",
+      "signal": "WAIT",
+      "score": 0,
+      "price": 0.09773,
+      "entry": null,
+      "sl": null,
+      "tp": null,
+      "rr": null,
+      "rsi": 42.5,
+      "volume_ratio": 0.45,
+      "close_time": 1794994199999,
+      "reason": "Chưa đồng thuận xu hướng, động lượng, RSI và khối lượng",
+      "quote_volume_24h": 255228235.6365,
+      "change_pct_24h": 67.65670868589189
+    },
+    {
+      "symbol": "BREVUSDT",
+      "interval": "1h",
+      "signal": "WAIT",
+      "score": 0,
+      "price": 0.10003,
+      "entry": null,
+      "sl": null,
+      "tp": null,
+      "rr": null,
+      "rsi": 59.2,
+      "volume_ratio": 0.49,
+      "close_time": 1794992399999,
+      "reason": "Chưa đồng thuận xu hướng, động lượng, RSI và khối lượng",
+      "quote_volume_24h": 255228235.6365,
+      "change_pct_24h": 67.65670868589189
+    },
+    {
+      "symbol": "BREVUSDT",
+      "interval": "4h",
+      "signal": "WAIT",
+      "score": 0,
+      "price": 0.10222,
+      "entry": null,
+      "sl": null,
+      "tp": null,
+      "rr": null,
+      "rsi": 80.2,
+      "volume_ratio": 3.3,
+      "close_time": 1794988799999,
+      "reason": "Chưa đồng thuận xu hướng, động lượng, RSI và khối lượng",
+      "quote_volume_24h": 255228235.6365,
+      "change_pct_24h": 67.65670868589189
     },
     {
       "symbol": "SOXSUSDT",
       "interval": "15m",
       "signal": "WAIT",
       "score": 0,
-      "price": 54.42,
+      "price": 53.87,
       "entry": null,
       "sl": null,
       "tp": null,
       "rr": null,
-      "rsi": 43.9,
-      "volume_ratio": 0.84,
-      "close_time": 1794991499999,
+      "rsi": 41.2,
+      "volume_ratio": 1.25,
+      "close_time": 1794994199999,
       "reason": "Chưa đồng thuận xu hướng, động lượng, RSI và khối lượng",
-      "quote_volume_24h": 216896092.822,
-      "change_pct_24h": -6.354399862235227
+      "quote_volume_24h": 208411075.242,
+      "change_pct_24h": -10.501904919662074
     },
     {
       "symbol": "SOXSUSDT",
       "interval": "1h",
       "signal": "WAIT",
       "score": 0,
-      "price": 53.64,
+      "price": 54.76,
       "entry": null,
       "sl": null,
       "tp": null,
       "rr": null,
-      "rsi": 40.6,
-      "volume_ratio": 0.31,
-      "close_time": 1794988799999,
+      "rsi": 44.4,
+      "volume_ratio": 0.46,
+      "close_time": 1794992399999,
       "reason": "Chưa đồng thuận xu hướng, động lượng, RSI và khối lượng",
-      "quote_volume_24h": 216896092.822,
-      "change_pct_24h": -6.354399862235227
+      "quote_volume_24h": 208411075.242,
+      "change_pct_24h": -10.501904919662074
     },
     {
       "symbol": "SOXSUSDT",
@@ -869,42 +869,42 @@
       "volume_ratio": 0.59,
       "close_time": 1794988799999,
       "reason": "Chưa đồng thuận xu hướng, động lượng, RSI và khối lượng",
-      "quote_volume_24h": 216896092.822,
-      "change_pct_24h": -6.354399862235227
+      "quote_volume_24h": 208411075.242,
+      "change_pct_24h": -10.501904919662074
     },
     {
       "symbol": "HYPEUSDT",
       "interval": "15m",
       "signal": "WAIT",
       "score": 0,
-      "price": 68.615,
+      "price": 68.815,
       "entry": null,
       "sl": null,
       "tp": null,
       "rr": null,
-      "rsi": 46.5,
-      "volume_ratio": 0.74,
-      "close_time": 1794991499999,
+      "rsi": 50.8,
+      "volume_ratio": 0.4,
+      "close_time": 1794994199999,
       "reason": "Chưa đồng thuận xu hướng, động lượng, RSI và khối lượng",
-      "quote_volume_24h": 186811958.5608,
-      "change_pct_24h": -0.6355318779315389
+      "quote_volume_24h": 181416395.85300002,
+      "change_pct_24h": 0.06690033304732612
     },
     {
       "symbol": "HYPEUSDT",
       "interval": "1h",
       "signal": "WAIT",
       "score": 0,
-      "price": 69.052,
+      "price": 68.488,
       "entry": null,
       "sl": null,
       "tp": null,
       "rr": null,
-      "rsi": 52.7,
-      "volume_ratio": 0.42,
-      "close_time": 1794988799999,
+      "rsi": 47.7,
+      "volume_ratio": 0.81,
+      "close_time": 1794992399999,
       "reason": "Chưa đồng thuận xu hướng, động lượng, RSI và khối lượng",
-      "quote_volume_24h": 186811958.5608,
-      "change_pct_24h": -0.6355318779315389
+      "quote_volume_24h": 181416395.85300002,
+      "change_pct_24h": 0.06690033304732612
     },
     {
       "symbol": "HYPEUSDT",
@@ -920,29 +920,46 @@
       "volume_ratio": 0.27,
       "close_time": 1794988799999,
       "reason": "Chưa đồng thuận xu hướng, động lượng, RSI và khối lượng",
-      "quote_volume_24h": 186811958.5608,
-      "change_pct_24h": -0.6355318779315389
+      "quote_volume_24h": 181416395.85300002,
+      "change_pct_24h": 0.06690033304732612
     },
     {
       "symbol": "KORUUSDT",
       "interval": "15m",
       "signal": "WAIT",
       "score": 0,
-      "price": 7.032,
+      "price": 7.092,
       "entry": null,
       "sl": null,
       "tp": null,
       "rr": null,
-      "rsi": 59.9,
-      "volume_ratio": 0.76,
-      "close_time": 1794991499999,
+      "rsi": 62.7,
+      "volume_ratio": 0.68,
+      "close_time": 1794994199999,
       "reason": "Chưa đồng thuận xu hướng, động lượng, RSI và khối lượng",
-      "quote_volume_24h": 180252328.38,
-      "change_pct_24h": 7.819687212511495
+      "quote_volume_24h": 179673409.2505,
+      "change_pct_24h": 10.000000000000009
     },
     {
       "symbol": "KORUUSDT",
       "interval": "1h",
+      "signal": "WAIT",
+      "score": 0,
+      "price": 6.997,
+      "entry": null,
+      "sl": null,
+      "tp": null,
+      "rr": null,
+      "rsi": 57.7,
+      "volume_ratio": 1.13,
+      "close_time": 1794992399999,
+      "reason": "Chưa đồng thuận xu hướng, động lượng, RSI và khối lượng",
+      "quote_volume_24h": 179673409.2505,
+      "change_pct_24h": 10.000000000000009
+    },
+    {
+      "symbol": "KORUUSDT",
+      "interval": "4h",
       "signal": "WAIT",
       "score": 0,
       "price": 7.055,
@@ -950,29 +967,46 @@
       "sl": null,
       "tp": null,
       "rr": null,
-      "rsi": 59.9,
-      "volume_ratio": 1.22,
+      "rsi": 50.3,
+      "volume_ratio": 1.56,
       "close_time": 1794988799999,
       "reason": "Chưa đồng thuận xu hướng, động lượng, RSI và khối lượng",
-      "quote_volume_24h": 180252328.38,
-      "change_pct_24h": 7.819687212511495
+      "quote_volume_24h": 179673409.2505,
+      "change_pct_24h": 10.000000000000009
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "interval": "15m",
+      "signal": "WAIT",
+      "score": 0,
+      "price": 0.05975,
+      "entry": null,
+      "sl": null,
+      "tp": null,
+      "rr": null,
+      "rsi": 59.5,
+      "volume_ratio": 0.48,
+      "close_time": 1794994199999,
+      "reason": "Chưa đồng thuận xu hướng, động lượng, RSI và khối lượng",
+      "quote_volume_24h": 163436113.88910002,
+      "change_pct_24h": 1.8433179723502224
     },
     {
       "symbol": "DOGEUSDT",
       "interval": "1h",
       "signal": "WAIT",
       "score": 0,
-      "price": 0.05973,
+      "price": 0.05964,
       "entry": null,
       "sl": null,
       "tp": null,
       "rr": null,
-      "rsi": 56.5,
-      "volume_ratio": 0.58,
-      "close_time": 1794988799999,
+      "rsi": 55.2,
+      "volume_ratio": 0.46,
+      "close_time": 1794992399999,
       "reason": "Chưa đồng thuận xu hướng, động lượng, RSI và khối lượng",
-      "quote_volume_24h": 167793277.30200002,
-      "change_pct_24h": 1.5651582170806533
+      "quote_volume_24h": 163436113.88910002,
+      "change_pct_24h": 1.8433179723502224
     },
     {
       "symbol": "DOGEUSDT",
@@ -988,42 +1022,42 @@
       "volume_ratio": 0.4,
       "close_time": 1794988799999,
       "reason": "Chưa đồng thuận xu hướng, động lượng, RSI và khối lượng",
-      "quote_volume_24h": 167793277.30200002,
-      "change_pct_24h": 1.5651582170806533
+      "quote_volume_24h": 163436113.88910002,
+      "change_pct_24h": 1.8433179723502224
     },
     {
       "symbol": "PEPEUSDT",
       "interval": "15m",
       "signal": "WAIT",
       "score": 0,
-      "price": 3.762e-06,
+      "price": 3.7532e-06,
       "entry": null,
       "sl": null,
       "tp": null,
       "rr": null,
-      "rsi": 46.1,
-      "volume_ratio": 0.7,
-      "close_time": 1794991499999,
+      "rsi": 43.7,
+      "volume_ratio": 0.75,
+      "close_time": 1794994199999,
       "reason": "Chưa đồng thuận xu hướng, động lượng, RSI và khối lượng",
-      "quote_volume_24h": 144317354.33200002,
-      "change_pct_24h": -2.272845207825236
+      "quote_volume_24h": 139158779.6324,
+      "change_pct_24h": -2.5968619083552302
     },
     {
       "symbol": "PEPEUSDT",
       "interval": "1h",
       "signal": "WAIT",
       "score": 0,
-      "price": 3.7745e-06,
+      "price": 3.7598e-06,
       "entry": null,
       "sl": null,
       "tp": null,
       "rr": null,
-      "rsi": 45.8,
-      "volume_ratio": 0.73,
-      "close_time": 1794988799999,
+      "rsi": 43.8,
+      "volume_ratio": 0.57,
+      "close_time": 1794992399999,
       "reason": "Chưa đồng thuận xu hướng, động lượng, RSI và khối lượng",
-      "quote_volume_24h": 144317354.33200002,
-      "change_pct_24h": -2.272845207825236
+      "quote_volume_24h": 139158779.6324,
+      "change_pct_24h": -2.5968619083552302
     },
     {
       "symbol": "PEPEUSDT",
@@ -1039,42 +1073,42 @@
       "volume_ratio": 0.6,
       "close_time": 1794988799999,
       "reason": "Chưa đồng thuận xu hướng, động lượng, RSI và khối lượng",
-      "quote_volume_24h": 144317354.33200002,
-      "change_pct_24h": -2.272845207825236
+      "quote_volume_24h": 139158779.6324,
+      "change_pct_24h": -2.5968619083552302
     },
     {
       "symbol": "SPCXUSDT",
       "interval": "15m",
       "signal": "WAIT",
       "score": 0,
-      "price": 142.95,
+      "price": 142.99,
       "entry": null,
       "sl": null,
       "tp": null,
       "rr": null,
       "rsi": 59.4,
-      "volume_ratio": 0.82,
-      "close_time": 1794991499999,
+      "volume_ratio": 1.46,
+      "close_time": 1794994199999,
       "reason": "Chưa đồng thuận xu hướng, động lượng, RSI và khối lượng",
-      "quote_volume_24h": 138253176.1905,
-      "change_pct_24h": 3.8126361655773433
+      "quote_volume_24h": 134170264.9109,
+      "change_pct_24h": 4.530815400380606
     },
     {
       "symbol": "SPCXUSDT",
       "interval": "1h",
       "signal": "WAIT",
       "score": 0,
-      "price": 143.12,
+      "price": 142.88,
       "entry": null,
       "sl": null,
       "tp": null,
       "rr": null,
-      "rsi": 64.0,
-      "volume_ratio": 0.24,
-      "close_time": 1794988799999,
+      "rsi": 62.0,
+      "volume_ratio": 0.2,
+      "close_time": 1794992399999,
       "reason": "Chưa đồng thuận xu hướng, động lượng, RSI và khối lượng",
-      "quote_volume_24h": 138253176.1905,
-      "change_pct_24h": 3.8126361655773433
+      "quote_volume_24h": 134170264.9109,
+      "change_pct_24h": 4.530815400380606
     },
     {
       "symbol": "SPCXUSDT",
@@ -1090,14 +1124,11 @@
       "volume_ratio": 0.21,
       "close_time": 1794988799999,
       "reason": "Chưa đồng thuận xu hướng, động lượng, RSI và khối lượng",
-      "quote_volume_24h": 138253176.1905,
-      "change_pct_24h": 3.8126361655773433
+      "quote_volume_24h": 134170264.9109,
+      "change_pct_24h": 4.530815400380606
     }
   ],
-  "errors": [
-    "OKX market API HTTP 429; keep last valid data",
-    "OKX market API HTTP 429; keep last valid data"
-  ],
+  "errors": [],
   "telegram_sent_this_run": 0,
   "disclaimer": "Rule-based technical analysis, not machine-learning AI or financial advice."
 }
