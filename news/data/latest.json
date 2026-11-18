@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T16:02:33Z",
+  "updated_at": "2026-11-18T17:09:22Z",
   "items": [
     {
       "title": "CoinShares sells all treasury ETH, halves SOL holdings for buybacks",
@@ -7,7 +7,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-18T13:42:37Z",
       "category": "ETF & tổ chức",
-      "priority": 14.81
+      "priority": 14.71
     },
     {
       "title": "Bullish beats revenue estimates as institutional services offset sluggish spot crypto volumes",
@@ -15,7 +15,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-18T12:41:09Z",
       "category": "ETF & tổ chức",
-      "priority": 14.72
+      "priority": 14.63
     },
     {
       "title": "AI Will Make the Next 12 Months 'a Slaughterhouse' for Crypto Security: Anchorage Exec",
@@ -23,7 +23,7 @@
       "source": "Decrypt",
       "published_at": "2026-11-18T12:10:27Z",
       "category": "Bảo mật",
-      "priority": 14.68
+      "priority": 14.58
     },
     {
       "title": "Bitwise seeks Texas Stock Exchange listing for Zcash ETF",
@@ -31,7 +31,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-18T10:33:07Z",
       "category": "ETF & tổ chức",
-      "priority": 14.54
+      "priority": 14.45
     },
     {
       "title": "Scattered Spider Hacker Sentenced to 6 Years Over $11.6M in Stolen Crypto",
@@ -39,7 +39,7 @@
       "source": "Decrypt",
       "published_at": "2026-11-18T10:17:17Z",
       "category": "Bảo mật",
-      "priority": 14.52
+      "priority": 14.43
     },
     {
       "title": "Live updates: Bitcoin falls below $63,000, with Strategy’s STRC hitting lowest since August",
@@ -47,7 +47,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-18T07:27:48Z",
       "category": "ETF & tổ chức",
-      "priority": 14.29
+      "priority": 14.19
     },
     {
       "title": "U.S. judge says Ethereum has ‘no terms of use,’ clears MIT brothers of $25 million fraud",
@@ -55,7 +55,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-18T05:30:10Z",
       "category": "Bảo mật",
-      "priority": 14.12
+      "priority": 14.03
     },
     {
       "title": "Fed’s Waller cites Binance hack in warning over tokenized finance",
@@ -63,7 +63,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-17T17:39:41Z",
       "category": "Bảo mật",
-      "priority": 13.13
+      "priority": 13.04
     },
     {
       "title": "Binance Hack Wallets Move $137 Million in Ethereum After Two Weeks of Silence",
@@ -71,7 +71,15 @@
       "source": "Decrypt",
       "published_at": "2026-11-17T17:18:41Z",
       "category": "Bảo mật",
-      "priority": 13.11
+      "priority": 13.01
+    },
+    {
+      "title": "Bitcoin, stocks wobble as Fed’s Waller talks of ‘shock’ 50-point rate hike",
+      "url": "https://cointelegraph.com/markets/bitcoin-stocks-wobble-waller-talks-shock-50-point-rate-hike?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-18T16:34:20Z",
+      "category": "Bitcoin",
+      "priority": 12.95
     },
     {
       "title": "German judge proposes dropping Movie2k case if operator hands over $2.56 billion in bitcoin",
@@ -79,7 +87,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-18T15:38:38Z",
       "category": "Bitcoin",
-      "priority": 12.97
+      "priority": 12.87
     },
     {
       "title": "Movie2K Defendant Could Hand Over 40,000 Bitcoin to End Trial—and Stay a Billionaire",
@@ -87,7 +95,7 @@
       "source": "Decrypt",
       "published_at": "2026-11-18T14:20:52Z",
       "category": "Bitcoin",
-      "priority": 12.86
+      "priority": 12.77
     },
     {
       "title": "Bitcoin Covenants Part 6: FE Covenants — Enforcing covenants through cryptographically restricted signing keys",
@@ -95,7 +103,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-18T14:04:50Z",
       "category": "Bitcoin",
-      "priority": 12.84
+      "priority": 12.74
     },
     {
       "title": "Bitcoin miner MARA raises $185 million in debt after selling $1 billion BTC to repay loans",
@@ -103,7 +111,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-18T12:53:34Z",
       "category": "Bitcoin",
-      "priority": 12.74
+      "priority": 12.64
     },
     {
       "title": "Blaming Anthropic’s IPO for bitcoin’s slide is 'easy to believe,' but flawed, analysts say",
@@ -111,7 +119,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-18T12:15:00Z",
       "category": "Bitcoin",
-      "priority": 12.68
+      "priority": 12.59
     },
     {
       "title": "Bitcoin drops as Nvidia earnings report drives stock index futures higher",
@@ -119,7 +127,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-18T11:42:52Z",
       "category": "Bitcoin",
-      "priority": 12.64
+      "priority": 12.55
     },
     {
       "title": "BlackRock’s Bitcoin ETF snaps $2.35B outflow streak amid extreme fear",
@@ -127,7 +135,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-17T11:18:18Z",
       "category": "ETF & tổ chức",
-      "priority": 12.61
+      "priority": 12.51
     },
     {
       "title": "Optimizely Hack Hijacked Ledger, BBC and 176 Other Sites to Swap Crypto Wallet Addresses",
@@ -135,15 +143,7 @@
       "source": "Decrypt",
       "published_at": "2026-11-17T11:05:25Z",
       "category": "Bảo mật",
-      "priority": 12.59
-    },
-    {
-      "title": "Bitcoin outpaces gold even as both assets tumble ahead of a likely Fed rate hike",
-      "url": "https://www.coindesk.com/markets/2026/11/18/bitcoin-outpaces-gold-even-as-both-assets-tumble-ahead-of-a-likely-fed-rate-hike",
-      "source": "CoinDesk",
-      "published_at": "2026-11-18T10:58:36Z",
-      "category": "Bitcoin",
-      "priority": 12.58
+      "priority": 12.49
     }
   ]
 }
