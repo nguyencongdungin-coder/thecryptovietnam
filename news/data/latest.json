@@ -1,13 +1,29 @@
 {
-  "updated_at": "2026-11-18T09:44:52Z",
+  "updated_at": "2026-11-18T10:46:26Z",
   "items": [
+    {
+      "title": "Bitwise seeks Texas Stock Exchange listing for Zcash ETF",
+      "url": "https://cointelegraph.com/news/bitwise-zcash-etf-texas-stock-exchange-listing?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-18T10:33:07Z",
+      "category": "ETF & tổ chức",
+      "priority": 14.98
+    },
+    {
+      "title": "Scattered Spider Hacker Sentenced to 6 Years Over $11.6M in Stolen Crypto",
+      "url": "https://decrypt.co/383522/scattered-spider-hacker-sentenced-to-6-years-over-11-6m-in-stolen-crypto",
+      "source": "Decrypt",
+      "published_at": "2026-11-18T10:17:17Z",
+      "category": "Bảo mật",
+      "priority": 14.96
+    },
     {
       "title": "U.S. judge says Ethereum has ‘no terms of use,’ clears MIT brothers of $25 million fraud",
       "url": "https://www.coindesk.com/policy/2026/11/18/u-s-judge-says-ethereum-has-no-terms-of-use-clears-mit-brothers-of-usd25-million-fraud",
       "source": "CoinDesk",
       "published_at": "2026-11-18T05:30:10Z",
       "category": "Bảo mật",
-      "priority": 14.65
+      "priority": 14.56
     },
     {
       "title": "Fed’s Waller cites Binance hack in warning over tokenized finance",
@@ -15,7 +31,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-17T17:39:41Z",
       "category": "Bảo mật",
-      "priority": 13.66
+      "priority": 13.57
     },
     {
       "title": "Binance Hack Wallets Move $137 Million in Ethereum After Two Weeks of Silence",
@@ -23,7 +39,7 @@
       "source": "Decrypt",
       "published_at": "2026-11-17T17:18:41Z",
       "category": "Bảo mật",
-      "priority": 13.63
+      "priority": 13.54
     },
     {
       "title": "Bitcoin remains penned in near $64,000 even as ETF outflow streak ends",
@@ -31,7 +47,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-17T11:36:07Z",
       "category": "ETF & tổ chức",
-      "priority": 13.15
+      "priority": 13.07
     },
     {
       "title": "New DeFi-yield generation targets ‘scam-like’ bank accounts that keep all the interest",
@@ -39,7 +55,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-17T11:25:58Z",
       "category": "Bảo mật",
-      "priority": 13.14
+      "priority": 13.05
     },
     {
       "title": "BlackRock’s Bitcoin ETF snaps $2.35B outflow streak amid extreme fear",
@@ -47,7 +63,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-17T11:18:18Z",
       "category": "ETF & tổ chức",
-      "priority": 13.13
+      "priority": 13.04
     },
     {
       "title": "Optimizely Hack Hijacked Ledger, BBC and 176 Other Sites to Swap Crypto Wallet Addresses",
@@ -55,7 +71,15 @@
       "source": "Decrypt",
       "published_at": "2026-11-17T11:05:25Z",
       "category": "Bảo mật",
-      "priority": 13.11
+      "priority": 13.03
+    },
+    {
+      "title": "Bitcoin steadies after Nvidia’s earnings beat as $60K bids stand out",
+      "url": "https://cointelegraph.com/markets/bitcoin-60k-liquidity-stocks-gain-nvidia-1158b-earnings-beat?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-18T10:31:20Z",
+      "category": "Bitcoin",
+      "priority": 12.98
     },
     {
       "title": "Bitcoin ETFs lose $240M as CryptoQuant flags bearish market phase",
@@ -63,7 +87,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-18T08:09:23Z",
       "category": "Bitcoin",
-      "priority": 12.87
+      "priority": 12.78
     },
     {
       "title": "Live updates: Bitcoin stuck near $65,000 as popular 'basis trade' returns dry up",
@@ -71,7 +95,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-18T07:27:48Z",
       "category": "Bitcoin",
-      "priority": 12.81
+      "priority": 12.72
     },
     {
       "title": "Bitcoin's 12% slide through key support looks scary, but history says give it 3 months.",
@@ -79,15 +103,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-18T04:34:21Z",
       "category": "Bitcoin",
-      "priority": 12.57
-    },
-    {
-      "title": "Binance hack may push institutions to outside custody, FalconX exec says",
-      "url": "https://cointelegraph.com/news/binance-hack-institutional-crypto-custody-falconx?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-16T22:19:41Z",
-      "category": "Bảo mật",
-      "priority": 12.05
+      "priority": 12.48
     },
     {
       "title": "Hackers Redirected Bitcoin Miner Rewards via AI Attack, Luxor CEO Says",
@@ -95,7 +111,7 @@
       "source": "Decrypt",
       "published_at": "2026-11-16T21:16:03Z",
       "category": "Bảo mật",
-      "priority": 11.96
+      "priority": 11.87
     },
     {
       "title": "Hyundai tests AI agent commerce on JPMorgan’s Kinexys blockchain",
@@ -103,7 +119,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-18T09:14:15Z",
       "category": "Altcoin & DeFi",
-      "priority": 11.96
+      "priority": 11.87
     },
     {
       "title": "SOL comes out of Breakpoint 7% higher as Solana exits beta",
@@ -111,7 +127,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-18T08:41:16Z",
       "category": "Altcoin & DeFi",
-      "priority": 11.91
+      "priority": 11.83
     },
     {
       "title": "Bitcoin Investors Are Capitulating—That’s Historically Been a Bottom Signal",
@@ -119,7 +135,7 @@
       "source": "Decrypt",
       "published_at": "2026-11-17T20:36:03Z",
       "category": "Bitcoin",
-      "priority": 11.9
+      "priority": 11.82
     },
     {
       "title": "Ethereum Devs Weigh a Scaling Upgrade That Could Break 15,000 Apps",
@@ -127,23 +143,7 @@
       "source": "Decrypt",
       "published_at": "2026-11-17T19:26:02Z",
       "category": "Ethereum",
-      "priority": 11.81
-    },
-    {
-      "title": "Saylor’s Strategy Keeps Buying Bitcoin, Adding 'A Little Orange' Through the Dip",
-      "url": "https://decrypt.co/383347/saylor-strategy-buying-bitcoin-adding-little-orange-dip",
-      "source": "Decrypt",
-      "published_at": "2026-11-16T17:20:26Z",
-      "category": "ETF & tổ chức",
-      "priority": 11.63
-    },
-    {
-      "title": "Bitcoin drops 2.5% as Nvidia stock risks new 5-month lows into Q3 earnings",
-      "url": "https://cointelegraph.com/markets/bitcoin-drops-25-nvidia-stock-risks-new-5-month-low-q3-earnings?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-17T16:39:43Z",
-      "category": "Bitcoin",
-      "priority": 11.58
+      "priority": 11.72
     }
   ]
 }
