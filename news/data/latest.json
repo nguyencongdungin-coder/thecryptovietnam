@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T10:44:30Z",
+  "updated_at": "2026-11-19T11:42:44Z",
   "items": [
     {
       "title": "Bitcoin Struggles to Hold $64,000 as ETF Outflows Hit $2.9B in November",
@@ -7,7 +7,7 @@
       "source": "Decrypt",
       "published_at": "2026-11-19T10:25:05Z",
       "category": "ETF & tổ chức",
-      "priority": 14.97
+      "priority": 14.89
     },
     {
       "title": "Bitcoin ETF assets fall to three-month low as 2026 net outflows top $2.5B",
@@ -15,7 +15,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-19T08:26:19Z",
       "category": "ETF & tổ chức",
-      "priority": 14.81
+      "priority": 14.73
     },
     {
       "title": "Ethereum block builders received the most in a $3.4 million vault hack, data shows",
@@ -23,7 +23,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-19T05:39:06Z",
       "category": "Bảo mật",
-      "priority": 14.58
+      "priority": 14.49
     },
     {
       "title": "Bitcoin carry trades could beat Treasury bills in 2027, Sygnum predicts",
@@ -31,7 +31,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-19T06:00:00Z",
       "category": "ETF & tổ chức",
-      "priority": 14.6
+      "priority": 14.52
     },
     {
       "title": "Binance hackers stole 192 tokens across 11 networks, court docs show",
@@ -39,7 +39,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-19T05:09:45Z",
       "category": "Pháp lý",
-      "priority": 14.54
+      "priority": 14.45
     },
     {
       "title": "Binance says it obtained $6.5B worldwide freezing order after hack",
@@ -47,7 +47,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-18T20:20:37Z",
       "category": "Bảo mật",
-      "priority": 13.8
+      "priority": 13.72
     },
     {
       "title": "CoinShares sells all treasury ETH, halves SOL holdings for buybacks",
@@ -55,7 +55,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-18T13:42:37Z",
       "category": "ETF & tổ chức",
-      "priority": 13.25
+      "priority": 13.17
     },
     {
       "title": "Bullish beats revenue estimates as institutional services offset sluggish spot crypto volumes",
@@ -63,7 +63,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-18T12:41:09Z",
       "category": "ETF & tổ chức",
-      "priority": 13.16
+      "priority": 13.08
     },
     {
       "title": "AI Will Make the Next 12 Months 'a Slaughterhouse' for Crypto Security: Anchorage Exec",
@@ -71,7 +71,23 @@
       "source": "Decrypt",
       "published_at": "2026-11-18T12:10:27Z",
       "category": "Bảo mật",
-      "priority": 13.12
+      "priority": 13.04
+    },
+    {
+      "title": "Sweden’s H100 could tap Bitcoin trading pool to fund share buybacks",
+      "url": "https://cointelegraph.com/news/swedens-h100-13m-q3-loss-share-buyback-approval?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-19T11:19:58Z",
+      "category": "Bitcoin",
+      "priority": 12.97
+    },
+    {
+      "title": "Live updates: Bitcoin nears $64,000 as Anthropic’s record IPO lifts tech",
+      "url": "https://www.coindesk.com/markets/2026/11/19/live-updates-bitcoin-nears-usd64-000-as-anthropic-s-record-ipo-lifts-tech",
+      "source": "CoinDesk",
+      "published_at": "2026-11-19T10:48:26Z",
+      "category": "Bitcoin",
+      "priority": 12.92
     },
     {
       "title": "Bitwise seeks Texas Stock Exchange listing for Zcash ETF",
@@ -79,7 +95,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-18T10:33:07Z",
       "category": "ETF & tổ chức",
-      "priority": 12.98
+      "priority": 12.9
     },
     {
       "title": "Scattered Spider Hacker Sentenced to 6 Years Over $11.6M in Stolen Crypto",
@@ -87,7 +103,7 @@
       "source": "Decrypt",
       "published_at": "2026-11-18T10:17:17Z",
       "category": "Bảo mật",
-      "priority": 12.96
+      "priority": 12.88
     },
     {
       "title": "Bitcoin retests $62K as Nasdaq futures rise ahead of Anthropic debut",
@@ -95,15 +111,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-19T07:55:56Z",
       "category": "Bitcoin",
-      "priority": 12.77
-    },
-    {
-      "title": "U.S. judge says Ethereum has ‘no terms of use,’ clears MIT brothers of $25 million fraud",
-      "url": "https://www.coindesk.com/policy/2026/11/18/u-s-judge-says-ethereum-has-no-terms-of-use-clears-mit-brothers-of-usd25-million-fraud",
-      "source": "CoinDesk",
-      "published_at": "2026-11-18T05:30:10Z",
-      "category": "Bảo mật",
-      "priority": 12.56
+      "priority": 12.68
     },
     {
       "title": "Bitcoin miner that sold its last BTC warns it may run short of cash for $1.2 billion AI deal",
@@ -111,7 +119,15 @@
       "source": "CoinDesk",
       "published_at": "2026-11-19T04:46:10Z",
       "category": "Bitcoin",
-      "priority": 12.5
+      "priority": 12.42
+    },
+    {
+      "title": "North Korean hackers used Sky's stablecoin system, putting billions at freeze risk",
+      "url": "https://www.coindesk.com/business/2026/11/19/north-korean-hackers-used-sky-s-stablecoin-system-putting-billions-at-freeze-risk",
+      "source": "CoinDesk",
+      "published_at": "2026-11-19T11:30:00Z",
+      "category": "Altcoin & DeFi",
+      "priority": 11.98
     },
     {
       "title": "Roundhill scraps Solana and XRP income ETFs as rival funds indicate low demand",
@@ -119,7 +135,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-19T10:22:12Z",
       "category": "Altcoin & DeFi",
-      "priority": 11.97
+      "priority": 11.89
     },
     {
       "title": "Ledger Confirms Tampered Bitcoin Wallets in Berlin as Spy Implant Probe Spreads Beyond Asia",
@@ -127,23 +143,7 @@
       "source": "Decrypt",
       "published_at": "2026-11-18T22:16:02Z",
       "category": "Bitcoin",
-      "priority": 11.96
-    },
-    {
-      "title": "Why CoinShares Just Sold All Its Ethereum and Half Its Solana",
-      "url": "https://decrypt.co/383570/why-coinshares-just-sold-all-ethereum-half-solana",
-      "source": "Decrypt",
-      "published_at": "2026-11-18T19:46:02Z",
-      "category": "Ethereum",
-      "priority": 11.75
-    },
-    {
-      "title": "Bitcoin Tanks Ahead of Anthropic’s IPO. Should We Really Blame AI?",
-      "url": "https://decrypt.co/383551/bitcoin-tanks-ahead-anthropics-ipo-should-we-really-blame-ai",
-      "source": "Decrypt",
-      "published_at": "2026-11-18T19:16:02Z",
-      "category": "Bitcoin",
-      "priority": 11.71
+      "priority": 11.88
     }
   ]
 }
