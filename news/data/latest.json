@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T15:58:59Z",
+  "updated_at": "2026-11-20T17:00:21Z",
   "items": [
     {
       "title": "Binance hacker moves nearly $600M in ETH, routes funds through THORChain, Chainflip",
@@ -7,7 +7,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-20T11:31:41Z",
       "category": "Bảo mật",
-      "priority": 14.63
+      "priority": 14.54
     },
     {
       "title": "No special rules for Hyperliquid or other onchain trading platforms, CFTC says",
@@ -15,15 +15,15 @@
       "source": "CoinDesk",
       "published_at": "2026-11-20T10:02:03Z",
       "category": "Pháp lý",
-      "priority": 14.5
+      "priority": 14.42
     },
     {
-      "title": "Binance Wins $6.5B Freezing Order Over Hack That Can Be Served via the Blockchain",
-      "url": "https://decrypt.co/383608/binance-wins-6-5b-freezing-order-over-hack-that-can-be-served-via-the-blockchain",
+      "title": "Bitcoin Breaks Below $60K as Crypto Fear Index Hits Worst Level Since February",
+      "url": "https://decrypt.co/383702/bitcoin-breaks-below-60k-crypto-fear-greed-index-lowest",
       "source": "Decrypt",
-      "published_at": "2026-11-19T12:59:14Z",
-      "category": "Bảo mật",
-      "priority": 12.75
+      "published_at": "2026-11-20T16:35:59Z",
+      "category": "Bitcoin",
+      "priority": 12.97
     },
     {
       "title": "VanEck to end Gemini ETF custody deals, keeps Coinbase",
@@ -31,7 +31,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-20T10:54:38Z",
       "category": "ETF & tổ chức",
-      "priority": 14.58
+      "priority": 14.49
     },
     {
       "title": "SEC charges 8 firms over fake crypto platforms tied to $37M fraud",
@@ -39,7 +39,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-20T08:03:34Z",
       "category": "Pháp lý",
-      "priority": 14.34
+      "priority": 14.25
     },
     {
       "title": "Why higher rates could slow Bitcoin buying at treasury firms",
@@ -47,7 +47,15 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-19T18:09:32Z",
       "category": "ETF & tổ chức",
-      "priority": 13.18
+      "priority": 13.1
+    },
+    {
+      "title": "Bitcoin falls below $60K for first time since July amid broader market selloff",
+      "url": "https://cointelegraph.com/markets/bitcoin-falls-below-60k-for-first-time-since-july-amid-broader-market-selloff?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-20T16:55:51Z",
+      "category": "Bitcoin",
+      "priority": 12.99
     },
     {
       "title": "Crypto for Advisors: Falling prices drove October’s 10% drop in institutional crypto exposure",
@@ -55,7 +63,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-19T16:09:28Z",
       "category": "ETF & tổ chức",
-      "priority": 13.01
+      "priority": 12.93
     },
     {
       "title": "Bitcoin price drops to $60K as Anthropic drops to $87 in tech sell-off",
@@ -63,15 +71,15 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-20T15:52:06Z",
       "category": "Bitcoin",
-      "priority": 12.99
+      "priority": 12.91
     },
     {
-      "title": "Live news: Bitcoin slips to fresh lows near $60,000 as Anthropic slides after Nasdaq debut",
+      "title": "Live news: Bitcoin slips to fresh lows below $60,000 as Anthropic slides after Nasdaq debut",
       "url": "https://www.coindesk.com/tech/2026/11/20/live-news-bitcoin-hovers-just-above-usd61-000-as-anthropic-slides-13-after-nasdaq-debut",
       "source": "CoinDesk",
       "published_at": "2026-11-20T13:35:33Z",
       "category": "Bitcoin",
-      "priority": 12.8
+      "priority": 12.72
     },
     {
       "title": "Ethereum’s new DeFi security tool raises questions over censorship",
@@ -79,7 +87,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-19T13:30:00Z",
       "category": "Bảo mật",
-      "priority": 12.79
+      "priority": 12.71
     },
     {
       "title": "Bitcoin bots pounced within seconds when researchers exposed their wallet keys",
@@ -87,7 +95,15 @@
       "source": "CoinDesk",
       "published_at": "2026-11-20T13:30:22Z",
       "category": "Bitcoin",
-      "priority": 12.79
+      "priority": 12.71
+    },
+    {
+      "title": "Binance Wins $6.5B Freezing Order Over Hack That Can Be Served via the Blockchain",
+      "url": "https://decrypt.co/383608/binance-wins-6-5b-freezing-order-over-hack-that-can-be-served-via-the-blockchain",
+      "source": "Decrypt",
+      "published_at": "2026-11-19T12:59:14Z",
+      "category": "Bảo mật",
+      "priority": 12.67
     },
     {
       "title": "Bitcoin, stocks and gold traders getting nervous, and volatility gauges are surging",
@@ -95,7 +111,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-20T12:15:08Z",
       "category": "Bitcoin",
-      "priority": 12.69
+      "priority": 12.6
     },
     {
       "title": "Bitcoin ETFs Shed $582M in a Day as BTC Drops Below $62K",
@@ -103,7 +119,7 @@
       "source": "Decrypt",
       "published_at": "2026-11-20T11:50:51Z",
       "category": "Bitcoin",
-      "priority": 12.66
+      "priority": 12.57
     },
     {
       "title": "Bitcoin drops for third straight day as Asian tech shares slide",
@@ -111,15 +127,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-20T11:42:02Z",
       "category": "Bitcoin",
-      "priority": 12.64
-    },
-    {
-      "title": "Bitcoin Struggles to Hold $64,000 as ETF Outflows Hit $2.9B in November",
-      "url": "https://decrypt.co/383597/bitcoin-struggles-to-hold-64000-as-etf-outflows-hit-2-9b-in-november",
-      "source": "Decrypt",
-      "published_at": "2026-11-19T10:25:05Z",
-      "category": "ETF & tổ chức",
-      "priority": 12.54
+      "priority": 12.56
     },
     {
       "title": "Bitcoin nears repeat of chart pattern that preceded 2023’s $25K retest",
@@ -127,23 +135,15 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-20T10:29:10Z",
       "category": "Bitcoin",
-      "priority": 12.54
+      "priority": 12.46
     },
     {
-      "title": "Bitcoin ETF assets fall to three-month low as 2026 net outflows top $2.5B",
-      "url": "https://cointelegraph.com/markets/bitcoin-etf-assets-three-month-low-78-billion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-19T08:26:19Z",
+      "title": "Bitcoin Struggles to Hold $64,000 as ETF Outflows Hit $2.9B in November",
+      "url": "https://decrypt.co/383597/bitcoin-struggles-to-hold-64000-as-etf-outflows-hit-2-9b-in-november",
+      "source": "Decrypt",
+      "published_at": "2026-11-19T10:25:05Z",
       "category": "ETF & tổ chức",
-      "priority": 12.37
-    },
-    {
-      "title": "Here's what's crashing gold and likely weighing on bitcoin too",
-      "url": "https://www.coindesk.com/markets/2026/11/20/here-s-what-s-crashing-gold-and-likely-weighing-on-bitcoin-too",
-      "source": "CoinDesk",
-      "published_at": "2026-11-20T06:12:15Z",
-      "category": "Bitcoin",
-      "priority": 12.19
+      "priority": 12.45
     }
   ]
 }
