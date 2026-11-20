@@ -1,21 +1,21 @@
 {
-  "updated_at": "2026-11-20T19:00:15Z",
+  "updated_at": "2026-11-20T20:02:33Z",
   "items": [
+    {
+      "title": "Wrapped Monero token crashes 99.8% amid suspected $13.5M exploit",
+      "url": "https://cointelegraph.com/news/wrapped-monero-token-crashes-998-amid-suspected-135m-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-20T19:37:27Z",
+      "category": "Bảo mật",
+      "priority": 14.97
+    },
     {
       "title": "Wrapped Monero Token Collapses 99% After $13 Million Hack Blamed on Web Host",
       "url": "https://decrypt.co/383732/wrapped-monero-token-collapses-99-after-13-million-hack-blamed-on-web-host",
       "source": "Decrypt",
       "published_at": "2026-11-20T17:41:45Z",
       "category": "Bảo mật",
-      "priority": 14.89
-    },
-    {
-      "title": "Binance hacker moves nearly $600M in ETH, routes funds through THORChain, Chainflip",
-      "url": "https://cointelegraph.com/news/binance-hacker-600m-eth-routes-thorchain-chainflip?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-20T11:31:41Z",
-      "category": "Bảo mật",
-      "priority": 14.38
+      "priority": 14.8
     },
     {
       "title": "No special rules for Hyperliquid or other onchain trading platforms, CFTC says",
@@ -23,7 +23,15 @@
       "source": "CoinDesk",
       "published_at": "2026-11-20T10:02:03Z",
       "category": "Pháp lý",
-      "priority": 14.25
+      "priority": 14.17
+    },
+    {
+      "title": "Binance hacker moves nearly $600M in ETH, routes funds through THORChain, Chainflip",
+      "url": "https://cointelegraph.com/news/binance-hacker-600m-eth-routes-thorchain-chainflip?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-20T11:31:41Z",
+      "category": "Bảo mật",
+      "priority": 14.29
     },
     {
       "title": "VanEck to end Gemini ETF custody deals, keeps Coinbase",
@@ -31,7 +39,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-20T10:54:38Z",
       "category": "ETF & tổ chức",
-      "priority": 14.33
+      "priority": 14.24
     },
     {
       "title": "SEC charges 8 firms over fake crypto platforms tied to $37M fraud",
@@ -39,7 +47,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-20T08:03:34Z",
       "category": "Pháp lý",
-      "priority": 14.09
+      "priority": 14.0
     },
     {
       "title": "Bitcoin plunges below $59,000 as rush to cash puts new bear market lows back in play",
@@ -47,7 +55,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-20T18:13:52Z",
       "category": "Bitcoin",
-      "priority": 12.94
+      "priority": 12.85
     },
     {
       "title": "Why higher rates could slow Bitcoin buying at treasury firms",
@@ -55,7 +63,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-19T18:09:32Z",
       "category": "ETF & tổ chức",
-      "priority": 12.93
+      "priority": 12.84
     },
     {
       "title": "Bitcoin falls below $60K for first time since July amid broader market selloff",
@@ -63,7 +71,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-20T16:55:51Z",
       "category": "Bitcoin",
-      "priority": 12.83
+      "priority": 12.74
     },
     {
       "title": "Bitcoin Breaks Below $60K as Crypto Fear Index Hits Worst Level Since February",
@@ -71,7 +79,7 @@
       "source": "Decrypt",
       "published_at": "2026-11-20T16:35:59Z",
       "category": "Bitcoin",
-      "priority": 12.8
+      "priority": 12.71
     },
     {
       "title": "Crypto for Advisors: Falling prices drove October’s 10% drop in institutional crypto exposure",
@@ -79,7 +87,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-19T16:09:28Z",
       "category": "ETF & tổ chức",
-      "priority": 12.76
+      "priority": 12.68
     },
     {
       "title": "Bitcoin price drops to $60K as Anthropic drops to $87 in tech sell-off",
@@ -87,23 +95,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-20T15:52:06Z",
       "category": "Bitcoin",
-      "priority": 12.74
-    },
-    {
-      "title": "Live news: Bitcoin slips to fresh lows below $60,000 as Anthropic slides after Nasdaq debut",
-      "url": "https://www.coindesk.com/tech/2026/11/20/live-news-bitcoin-hovers-just-above-usd61-000-as-anthropic-slides-13-after-nasdaq-debut",
-      "source": "CoinDesk",
-      "published_at": "2026-11-20T13:35:33Z",
-      "category": "Bitcoin",
-      "priority": 12.55
-    },
-    {
-      "title": "Ethereum’s new DeFi security tool raises questions over censorship",
-      "url": "https://cointelegraph.com/magazine/ethereums-new-defi-security-tool-raises-questions-over-censorship?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-19T13:30:00Z",
-      "category": "Bảo mật",
-      "priority": 12.54
+      "priority": 12.65
     },
     {
       "title": "Bitcoin bots pounced within seconds when researchers exposed their wallet keys",
@@ -111,7 +103,23 @@
       "source": "CoinDesk",
       "published_at": "2026-11-20T13:30:22Z",
       "category": "Bitcoin",
-      "priority": 12.54
+      "priority": 12.46
+    },
+    {
+      "title": "Live news: Bitcoin slips to fresh lows below $60,000 as Anthropic slides after Nasdaq debut",
+      "url": "https://www.coindesk.com/tech/2026/11/20/live-news-bitcoin-hovers-just-above-usd61-000-as-anthropic-slides-13-after-nasdaq-debut",
+      "source": "CoinDesk",
+      "published_at": "2026-11-20T13:35:33Z",
+      "category": "Bitcoin",
+      "priority": 12.46
+    },
+    {
+      "title": "Ethereum’s new DeFi security tool raises questions over censorship",
+      "url": "https://cointelegraph.com/magazine/ethereums-new-defi-security-tool-raises-questions-over-censorship?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-19T13:30:00Z",
+      "category": "Bảo mật",
+      "priority": 12.45
     },
     {
       "title": "Binance Wins $6.5B Freezing Order Over Hack That Can Be Served via the Blockchain",
@@ -119,7 +127,7 @@
       "source": "Decrypt",
       "published_at": "2026-11-19T12:59:14Z",
       "category": "Bảo mật",
-      "priority": 12.5
+      "priority": 12.41
     },
     {
       "title": "Bitcoin, stocks and gold traders getting nervous, and volatility gauges are surging",
@@ -127,7 +135,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-20T12:15:08Z",
       "category": "Bitcoin",
-      "priority": 12.44
+      "priority": 12.35
     },
     {
       "title": "Bitcoin ETFs Shed $582M in a Day as BTC Drops Below $62K",
@@ -135,15 +143,7 @@
       "source": "Decrypt",
       "published_at": "2026-11-20T11:50:51Z",
       "category": "Bitcoin",
-      "priority": 12.4
-    },
-    {
-      "title": "Bitcoin drops for third straight day as Asian tech shares slide",
-      "url": "https://www.coindesk.com/markets/2026/11/20/bitcoin-drops-for-third-straight-day-as-asian-tech-shares-slide",
-      "source": "CoinDesk",
-      "published_at": "2026-11-20T11:42:02Z",
-      "category": "Bitcoin",
-      "priority": 12.39
+      "priority": 12.32
     }
   ]
 }
