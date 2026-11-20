@@ -1,11 +1,11 @@
 {
-  "generated_at": 1795138859545,
+  "generated_at": 1795142353805,
   "sample": [
     {
       "symbol": "BTCUSDT",
       "interval": "1h",
-      "from": 1794060000000,
-      "to": 1795136399999,
+      "from": 1794063600000,
+      "to": 1795139999999,
       "assumptions": {
         "fee_bps_each_side": 5,
         "slippage_bps_each_side": 2,
@@ -13,15 +13,15 @@
       },
       "trades": 4,
       "win_rate": 50.0,
-      "average_return_pct": -0.031,
-      "total_compounded_pct": -0.17,
+      "average_return_pct": 0.197,
+      "total_compounded_pct": 0.73,
       "max_drawdown_pct": -2.98,
       "sample": [
         {
           "time": 1794823199999,
           "side": "SHORT",
           "entry": 64291.83906,
-          "exit": 65200.53121603,
+          "exit": 65200.53128918,
           "return_pct": -1.513,
           "exit_reason": "SL"
         },
@@ -29,7 +29,7 @@
           "time": 1794931199999,
           "side": "SHORT",
           "entry": 64068.88366,
-          "exit": 64958.26179446,
+          "exit": 64958.26180238,
           "return_pct": -1.488,
           "exit_reason": "SL"
         },
@@ -37,7 +37,7 @@
           "time": 1795006799999,
           "side": "SHORT",
           "entry": 64038.28978,
-          "exit": 62686.22685907,
+          "exit": 62686.22685573,
           "return_pct": 2.011,
           "exit_reason": "TP"
         },
@@ -45,8 +45,8 @@
           "time": 1795107599999,
           "side": "SHORT",
           "entry": 62737.64996,
-          "exit": 62132.424,
-          "return_pct": 0.865,
+          "exit": 61559.50944,
+          "return_pct": 1.778,
           "exit_reason": "TIME"
         }
       ],
@@ -55,8 +55,8 @@
     {
       "symbol": "ETHUSDT",
       "interval": "1h",
-      "from": 1794060000000,
-      "to": 1795136399999,
+      "from": 1794063600000,
+      "to": 1795139999999,
       "assumptions": {
         "fee_bps_each_side": 5,
         "slippage_bps_each_side": 2,
@@ -64,15 +64,15 @@
       },
       "trades": 4,
       "win_rate": 75.0,
-      "average_return_pct": 0.982,
-      "total_compounded_pct": 3.91,
+      "average_return_pct": 1.294,
+      "total_compounded_pct": 5.21,
       "max_drawdown_pct": -1.84,
       "sample": [
         {
           "time": 1794823199999,
           "side": "SHORT",
           "entry": 1796.500628,
-          "exit": 1827.78322962,
+          "exit": 1827.78323226,
           "return_pct": -1.841,
           "exit_reason": "SL"
         },
@@ -80,7 +80,7 @@
           "time": 1794909599999,
           "side": "SHORT",
           "entry": 1810.827762,
-          "exit": 1759.93239037,
+          "exit": 1759.93238948,
           "return_pct": 2.711,
           "exit_reason": "TP"
         },
@@ -88,7 +88,7 @@
           "time": 1795006799999,
           "side": "SHORT",
           "entry": 1793.99113,
-          "exit": 1745.51124913,
+          "exit": 1745.51124901,
           "return_pct": 2.602,
           "exit_reason": "TP"
         },
@@ -96,8 +96,8 @@
           "time": 1795107599999,
           "side": "SHORT",
           "entry": 1767.056518,
-          "exit": 1757.261382,
-          "return_pct": 0.454,
+          "exit": 1735.186968,
+          "return_pct": 1.704,
           "exit_reason": "TIME"
         }
       ],
@@ -106,8 +106,8 @@
     {
       "symbol": "SOXLUSDT",
       "interval": "1h",
-      "from": 1794060000000,
-      "to": 1795136399999,
+      "from": 1794063600000,
+      "to": 1795139999999,
       "assumptions": {
         "fee_bps_each_side": 5,
         "slippage_bps_each_side": 2,
@@ -131,7 +131,7 @@
           "time": 1794801599999,
           "side": "SHORT",
           "entry": 54.479102,
-          "exit": 49.98370098,
+          "exit": 49.98370097,
           "return_pct": 8.152,
           "exit_reason": "TP"
         },
@@ -147,10 +147,37 @@
       "note": "Kiểm định lịch sử gần đây, không phải kết quả giao dịch thật; chưa tính funding/liquidation, không có ý nghĩa dự báo chắc chắn."
     },
     {
+      "symbol": "XAUUSDT",
+      "interval": "1h",
+      "from": 1794063600000,
+      "to": 1795139999999,
+      "assumptions": {
+        "fee_bps_each_side": 5,
+        "slippage_bps_each_side": 2,
+        "funding_included": false
+      },
+      "trades": 1,
+      "win_rate": 0.0,
+      "average_return_pct": -0.849,
+      "total_compounded_pct": -0.85,
+      "max_drawdown_pct": -0.85,
+      "sample": [
+        {
+          "time": 1794812399999,
+          "side": "SHORT",
+          "entry": 3855.82868,
+          "exit": 3884.69411369,
+          "return_pct": -0.849,
+          "exit_reason": "SL"
+        }
+      ],
+      "note": "Kiểm định lịch sử gần đây, không phải kết quả giao dịch thật; chưa tính funding/liquidation, không có ý nghĩa dự báo chắc chắn."
+    },
+    {
       "symbol": "ZECUSDT",
       "interval": "1h",
-      "from": 1794060000000,
-      "to": 1795136399999,
+      "from": 1794063600000,
+      "to": 1795139999999,
       "assumptions": {
         "fee_bps_each_side": 5,
         "slippage_bps_each_side": 2,
@@ -177,33 +204,6 @@
           "exit": 862.812528,
           "return_pct": 1.988,
           "exit_reason": "TIME"
-        }
-      ],
-      "note": "Kiểm định lịch sử gần đây, không phải kết quả giao dịch thật; chưa tính funding/liquidation, không có ý nghĩa dự báo chắc chắn."
-    },
-    {
-      "symbol": "XAUUSDT",
-      "interval": "1h",
-      "from": 1794060000000,
-      "to": 1795136399999,
-      "assumptions": {
-        "fee_bps_each_side": 5,
-        "slippage_bps_each_side": 2,
-        "funding_included": false
-      },
-      "trades": 1,
-      "win_rate": 0.0,
-      "average_return_pct": -0.849,
-      "total_compounded_pct": -0.85,
-      "max_drawdown_pct": -0.85,
-      "sample": [
-        {
-          "time": 1794812399999,
-          "side": "SHORT",
-          "entry": 3855.82868,
-          "exit": 3884.69411275,
-          "return_pct": -0.849,
-          "exit_reason": "SL"
         }
       ],
       "note": "Kiểm định lịch sử gần đây, không phải kết quả giao dịch thật; chưa tính funding/liquidation, không có ý nghĩa dự báo chắc chắn."
