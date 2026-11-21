@@ -1,13 +1,21 @@
 {
-  "updated_at": "2026-11-21T16:23:04Z",
+  "updated_at": "2026-11-21T17:22:05Z",
   "items": [
+    {
+      "title": "Fraudsters Used Fake Crypto Exchanges to Steal $37 Million, SEC Alleges",
+      "url": "https://decrypt.co/383752/fraudsters-fake-crypto-exchanges-steal-37-million-sec",
+      "source": "Decrypt",
+      "published_at": "2026-11-21T17:01:02Z",
+      "category": "Pháp lý",
+      "priority": 14.97
+    },
     {
       "title": "Ether treasury firm BTCS warns SEC its $54 million Aave loan could be liquidated",
       "url": "https://www.coindesk.com/markets/2026/11/21/ether-treasury-firm-btcs-warns-sec-its-usd54-million-aave-loan-could-be-liquidated",
       "source": "CoinDesk",
       "published_at": "2026-11-21T12:30:00Z",
       "category": "Pháp lý",
-      "priority": 14.68
+      "priority": 14.59
     },
     {
       "title": "Wrapped Monero token crashes 99.8% amid suspected $13.5M exploit",
@@ -15,15 +23,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-20T19:37:27Z",
       "category": "Bảo mật",
-      "priority": 13.27
-    },
-    {
-      "title": "Wrapped Monero Token Collapses 99% After $13 Million Hack Blamed on Web Host",
-      "url": "https://decrypt.co/383732/wrapped-monero-token-collapses-99-after-13-million-hack-blamed-on-web-host",
-      "source": "Decrypt",
-      "published_at": "2026-11-20T17:41:45Z",
-      "category": "Bảo mật",
-      "priority": 13.11
+      "priority": 13.19
     },
     {
       "title": "XRP falls 10% as long bets unwind and ETF assets slip below $1 billion",
@@ -31,7 +31,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-21T05:59:19Z",
       "category": "ETF & tổ chức",
-      "priority": 14.13
+      "priority": 14.05
     },
     {
       "title": "Fairmint plans tokenized stock venue on Canton, Ethereum under SEC experiment",
@@ -39,7 +39,15 @@
       "source": "CoinDesk",
       "published_at": "2026-11-20T22:05:31Z",
       "category": "Pháp lý",
-      "priority": 13.48
+      "priority": 13.39
+    },
+    {
+      "title": "Wrapped Monero Token Collapses 99% After $13 Million Hack Blamed on Web Host",
+      "url": "https://decrypt.co/383732/wrapped-monero-token-collapses-99-after-13-million-hack-blamed-on-web-host",
+      "source": "Decrypt",
+      "published_at": "2026-11-20T17:41:45Z",
+      "category": "Bảo mật",
+      "priority": 13.03
     },
     {
       "title": "Binance hacker moves nearly $600M in ETH, routes funds through THORChain, Chainflip",
@@ -47,7 +55,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-20T11:31:41Z",
       "category": "Bảo mật",
-      "priority": 12.6
+      "priority": 12.51
     },
     {
       "title": "VanEck to end Gemini ETF custody deals, keeps Coinbase",
@@ -55,7 +63,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-20T10:54:38Z",
       "category": "ETF & tổ chức",
-      "priority": 12.54
+      "priority": 12.46
     },
     {
       "title": "No special rules for Hyperliquid or other onchain trading platforms, CFTC says",
@@ -63,7 +71,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-20T10:02:03Z",
       "category": "Pháp lý",
-      "priority": 12.47
+      "priority": 12.39
     },
     {
       "title": "SEC charges 8 firms over fake crypto platforms tied to $37M fraud",
@@ -71,7 +79,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-20T08:03:34Z",
       "category": "Pháp lý",
-      "priority": 12.31
+      "priority": 12.22
     },
     {
       "title": "Bitcoin nodes could be stalled by repeating one ID 50,000 times. AI found the bug",
@@ -79,7 +87,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-21T06:16:42Z",
       "category": "Bitcoin",
-      "priority": 12.16
+      "priority": 12.08
     },
     {
       "title": "Bitcoin tanks below $57,000 for the first time in two years, and its not alone",
@@ -87,7 +95,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-21T04:10:07Z",
       "category": "Bitcoin",
-      "priority": 11.98
+      "priority": 11.9
     },
     {
       "title": "Why higher rates could slow Bitcoin buying at treasury firms",
@@ -95,7 +103,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-19T18:09:32Z",
       "category": "ETF & tổ chức",
-      "priority": 11.15
+      "priority": 11.07
     },
     {
       "title": "Bitcoin plunges below $59,000 as rush to cash puts new bear market lows back in play",
@@ -103,23 +111,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-20T18:13:52Z",
       "category": "Bitcoin",
-      "priority": 11.15
-    },
-    {
-      "title": "Bitcoin falls below $60K for first time since July amid broader market selloff",
-      "url": "https://cointelegraph.com/markets/bitcoin-falls-below-60k-for-first-time-since-july-amid-broader-market-selloff?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-20T16:55:51Z",
-      "category": "Bitcoin",
-      "priority": 11.05
-    },
-    {
-      "title": "Bitcoin Breaks Below $60K as Crypto Fear Index Hits Worst Level Since February",
-      "url": "https://decrypt.co/383702/bitcoin-breaks-below-60k-crypto-fear-greed-index-lowest",
-      "source": "Decrypt",
-      "published_at": "2026-11-20T16:35:59Z",
-      "category": "Bitcoin",
-      "priority": 11.02
+      "priority": 11.07
     },
     {
       "title": "Bitcoin Struggles to Hold $64,000 as ETF Outflows Hit $2.9B in November",
@@ -144,6 +136,14 @@
       "published_at": "2026-11-19T13:30:00Z",
       "category": "Bảo mật",
       "priority": 11
+    },
+    {
+      "title": "Bitcoin falls below $60K for first time since July amid broader market selloff",
+      "url": "https://cointelegraph.com/markets/bitcoin-falls-below-60k-for-first-time-since-july-amid-broader-market-selloff?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-20T16:55:51Z",
+      "category": "Bitcoin",
+      "priority": 10.96
     }
   ]
 }
