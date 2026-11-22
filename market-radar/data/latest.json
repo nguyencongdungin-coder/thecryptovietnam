@@ -1,189 +1,189 @@
 {
-  "status": "live",
-  "generated_at": 1795314847173,
+  "status": "partial",
+  "generated_at": 1795318166696,
   "source": "OKX V5 public SWAP market data — USDT settled (volume ranking is estimated)",
   "ranking_method": "OKX live USDT-settled SWAP; ranked by estimated 24h USDT volume = base volume * latest price",
   "metric": "24h price change, estimated 24h USDT notional, closed 15m USDT volume / previous 20",
   "coins": [
     {
       "symbol": "BTCUSDT",
-      "quote_volume_24h": 11896160533.608301,
-      "change_pct_24h": 1.6087029140377629,
-      "volume_ratio_15m": 2.71,
+      "quote_volume_24h": 11834786024.483059,
+      "change_pct_24h": 1.9187110822608933,
+      "volume_ratio_15m": 2.48,
       "volume_alert": true,
-      "anomaly_score": 22,
+      "anomaly_score": 21,
       "signal_15m": "WAIT"
     },
     {
       "symbol": "ETHUSDT",
-      "quote_volume_24h": 7805033087.686561,
-      "change_pct_24h": 3.46864380599321,
-      "volume_ratio_15m": 3.3,
+      "quote_volume_24h": 7729380095.05402,
+      "change_pct_24h": 3.4213931957890464,
+      "volume_ratio_15m": 3.92,
+      "volume_alert": true,
+      "anomaly_score": 39,
+      "signal_15m": "WAIT"
+    },
+    {
+      "symbol": "ZECUSDT",
+      "quote_volume_24h": 1241550493.3216,
+      "change_pct_24h": 8.601814200813251,
+      "volume_ratio_15m": 1.93,
+      "volume_alert": false,
+      "anomaly_score": 35,
+      "signal_15m": "WAIT"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "quote_volume_24h": 917705336.3919001,
+      "change_pct_24h": 2.4465733235077503,
+      "volume_ratio_15m": 2.36,
+      "volume_alert": true,
+      "anomaly_score": 21,
+      "signal_15m": "WAIT"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "quote_volume_24h": 347702938.694,
+      "change_pct_24h": 2.784923386645799,
+      "volume_ratio_15m": 1.48,
+      "volume_alert": false,
+      "anomaly_score": 13,
+      "signal_15m": "WAIT"
+    },
+    {
+      "symbol": "SOXLUSDT",
+      "quote_volume_24h": 268466950.986,
+      "change_pct_24h": -1.8635407273820404,
+      "volume_ratio_15m": 1.39,
+      "volume_alert": false,
+      "anomaly_score": 9,
+      "signal_15m": "WAIT"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "quote_volume_24h": 232599182.4156,
+      "change_pct_24h": 1.4752567693744112,
+      "volume_ratio_15m": 3.85,
       "volume_alert": true,
       "anomaly_score": 33,
       "signal_15m": "WAIT"
     },
     {
-      "symbol": "ZECUSDT",
-      "quote_volume_24h": 1336172953.3362,
-      "change_pct_24h": 6.358246644525578,
-      "volume_ratio_15m": 2.21,
-      "volume_alert": true,
-      "anomaly_score": 31,
-      "signal_15m": "WAIT"
-    },
-    {
-      "symbol": "SOLUSDT",
-      "quote_volume_24h": 934092248.0139999,
-      "change_pct_24h": 1.8234865061998562,
-      "volume_ratio_15m": 2.95,
-      "volume_alert": true,
-      "anomaly_score": 25,
-      "signal_15m": "WAIT"
-    },
-    {
-      "symbol": "XRPUSDT",
-      "quote_volume_24h": 353879421.5879,
-      "change_pct_24h": 2.330976579761379,
-      "volume_ratio_15m": 0.61,
+      "symbol": "HYPEUSDT",
+      "quote_volume_24h": 201200103.91680002,
+      "change_pct_24h": 3.049644179736166,
+      "volume_ratio_15m": 1.8,
       "volume_alert": false,
-      "anomaly_score": 7,
+      "anomaly_score": 17,
       "signal_15m": "WAIT"
     },
     {
-      "symbol": "SOXLUSDT",
-      "quote_volume_24h": 270709454.11320007,
-      "change_pct_24h": -1.1438892233594067,
-      "volume_ratio_15m": 3.59,
+      "symbol": "XAUUSDT",
+      "quote_volume_24h": 163344572.5084,
+      "change_pct_24h": 0.2655517260861995,
+      "volume_ratio_15m": 1.96,
+      "volume_alert": false,
+      "anomaly_score": 10,
+      "signal_15m": "WAIT"
+    },
+    {
+      "symbol": "PEPEUSDT",
+      "quote_volume_24h": 141918388.018,
+      "change_pct_24h": -0.3497539866026411,
+      "volume_ratio_15m": 2.32,
+      "volume_alert": true,
+      "anomaly_score": 14,
+      "signal_15m": "WAIT"
+    },
+    {
+      "symbol": "NEARUSDT",
+      "quote_volume_24h": 135381975.696,
+      "change_pct_24h": 5.328923190003665,
+      "volume_ratio_15m": 2.28,
       "volume_alert": true,
       "anomaly_score": 29,
       "signal_15m": "WAIT"
     },
     {
-      "symbol": "DOGEUSDT",
-      "quote_volume_24h": 236218977.7237,
-      "change_pct_24h": 0.753953659433626,
-      "volume_ratio_15m": 2.92,
-      "volume_alert": true,
-      "anomaly_score": 21,
-      "signal_15m": "WAIT"
-    },
-    {
-      "symbol": "HYPEUSDT",
-      "quote_volume_24h": 215291361.4208,
-      "change_pct_24h": 1.3326234881128718,
-      "volume_ratio_15m": 2.51,
-      "volume_alert": true,
-      "anomaly_score": 19,
-      "signal_15m": "WAIT"
-    },
-    {
-      "symbol": "XAUUSDT",
-      "quote_volume_24h": 163803420.0935,
-      "change_pct_24h": 0.44312729325430844,
-      "volume_ratio_15m": 1.36,
-      "volume_alert": false,
-      "anomaly_score": 5,
-      "signal_15m": "WAIT"
-    },
-    {
-      "symbol": "PEPEUSDT",
-      "quote_volume_24h": 142947575.446,
-      "change_pct_24h": -0.5460332291879588,
-      "volume_ratio_15m": 2.4,
-      "volume_alert": true,
-      "anomaly_score": 16,
-      "signal_15m": "WAIT"
-    },
-    {
-      "symbol": "NEARUSDT",
-      "quote_volume_24h": 139510289.574,
-      "change_pct_24h": 5.2459016393442415,
-      "volume_ratio_15m": 1.55,
-      "volume_alert": false,
-      "anomaly_score": 21,
-      "signal_15m": "WAIT"
-    },
-    {
       "symbol": "PIEVERSEUSDT",
-      "quote_volume_24h": 133403259.78,
-      "change_pct_24h": 15.213547334058752,
-      "volume_ratio_15m": 1.42,
+      "quote_volume_24h": 134733047.13599998,
+      "change_pct_24h": 16.93094275745328,
+      "volume_ratio_15m": 0.89,
       "volume_alert": false,
-      "anomaly_score": 50,
+      "anomaly_score": 51,
       "signal_15m": "WAIT"
     },
     {
       "symbol": "SNDKUSDT",
-      "quote_volume_24h": 124149508.65075001,
-      "change_pct_24h": 0.6840796019900397,
-      "volume_ratio_15m": 1.04,
+      "quote_volume_24h": 123898655.90068,
+      "change_pct_24h": 0.6237524950099882,
+      "volume_ratio_15m": 0.48,
       "volume_alert": false,
       "anomaly_score": 2,
       "signal_15m": "WAIT"
     },
     {
       "symbol": "UNIUSDT",
-      "quote_volume_24h": 102684359.2,
-      "change_pct_24h": 5.689228693501236,
-      "volume_ratio_15m": 1.47,
-      "volume_alert": false,
-      "anomaly_score": 22,
+      "quote_volume_24h": 101739158.15699999,
+      "change_pct_24h": 5.945087361016554,
+      "volume_ratio_15m": 2.58,
+      "volume_alert": true,
+      "anomaly_score": 34,
       "signal_15m": "WAIT"
     },
     {
       "symbol": "NVDAUSDT",
-      "quote_volume_24h": 93898057.6534,
-      "change_pct_24h": -0.32935049019607865,
-      "volume_ratio_15m": 4.44,
-      "volume_alert": true,
-      "anomaly_score": 35,
+      "quote_volume_24h": 93799549.29820001,
+      "change_pct_24h": -0.18447348193695312,
+      "volume_ratio_15m": 1.87,
+      "volume_alert": false,
+      "anomaly_score": 9,
       "signal_15m": "WAIT"
     },
     {
       "symbol": "AKEUSDT",
-      "quote_volume_24h": 84784024.192,
-      "change_pct_24h": -40.33744999130283,
-      "volume_ratio_15m": 5.52,
+      "quote_volume_24h": 89966206.5244,
+      "change_pct_24h": -45.49645390070922,
+      "volume_ratio_15m": 2.54,
       "volume_alert": true,
-      "anomaly_score": 100,
+      "anomaly_score": 75,
       "signal_15m": "WAIT"
     },
     {
       "symbol": "PUMPUSDT",
-      "quote_volume_24h": 76352747.128,
-      "change_pct_24h": -3.3679833679833626,
-      "volume_ratio_15m": 0.98,
+      "quote_volume_24h": 76084512.447,
+      "change_pct_24h": -2.6149304091100833,
+      "volume_ratio_15m": 1.08,
       "volume_alert": false,
-      "anomaly_score": 10,
+      "anomaly_score": 9,
       "signal_15m": "WAIT"
     },
     {
       "symbol": "SUIUSDT",
-      "quote_volume_24h": 72582050.97,
-      "change_pct_24h": 0.15564202334630295,
-      "volume_ratio_15m": 2.88,
-      "volume_alert": true,
-      "anomaly_score": 19,
-      "signal_15m": "WAIT"
+      "quote_volume_24h": 71347758.8,
+      "change_pct_24h": 1.0139416983523386,
+      "volume_ratio_15m": null,
+      "volume_alert": false,
+      "anomaly_score": 3,
+      "signal_15m": null
     },
     {
       "symbol": "TRUMPUSDT",
-      "quote_volume_24h": 69704960.39078,
-      "change_pct_24h": 3.4297713485767822,
-      "volume_ratio_15m": 1.2,
+      "quote_volume_24h": 69303457.28748,
+      "change_pct_24h": 4.172593646277867,
+      "volume_ratio_15m": null,
       "volume_alert": false,
-      "anomaly_score": 12,
-      "signal_15m": "WAIT"
+      "anomaly_score": 13,
+      "signal_15m": null
     },
     {
-      "symbol": "WLDUSDT",
-      "quote_volume_24h": 69189145.4772,
-      "change_pct_24h": 0.3095975232198178,
-      "volume_ratio_15m": 2.5,
-      "volume_alert": true,
-      "anomaly_score": 16,
-      "signal_15m": "WAIT"
+      "symbol": "SOXSUSDT",
+      "quote_volume_24h": 67774467.74,
+      "change_pct_24h": 1.2452977039823399,
+      "volume_ratio_15m": null,
+      "volume_alert": false,
+      "anomaly_score": 4,
+      "signal_15m": null
     }
   ],
   "note": "Rules-based anomaly score; not a probability or advice."
