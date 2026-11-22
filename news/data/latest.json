@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22T17:23:28Z",
+  "updated_at": "2026-11-22T18:17:49Z",
   "items": [
     {
       "title": "The future of onchain FX could start with users, not institutional liquidity",
@@ -7,7 +7,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-22T14:30:00Z",
       "category": "ETF & tổ chức",
-      "priority": 14.76
+      "priority": 14.68
     },
     {
       "title": "Bitcoin's quantum security challenge extends to bridges, custodians and millions of coins",
@@ -15,7 +15,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-22T14:00:00Z",
       "category": "Bảo mật",
-      "priority": 14.72
+      "priority": 14.64
     },
     {
       "title": "Fraudsters Used Fake Crypto Exchanges to Steal $37 Million, SEC Alleges",
@@ -23,7 +23,7 @@
       "source": "Decrypt",
       "published_at": "2026-11-21T17:01:02Z",
       "category": "Pháp lý",
-      "priority": 12.97
+      "priority": 12.89
     },
     {
       "title": "Ether treasury firm BTCS warns SEC its $54 million Aave loan could be liquidated",
@@ -31,7 +31,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-21T12:30:00Z",
       "category": "Pháp lý",
-      "priority": 12.59
+      "priority": 12.52
     },
     {
       "title": "Bitcoin briefly drops to $17K on Kraken, exchange upholds trades",
@@ -39,7 +39,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-22T09:33:06Z",
       "category": "Bitcoin",
-      "priority": 12.35
+      "priority": 12.27
     },
     {
       "title": "XRP falls 10% as long bets unwind and ETF assets slip below $1 billion",
@@ -47,7 +47,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-21T05:59:19Z",
       "category": "ETF & tổ chức",
-      "priority": 12.05
+      "priority": 11.97
     },
     {
       "title": "Fairmint plans tokenized stock venue on Canton, Ethereum under SEC experiment",
@@ -55,7 +55,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-20T22:05:31Z",
       "category": "Pháp lý",
-      "priority": 11.39
+      "priority": 11.32
     },
     {
       "title": "Wrapped Monero token crashes 99.8% amid suspected $13.5M exploit",
@@ -63,31 +63,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-20T19:37:27Z",
       "category": "Bảo mật",
-      "priority": 11.19
-    },
-    {
-      "title": "Bitcoin rebounds above $60,000 after $1.8 billion crypto liquidation wave",
-      "url": "https://www.coindesk.com/markets/2026/11/21/bitcoin-bounces-9-from-two-year-low-to-retake-usd60-000-as-traders-eye-monday-s-stock-open",
-      "source": "CoinDesk",
-      "published_at": "2026-11-21T17:50:00Z",
-      "category": "Bitcoin",
-      "priority": 11.04
-    },
-    {
-      "title": "Wrapped Monero Token Collapses 99% After $13 Million Hack Blamed on Web Host",
-      "url": "https://decrypt.co/383732/wrapped-monero-token-collapses-99-after-13-million-hack-blamed-on-web-host",
-      "source": "Decrypt",
-      "published_at": "2026-11-20T17:41:45Z",
-      "category": "Bảo mật",
-      "priority": 11.03
-    },
-    {
-      "title": "Why higher rates could slow Bitcoin buying at treasury firms",
-      "url": "https://cointelegraph.com/news/why-higher-rates-could-slow-bitcoin-buying-at-treasury-firms?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-19T18:09:32Z",
-      "category": "ETF & tổ chức",
-      "priority": 11
+      "priority": 11.11
     },
     {
       "title": "SEC charges 8 firms over fake crypto platforms tied to $37M fraud",
@@ -122,12 +98,28 @@
       "priority": 11
     },
     {
+      "title": "Wrapped Monero Token Collapses 99% After $13 Million Hack Blamed on Web Host",
+      "url": "https://decrypt.co/383732/wrapped-monero-token-collapses-99-after-13-million-hack-blamed-on-web-host",
+      "source": "Decrypt",
+      "published_at": "2026-11-20T17:41:45Z",
+      "category": "Bảo mật",
+      "priority": 11
+    },
+    {
+      "title": "Bitcoin rebounds above $60,000 after $1.8 billion crypto liquidation wave",
+      "url": "https://www.coindesk.com/markets/2026/11/21/bitcoin-bounces-9-from-two-year-low-to-retake-usd60-000-as-traders-eye-monday-s-stock-open",
+      "source": "CoinDesk",
+      "published_at": "2026-11-21T17:50:00Z",
+      "category": "Bitcoin",
+      "priority": 10.96
+    },
+    {
       "title": "Bitcoin nodes could be stalled by repeating one ID 50,000 times. AI found the bug",
       "url": "https://www.coindesk.com/markets/2026/11/21/bitcoin-nodes-could-be-stalled-by-repeating-one-id-50-000-times-ai-found-the-bug",
       "source": "CoinDesk",
       "published_at": "2026-11-21T06:16:42Z",
       "category": "Bitcoin",
-      "priority": 10.07
+      "priority": 10.0
     },
     {
       "title": "Bitcoin tanks below $57,000 for the first time in two years, and its not alone",
@@ -135,15 +127,23 @@
       "source": "CoinDesk",
       "published_at": "2026-11-21T04:10:07Z",
       "category": "Bitcoin",
-      "priority": 9.9
+      "priority": 9.82
     },
     {
-      "title": "Bitcoin plunges below $59,000 as rush to cash puts new bear market lows back in play",
-      "url": "https://www.coindesk.com/markets/2026/11/20/bitcoin-plunges-below-usd59-000-as-rush-to-cash-puts-new-bear-market-lows-back-in-play",
-      "source": "CoinDesk",
-      "published_at": "2026-11-20T18:13:52Z",
+      "title": "Ethereum’s Glamsterdam upgrade could slip to May 2027 over compatibility concerns",
+      "url": "https://cointelegraph.com/news/ethereum-glamsterdam-could-slip-to-may-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-19T18:20:49Z",
+      "category": "Ethereum",
+      "priority": 9
+    },
+    {
+      "title": "Bitcoin Enters Death Cross as Anthropic IPO Fails to Lift Wall Street",
+      "url": "https://decrypt.co/383655/bitcoin-enters-death-cross-anthropic-ipo",
+      "source": "Decrypt",
+      "published_at": "2026-11-19T19:08:24Z",
       "category": "Bitcoin",
-      "priority": 9.07
+      "priority": 9
     }
   ]
 }
