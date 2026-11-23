@@ -1,21 +1,29 @@
 {
-  "updated_at": "2026-11-23T20:36:23Z",
+  "updated_at": "2026-11-23T21:30:32Z",
   "items": [
+    {
+      "title": "US seeks to recover $1.1B in crypto stolen in North Korea-linked Binance hack",
+      "url": "https://cointelegraph.com/news/us-seeks-11b-crypto-stolen-north-korea-binance-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-23T21:04:03Z",
+      "category": "Bảo mật",
+      "priority": 14.96
+    },
+    {
+      "title": "North Korea Moves $247 Million of Binance Hack Loot Through Bitcoin Mixers",
+      "url": "https://decrypt.co/383844/north-korea-247-million-binance-hack-bitcoin-mixers",
+      "source": "Decrypt",
+      "published_at": "2026-11-23T20:36:02Z",
+      "category": "Bảo mật",
+      "priority": 14.92
+    },
     {
       "title": "Fidelity Investments, Strive, Etoro join OKX-ICE tokenized securities venue",
       "url": "https://www.coindesk.com/business/2026/11/23/fidelity-investments-strive-etoro-join-okx-ice-tokenized-securities-venue",
       "source": "CoinDesk",
       "published_at": "2026-11-23T13:49:44Z",
       "category": "ETF & tổ chức",
-      "priority": 14.44
-    },
-    {
-      "title": "Strategy buys 457 Bitcoin, spends $212M on preferred share buybacks",
-      "url": "https://cointelegraph.com/news/strategy-buy-457-bitcoin-btc-treasury-losses?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-23T13:31:01Z",
-      "category": "ETF & tổ chức",
-      "priority": 14.41
+      "priority": 14.36
     },
     {
       "title": "Strategy Buys $30M in Bitcoin, Moves $1B From USD Reserve to Cash Pot",
@@ -23,7 +31,15 @@
       "source": "Decrypt",
       "published_at": "2026-11-23T13:25:35Z",
       "category": "ETF & tổ chức",
-      "priority": 14.4
+      "priority": 14.33
+    },
+    {
+      "title": "Strategy buys 457 Bitcoin, spends $212M on preferred share buybacks",
+      "url": "https://cointelegraph.com/news/strategy-buy-457-bitcoin-btc-treasury-losses?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-23T13:31:01Z",
+      "category": "ETF & tổ chức",
+      "priority": 14.33
     },
     {
       "title": "Ethereum wallets holding $72 billion ETH are under threat of a future quantum attack",
@@ -31,7 +47,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-23T12:13:35Z",
       "category": "Bảo mật",
-      "priority": 14.3
+      "priority": 14.23
     },
     {
       "title": "Bitcoin ETFs shed $1.8B in third-largest weekly outflow",
@@ -39,7 +55,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-23T08:08:52Z",
       "category": "ETF & tổ chức",
-      "priority": 13.96
+      "priority": 13.89
     },
     {
       "title": "This Swedish bitcoin treasury firm lost 30 BTC trading part of its own stack",
@@ -47,7 +63,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-23T07:18:45Z",
       "category": "ETF & tổ chức",
-      "priority": 13.89
+      "priority": 13.82
     },
     {
       "title": "BTCS offloads $44M in ETH to reduce DeFi debt amid market downturn",
@@ -55,7 +71,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-23T19:35:06Z",
       "category": "Ethereum",
-      "priority": 12.91
+      "priority": 12.84
     },
     {
       "title": "Solo Bitcoin Miner Scores Again, Hitting $191,000 Jackpot Against the Odds",
@@ -63,7 +79,7 @@
       "source": "Decrypt",
       "published_at": "2026-11-23T18:16:25Z",
       "category": "Bitcoin",
-      "priority": 12.81
+      "priority": 12.73
     },
     {
       "title": "Bitcoin rebound already losing steam as AI trade returns with a bang",
@@ -71,7 +87,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-23T17:31:27Z",
       "category": "Bitcoin",
-      "priority": 12.74
+      "priority": 12.67
     },
     {
       "title": "Bitcoin rebounds 17% from $55K lows as Nvidia rally sparks $500M crypto liquidations",
@@ -79,7 +95,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-23T16:51:17Z",
       "category": "Bitcoin",
-      "priority": 12.69
+      "priority": 12.61
     },
     {
       "title": "Tom Lee Says Ethereum Is as Scarce as Bitcoin—And Bitmine Just Bought More",
@@ -87,7 +103,7 @@
       "source": "Decrypt",
       "published_at": "2026-11-23T16:46:03Z",
       "category": "Bitcoin",
-      "priority": 12.68
+      "priority": 12.6
     },
     {
       "title": "Bitcoin Rallies, Anthropic Sinks as Nvidia Surges 35% on Jensen Huang’s Return",
@@ -95,7 +111,7 @@
       "source": "Decrypt",
       "published_at": "2026-11-23T16:32:04Z",
       "category": "Bitcoin",
-      "priority": 12.66
+      "priority": 12.59
     },
     {
       "title": "Cross River Bank enters Bitcoin-backed lending with $250K loans",
@@ -103,7 +119,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-23T16:23:37Z",
       "category": "Bitcoin",
-      "priority": 12.65
+      "priority": 12.57
     },
     {
       "title": "How market depth shapes the price of a weekend Bitcoin sale",
@@ -111,7 +127,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-23T15:57:55Z",
       "category": "Bitcoin",
-      "priority": 12.61
+      "priority": 12.54
     },
     {
       "title": "Eric Trump-backed American Bitcoin secures $150 million loan against its bitcoin",
@@ -119,7 +135,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-23T15:02:32Z",
       "category": "Bitcoin",
-      "priority": 12.54
+      "priority": 12.46
     },
     {
       "title": "Bitcoin's 5-year return is nearly zero, great narratives are fading and what's left is the Fed",
@@ -127,23 +143,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-23T14:43:18Z",
       "category": "Bitcoin",
-      "priority": 12.51
-    },
-    {
-      "title": "The future of onchain FX could start with users, not institutional liquidity",
-      "url": "https://cointelegraph.com/opinion/future-onchain-fx-could-start-with-users-not-institutional-liquidity?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-22T14:30:00Z",
-      "category": "ETF & tổ chức",
-      "priority": 12.49
-    },
-    {
-      "title": "Bitcoin's quantum security challenge extends to bridges, custodians and millions of coins",
-      "url": "https://www.coindesk.com/tech/2026/11/22/bitcoin-s-quantum-security-challenge-extends-to-bridges-custodians-and-millions-of-coins",
-      "source": "CoinDesk",
-      "published_at": "2026-11-22T14:00:00Z",
-      "category": "Bảo mật",
-      "priority": 12.45
+      "priority": 12.43
     }
   ]
 }
