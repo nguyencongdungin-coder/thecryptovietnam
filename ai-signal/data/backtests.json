@@ -1,11 +1,11 @@
 {
-  "generated_at": 1795462780070,
+  "generated_at": 1795466180198,
   "sample": [
     {
       "symbol": "BTCUSDT",
       "interval": "1h",
-      "from": 1794384000000,
-      "to": 1795460399999,
+      "from": 1794387600000,
+      "to": 1795463999999,
       "assumptions": {
         "fee_bps_each_side": 5,
         "slippage_bps_each_side": 2,
@@ -21,7 +21,7 @@
           "time": 1794823199999,
           "side": "SHORT",
           "entry": 64291.83906,
-          "exit": 65200.53069784,
+          "exit": 65200.49765147,
           "return_pct": -1.513,
           "exit_reason": "SL"
         },
@@ -29,7 +29,7 @@
           "time": 1794931199999,
           "side": "SHORT",
           "entry": 64068.88366,
-          "exit": 64958.26173837,
+          "exit": 64958.25816084,
           "return_pct": -1.488,
           "exit_reason": "SL"
         },
@@ -37,7 +37,7 @@
           "time": 1795006799999,
           "side": "SHORT",
           "entry": 64038.28978,
-          "exit": 62686.22688273,
+          "exit": 62686.22839189,
           "return_pct": 2.011,
           "exit_reason": "TP"
         },
@@ -53,7 +53,7 @@
           "time": 1795413599999,
           "side": "LONG",
           "entry": 61663.53024,
-          "exit": 63430.35571006,
+          "exit": 63430.35570971,
           "return_pct": 2.765,
           "exit_reason": "TP"
         }
@@ -63,8 +63,8 @@
     {
       "symbol": "ETHUSDT",
       "interval": "1h",
-      "from": 1794384000000,
-      "to": 1795460399999,
+      "from": 1794387600000,
+      "to": 1795463999999,
       "assumptions": {
         "fee_bps_each_side": 5,
         "slippage_bps_each_side": 2,
@@ -80,7 +80,7 @@
           "time": 1794823199999,
           "side": "SHORT",
           "entry": 1796.500628,
-          "exit": 1827.78228853,
+          "exit": 1827.7824837,
           "return_pct": -1.841,
           "exit_reason": "SL"
         },
@@ -88,7 +88,7 @@
           "time": 1794909599999,
           "side": "SHORT",
           "entry": 1810.827762,
-          "exit": 1759.93270823,
+          "exit": 1759.93264231,
           "return_pct": 2.711,
           "exit_reason": "TP"
         },
@@ -96,7 +96,7 @@
           "time": 1795006799999,
           "side": "SHORT",
           "entry": 1793.99113,
-          "exit": 1745.5112921,
+          "exit": 1745.51128319,
           "return_pct": 2.602,
           "exit_reason": "TP"
         },
@@ -112,7 +112,7 @@
           "time": 1795319999999,
           "side": "SHORT",
           "entry": 1660.387856,
-          "exit": 1689.37055193,
+          "exit": 1689.37055194,
           "return_pct": -1.846,
           "exit_reason": "SL"
         }
@@ -122,8 +122,8 @@
     {
       "symbol": "SOXLUSDT",
       "interval": "1h",
-      "from": 1794384000000,
-      "to": 1795460399999,
+      "from": 1794387600000,
+      "to": 1795463999999,
       "assumptions": {
         "fee_bps_each_side": 5,
         "slippage_bps_each_side": 2,
@@ -139,7 +139,7 @@
           "time": 1794801599999,
           "side": "SHORT",
           "entry": 54.479102,
-          "exit": 49.98393442,
+          "exit": 49.98408964,
           "return_pct": 8.151,
           "exit_reason": "TP"
         },
@@ -147,7 +147,7 @@
           "time": 1794934799999,
           "side": "SHORT",
           "entry": 46.64067,
-          "exit": 50.14515972,
+          "exit": 50.14515472,
           "return_pct": -7.614,
           "exit_reason": "SL"
         },
@@ -165,8 +165,8 @@
     {
       "symbol": "NVDAUSDT",
       "interval": "1h",
-      "from": 1794384000000,
-      "to": 1795460399999,
+      "from": 1794387600000,
+      "to": 1795463999999,
       "assumptions": {
         "fee_bps_each_side": 5,
         "slippage_bps_each_side": 2,
@@ -174,23 +174,23 @@
       },
       "trades": 4,
       "win_rate": 50.0,
-      "average_return_pct": 0.703,
-      "total_compounded_pct": 2.69,
+      "average_return_pct": 0.705,
+      "total_compounded_pct": 2.7,
       "max_drawdown_pct": -2.21,
       "sample": [
         {
           "time": 1794671999999,
           "side": "SHORT",
           "entry": 160.597874,
-          "exit": 156.37498125,
-          "return_pct": 2.529,
+          "exit": 156.36113144,
+          "return_pct": 2.538,
           "exit_reason": "TP"
         },
         {
           "time": 1794931199999,
           "side": "SHORT",
           "entry": 153.999194,
-          "exit": 157.2510168,
+          "exit": 157.25105015,
           "return_pct": -2.212,
           "exit_reason": "SL"
         },
@@ -198,7 +198,7 @@
           "time": 1795111199999,
           "side": "SHORT",
           "entry": 149.410112,
-          "exit": 142.90452138,
+          "exit": 142.90451974,
           "return_pct": 4.254,
           "exit_reason": "TP"
         },
@@ -216,8 +216,8 @@
     {
       "symbol": "SNDKUSDT",
       "interval": "1h",
-      "from": 1794384000000,
-      "to": 1795460399999,
+      "from": 1794387600000,
+      "to": 1795463999999,
       "assumptions": {
         "fee_bps_each_side": 5,
         "slippage_bps_each_side": 2,
@@ -233,15 +233,15 @@
           "time": 1794801599999,
           "side": "SHORT",
           "entry": 852.52946,
-          "exit": 818.33218733,
-          "return_pct": 3.911,
+          "exit": 818.32335183,
+          "return_pct": 3.912,
           "exit_reason": "TP"
         },
         {
           "time": 1794909599999,
           "side": "SHORT",
           "entry": 796.8406,
-          "exit": 818.19126657,
+          "exit": 818.19174482,
           "return_pct": -2.779,
           "exit_reason": "SL"
         },
@@ -249,7 +249,7 @@
           "time": 1794931199999,
           "side": "SHORT",
           "entry": 773.54526,
-          "exit": 803.41860502,
+          "exit": 803.41891161,
           "return_pct": -3.962,
           "exit_reason": "SL"
         },
@@ -257,7 +257,7 @@
           "time": 1795111199999,
           "side": "SHORT",
           "entry": 774.59505,
-          "exit": 714.61174957,
+          "exit": 714.6117345,
           "return_pct": 7.644,
           "exit_reason": "TP"
         }
