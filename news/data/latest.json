@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T10:40:40Z",
+  "updated_at": "2026-11-23T11:40:18Z",
   "items": [
     {
       "title": "Bitcoin ETFs shed $1.8B in third-largest weekly outflow",
@@ -7,7 +7,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-23T08:08:52Z",
       "category": "ETF & tổ chức",
-      "priority": 14.79
+      "priority": 14.71
     },
     {
       "title": "This Swedish bitcoin treasury firm lost 30 BTC trading part of its own stack",
@@ -15,15 +15,15 @@
       "source": "CoinDesk",
       "published_at": "2026-11-23T07:18:45Z",
       "category": "ETF & tổ chức",
-      "priority": 14.72
+      "priority": 14.64
     },
     {
-      "title": "Fraudsters Used Fake Crypto Exchanges to Steal $37 Million, SEC Alleges",
-      "url": "https://decrypt.co/383752/fraudsters-fake-crypto-exchanges-steal-37-million-sec",
+      "title": "Bitcoin Rebounds to $61K After Weekend Plunge to Two-Year Low",
+      "url": "https://decrypt.co/383758/bitcoin-rebounds-to-61k-after-weekend-plunge-to-two-year-low",
       "source": "Decrypt",
-      "published_at": "2026-11-21T17:01:02Z",
-      "category": "Pháp lý",
-      "priority": 11.53
+      "published_at": "2026-11-23T11:14:22Z",
+      "category": "Bitcoin",
+      "priority": 12.96
     },
     {
       "title": "The future of onchain FX could start with users, not institutional liquidity",
@@ -31,7 +31,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-22T14:30:00Z",
       "category": "ETF & tổ chức",
-      "priority": 13.32
+      "priority": 13.24
     },
     {
       "title": "Bitcoin's quantum security challenge extends to bridges, custodians and millions of coins",
@@ -39,7 +39,23 @@
       "source": "CoinDesk",
       "published_at": "2026-11-22T14:00:00Z",
       "category": "Bảo mật",
-      "priority": 13.28
+      "priority": 13.19
+    },
+    {
+      "title": "Live updates: Bitcoin climbs back above $61,000 as stocks rebound from AI rout",
+      "url": "https://www.coindesk.com/markets/2026/11/23/live-updates-bitcoin-climbs-back-above-usd61-000-as-stocks-rebound-from-ai-rout",
+      "source": "CoinDesk",
+      "published_at": "2026-11-23T11:29:09Z",
+      "category": "Bitcoin",
+      "priority": 12.98
+    },
+    {
+      "title": "BTC price gains 12% from $55K: Three things to know in Bitcoin this week",
+      "url": "https://cointelegraph.com/markets/btc-price-stock-futures-rebound-three-things-know-bitcoin-this-week?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-23T11:20:57Z",
+      "category": "Bitcoin",
+      "priority": 12.97
     },
     {
       "title": "Bitcoin breaks a record streak of 'lower highs.' Here's what it means",
@@ -47,7 +63,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-23T10:31:02Z",
       "category": "Bitcoin",
-      "priority": 12.99
+      "priority": 12.9
     },
     {
       "title": "Bitcoin sold for $17,000 on Kraken's Canadian dollar market, and the trades stand",
@@ -55,7 +71,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-23T05:42:22Z",
       "category": "Bitcoin",
-      "priority": 12.59
+      "priority": 12.5
     },
     {
       "title": "Will Bitcoin’s big rebound hold? More tampered Ledgers found: Hodler’s Digest",
@@ -63,7 +79,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-22T22:47:09Z",
       "category": "Bitcoin",
-      "priority": 12.01
+      "priority": 11.93
     },
     {
       "title": "U.S. inflation, Thanksgiving trading: Crypto Week Ahead",
@@ -71,7 +87,15 @@
       "source": "CoinDesk",
       "published_at": "2026-11-23T09:40:25Z",
       "category": "Sàn & giao dịch",
-      "priority": 11.92
+      "priority": 11.83
+    },
+    {
+      "title": "Fraudsters Used Fake Crypto Exchanges to Steal $37 Million, SEC Alleges",
+      "url": "https://decrypt.co/383752/fraudsters-fake-crypto-exchanges-steal-37-million-sec",
+      "source": "Decrypt",
+      "published_at": "2026-11-21T17:01:02Z",
+      "category": "Pháp lý",
+      "priority": 11.45
     },
     {
       "title": "Ether treasury firm BTCS warns SEC its $54 million Aave loan could be liquidated",
@@ -79,23 +103,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-21T12:30:00Z",
       "category": "Pháp lý",
-      "priority": 11.15
-    },
-    {
-      "title": "VanEck to end Gemini ETF custody deals, keeps Coinbase",
-      "url": "https://cointelegraph.com/news/vaneck-gemini-etf-custody-end-keep-coinbase?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-20T10:54:38Z",
-      "category": "ETF & tổ chức",
-      "priority": 11
-    },
-    {
-      "title": "Binance hacker moves nearly $600M in ETH, routes funds through THORChain, Chainflip",
-      "url": "https://cointelegraph.com/news/binance-hacker-600m-eth-routes-thorchain-chainflip?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-20T11:31:41Z",
-      "category": "Bảo mật",
-      "priority": 11
+      "priority": 11.07
     },
     {
       "title": "Wrapped Monero Token Collapses 99% After $13 Million Hack Blamed on Web Host",
@@ -135,15 +143,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-22T09:33:06Z",
       "category": "Bitcoin",
-      "priority": 10.91
-    },
-    {
-      "title": "Bitcoin rebounds above $60,000 after $1.8 billion crypto liquidation wave",
-      "url": "https://www.coindesk.com/markets/2026/11/21/bitcoin-bounces-9-from-two-year-low-to-retake-usd60-000-as-traders-eye-monday-s-stock-open",
-      "source": "CoinDesk",
-      "published_at": "2026-11-21T17:50:00Z",
-      "category": "Bitcoin",
-      "priority": 9.6
+      "priority": 10.82
     }
   ]
 }
