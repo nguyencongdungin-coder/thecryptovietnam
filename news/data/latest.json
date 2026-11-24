@@ -1,13 +1,21 @@
 {
-  "updated_at": "2026-11-24T13:19:54Z",
+  "updated_at": "2026-11-24T14:34:08Z",
   "items": [
+    {
+      "title": "Justice Department Moves to Forfeit $1.1B in USDC From North Korea's Binance Hack",
+      "url": "https://decrypt.co/383874/justice-department-moves-to-forfeit-1-1b-in-usdc-from-north-koreas-binance-hack",
+      "source": "Decrypt",
+      "published_at": "2026-11-24T14:13:03Z",
+      "category": "Bảo mật",
+      "priority": 14.97
+    },
     {
       "title": "Grayscale calls Bitcoin ‘oversold’ at $62K but warns of AI risks",
       "url": "https://cointelegraph.com/markets/bitcoin-oversold-ai-risks-grayscale?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
       "published_at": "2026-11-24T13:11:44Z",
       "category": "ETF & tổ chức",
-      "priority": 14.99
+      "priority": 14.89
     },
     {
       "title": "Bitcoin drops as November spot ETF outflows increase to record $4.71 billion",
@@ -15,15 +23,15 @@
       "source": "CoinDesk",
       "published_at": "2026-11-24T12:36:28Z",
       "category": "ETF & tổ chức",
-      "priority": 14.94
+      "priority": 14.84
     },
     {
-      "title": "North Korea Moves $247 Million of Binance Hack Loot Through Bitcoin Mixers",
-      "url": "https://decrypt.co/383844/north-korea-247-million-binance-hack-bitcoin-mixers",
+      "title": "CertiK Trains Interpol Investigators to Trace and Freeze Stolen Crypto",
+      "url": "https://decrypt.co/383857/certik-trains-interpol-investigators-to-trace-and-freeze-stolen-crypto",
       "source": "Decrypt",
-      "published_at": "2026-11-23T20:36:02Z",
+      "published_at": "2026-11-24T13:46:03Z",
       "category": "Bảo mật",
-      "priority": 13.61
+      "priority": 14.93
     },
     {
       "title": "U.S. seeks $1.1 billion seized in Binance hack as North Korean funds keep moving",
@@ -31,7 +39,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-24T10:58:51Z",
       "category": "Bảo mật",
-      "priority": 14.8
+      "priority": 14.7
     },
     {
       "title": "Bitcoin ETFs keep bleeding as BlackRock’s IBIT shares gain nearly 5%",
@@ -39,7 +47,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-24T07:41:50Z",
       "category": "ETF & tổ chức",
-      "priority": 14.53
+      "priority": 14.43
     },
     {
       "title": "Ethereum Foundation doubles protocol security team ahead of overhaul",
@@ -47,7 +55,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-24T00:36:26Z",
       "category": "Bảo mật",
-      "priority": 13.94
+      "priority": 13.84
     },
     {
       "title": "U.S. CFTC sets policies on event contract data, using crypto to check financial boxes",
@@ -55,7 +63,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-24T00:25:04Z",
       "category": "Pháp lý",
-      "priority": 13.92
+      "priority": 13.82
     },
     {
       "title": "CFTC staff say exchanges can count Bitcoin toward operating reserves",
@@ -63,7 +71,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-23T23:43:34Z",
       "category": "Pháp lý",
-      "priority": 13.87
+      "priority": 13.76
     },
     {
       "title": "US seeks to recover $1.1B in crypto stolen in North Korea-linked Binance hack",
@@ -71,7 +79,15 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-23T21:04:03Z",
       "category": "Bảo mật",
-      "priority": 13.64
+      "priority": 13.54
+    },
+    {
+      "title": "North Korea Moves $247 Million of Binance Hack Loot Through Bitcoin Mixers",
+      "url": "https://decrypt.co/383844/north-korea-247-million-binance-hack-bitcoin-mixers",
+      "source": "Decrypt",
+      "published_at": "2026-11-23T20:36:02Z",
+      "category": "Bảo mật",
+      "priority": 13.5
     },
     {
       "title": "Fidelity Investments, Strive, Etoro join OKX-ICE tokenized securities venue",
@@ -79,7 +95,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-23T13:49:44Z",
       "category": "ETF & tổ chức",
-      "priority": 13.04
+      "priority": 12.94
     },
     {
       "title": "Strategy buys 457 Bitcoin, spends $212M on preferred share buybacks",
@@ -87,7 +103,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-23T13:31:01Z",
       "category": "ETF & tổ chức",
-      "priority": 13.02
+      "priority": 12.91
     },
     {
       "title": "Strategy Buys $30M in Bitcoin, Moves $1B From USD Reserve to Cash Pot",
@@ -95,7 +111,7 @@
       "source": "Decrypt",
       "published_at": "2026-11-23T13:25:35Z",
       "category": "ETF & tổ chức",
-      "priority": 13.01
+      "priority": 12.9
     },
     {
       "title": "Live updates: Bitcoin pulls back to $60,000, stock rally fades, as tariffs re-enter the picture",
@@ -103,7 +119,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-24T12:47:40Z",
       "category": "Bitcoin",
-      "priority": 12.96
+      "priority": 12.85
     },
     {
       "title": "$14.7B in ‘Lost’ Bitcoin Has Moved Since 2018: Report",
@@ -111,7 +127,7 @@
       "source": "Decrypt",
       "published_at": "2026-11-24T12:40:47Z",
       "category": "Bitcoin",
-      "priority": 12.95
+      "priority": 12.84
     },
     {
       "title": "Ethereum wallets holding $72 billion ETH are under threat of a future quantum attack",
@@ -119,7 +135,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-23T12:13:35Z",
       "category": "Bảo mật",
-      "priority": 12.91
+      "priority": 12.8
     },
     {
       "title": "Bitcoin dipped on Huang’s Nvidia exit but jumped 5% on his return",
@@ -127,23 +143,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-24T11:40:33Z",
       "category": "Bitcoin",
-      "priority": 12.86
-    },
-    {
-      "title": "Bitcoin hands back Monday's Nvidia-driven gains, liquidations triple",
-      "url": "https://www.coindesk.com/markets/2026/11/24/bitcoin-hands-back-monday-s-nvidia-driven-gains-liquidations-triple",
-      "source": "CoinDesk",
-      "published_at": "2026-11-24T11:31:56Z",
-      "category": "Bitcoin",
-      "priority": 12.85
-    },
-    {
-      "title": "Bitcoin’s drop to $55,000 left a record 11.6 million BTC underwater",
-      "url": "https://www.coindesk.com/markets/2026/11/24/bitcoin-s-drop-to-usd55-000-left-a-record-11-6-million-btc-underwater",
-      "source": "CoinDesk",
-      "published_at": "2026-11-24T11:11:38Z",
-      "category": "Bitcoin",
-      "priority": 12.82
+      "priority": 12.76
     }
   ]
 }
