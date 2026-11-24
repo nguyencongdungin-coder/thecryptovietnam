@@ -7,20 +7,14 @@ on:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 concurrency:
   group: tcv-signal-site
   cancel-in-progress: false
-
 jobs:
   scan-and-publish:
     runs-on: ubuntu-latest
     timeout-minutes: 20
-    environment:
-      name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -49,10 +43,3 @@ jobs:
             git commit -m 'data: update scanner data [skip ci]'
             git push
           fi
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: .
-      - name: Deploy THE CRYPTO VIETNAM
-        id: deploy
-        uses: actions/deploy-pages@v4
