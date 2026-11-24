@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T22:43:33Z",
+  "updated_at": "2026-11-24T23:36:31Z",
   "items": [
     {
       "title": "Coldcard Bitcoin Exploit, Revisited: How a Hidden Flaw Survived Years of Audits",
@@ -7,7 +7,7 @@
       "source": "Decrypt",
       "published_at": "2026-11-24T21:16:02Z",
       "category": "Bảo mật",
-      "priority": 14.88
+      "priority": 14.8
     },
     {
       "title": "South Korea proposes ending 2017 ICO ban to boost jobs and onshore crypto investment",
@@ -15,7 +15,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-24T14:40:53Z",
       "category": "Pháp lý",
-      "priority": 14.33
+      "priority": 14.26
     },
     {
       "title": "Grayscale calls Bitcoin ‘oversold’ at $62K but warns of AI risks",
@@ -23,7 +23,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-24T13:11:44Z",
       "category": "ETF & tổ chức",
-      "priority": 14.21
+      "priority": 14.13
     },
     {
       "title": "What the CFTC’s New Crypto Reserves Guidance Actually Allows—And What It Doesn’t",
@@ -31,7 +31,7 @@
       "source": "Decrypt",
       "published_at": "2026-11-24T18:55:27Z",
       "category": "Pháp lý",
-      "priority": 14.68
+      "priority": 14.61
     },
     {
       "title": "Justice Department Moves to Forfeit $1.1B in USDC From North Korea's Binance Hack",
@@ -39,7 +39,7 @@
       "source": "Decrypt",
       "published_at": "2026-11-24T14:13:03Z",
       "category": "Bảo mật",
-      "priority": 14.29
+      "priority": 14.22
     },
     {
       "title": "CertiK Trains Interpol Investigators to Trace and Freeze Stolen Crypto",
@@ -47,7 +47,7 @@
       "source": "Decrypt",
       "published_at": "2026-11-24T13:46:03Z",
       "category": "Bảo mật",
-      "priority": 14.25
+      "priority": 14.18
     },
     {
       "title": "Bitcoin drops as November spot ETF outflows increase to record $4.71 billion",
@@ -55,7 +55,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-24T12:36:28Z",
       "category": "ETF & tổ chức",
-      "priority": 14.16
+      "priority": 14.08
     },
     {
       "title": "U.S. seeks $1.1 billion seized in Binance hack as North Korean funds keep moving",
@@ -63,7 +63,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-24T10:58:51Z",
       "category": "Bảo mật",
-      "priority": 14.02
+      "priority": 13.95
     },
     {
       "title": "Bitcoin ETFs keep bleeding as BlackRock’s IBIT shares gain nearly 5%",
@@ -71,7 +71,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-24T07:41:50Z",
       "category": "ETF & tổ chức",
-      "priority": 13.75
+      "priority": 13.67
     },
     {
       "title": "Ethereum Foundation doubles protocol security team ahead of overhaul",
@@ -79,7 +79,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-24T00:36:26Z",
       "category": "Bảo mật",
-      "priority": 13.16
+      "priority": 13.08
     },
     {
       "title": "U.S. CFTC sets policies on event contract data, using crypto to check financial boxes",
@@ -87,7 +87,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-24T00:25:04Z",
       "category": "Pháp lý",
-      "priority": 13.14
+      "priority": 13.07
     },
     {
       "title": "CFTC staff say exchanges can count Bitcoin toward operating reserves",
@@ -95,7 +95,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-23T23:43:34Z",
       "category": "Pháp lý",
-      "priority": 13.08
+      "priority": 13.01
     },
     {
       "title": "US seeks to recover $1.1B in crypto stolen in North Korea-linked Binance hack",
@@ -103,7 +103,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-23T21:04:03Z",
       "category": "Bảo mật",
-      "priority": 12.86
+      "priority": 12.79
     },
     {
       "title": "North Korea Moves $247 Million of Binance Hack Loot Through Bitcoin Mixers",
@@ -111,7 +111,7 @@
       "source": "Decrypt",
       "published_at": "2026-11-23T20:36:02Z",
       "category": "Bảo mật",
-      "priority": 12.82
+      "priority": 12.75
     },
     {
       "title": "Ethereum Foundation Says AI Is a More Urgent Threat Than Quantum Computing",
@@ -119,7 +119,7 @@
       "source": "Decrypt",
       "published_at": "2026-11-24T20:36:02Z",
       "category": "Ethereum",
-      "priority": 12.82
+      "priority": 12.75
     },
     {
       "title": "Bitcoin sell-off driven by weak demand, forced liquidations: 21Shares",
@@ -127,7 +127,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-24T19:44:23Z",
       "category": "Bitcoin",
-      "priority": 12.75
+      "priority": 12.68
     },
     {
       "title": "Bitcoin Losses Are the Worst Since FTX. Is the Bottom Near?",
@@ -135,7 +135,7 @@
       "source": "Decrypt",
       "published_at": "2026-11-24T19:35:32Z",
       "category": "Bitcoin",
-      "priority": 12.74
+      "priority": 12.67
     },
     {
       "title": "Coldcard reveals how Bitcoin wallet flaw went undetected for over 5 years",
@@ -143,7 +143,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-24T19:04:26Z",
       "category": "Bitcoin",
-      "priority": 12.7
+      "priority": 12.62
     }
   ]
 }
