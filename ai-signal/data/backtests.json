@@ -1,70 +1,15 @@
 {
-  "generated_at": 1795517921450,
+  "generated_at": 1795521657578,
   "sample": [
     {
       "symbol": "BTCUSDT",
-      "interval": "1h",
-      "from": 1794438000000,
-      "to": 1795514399999,
-      "assumptions": {
-        "fee_bps_each_side": 5,
-        "slippage_bps_each_side": 2,
-        "funding_included": false
-      },
-      "trades": 5,
-      "win_rate": 60.0,
-      "average_return_pct": 0.73,
-      "total_compounded_pct": 3.62,
-      "max_drawdown_pct": -2.98,
-      "sample": [
-        {
-          "time": 1794823199999,
-          "side": "SHORT",
-          "entry": 64291.83906,
-          "exit": 65200.62184722,
-          "return_pct": -1.514,
-          "exit_reason": "SL"
-        },
-        {
-          "time": 1794931199999,
-          "side": "SHORT",
-          "entry": 64068.88366,
-          "exit": 64958.271606,
-          "return_pct": -1.488,
-          "exit_reason": "SL"
-        },
-        {
-          "time": 1795006799999,
-          "side": "SHORT",
-          "entry": 64038.28978,
-          "exit": 62686.22272013,
-          "return_pct": 2.011,
-          "exit_reason": "TP"
-        },
-        {
-          "time": 1795107599999,
-          "side": "SHORT",
-          "entry": 62737.64996,
-          "exit": 61496.7969,
-          "return_pct": 1.878,
-          "exit_reason": "TIME"
-        },
-        {
-          "time": 1795413599999,
-          "side": "LONG",
-          "entry": 61663.53024,
-          "exit": 63430.35571102,
-          "return_pct": 2.765,
-          "exit_reason": "TP"
-        }
-      ],
-      "note": "Kiểm định lịch sử gần đây, không phải kết quả giao dịch thật; chưa tính funding/liquidation, không có ý nghĩa dự báo chắc chắn."
+      "error": "OKX market API HTTP 429; keep last valid data"
     },
     {
       "symbol": "ETHUSDT",
       "interval": "1h",
-      "from": 1794438000000,
-      "to": 1795514399999,
+      "from": 1794445200000,
+      "to": 1795521599999,
       "assumptions": {
         "fee_bps_each_side": 5,
         "slippage_bps_each_side": 2,
@@ -72,7 +17,7 @@
       },
       "trades": 5,
       "win_rate": 60.0,
-      "average_return_pct": 0.759,
+      "average_return_pct": 0.76,
       "total_compounded_pct": 3.74,
       "max_drawdown_pct": -1.85,
       "sample": [
@@ -80,15 +25,15 @@
           "time": 1794823199999,
           "side": "SHORT",
           "entry": 1796.500628,
-          "exit": 1827.7880004,
-          "return_pct": -1.842,
+          "exit": 1827.78081041,
+          "return_pct": -1.841,
           "exit_reason": "SL"
         },
         {
           "time": 1794909599999,
           "side": "SHORT",
           "entry": 1810.827762,
-          "exit": 1759.93077904,
+          "exit": 1759.93320747,
           "return_pct": 2.711,
           "exit_reason": "TP"
         },
@@ -96,7 +41,7 @@
           "time": 1795006799999,
           "side": "SHORT",
           "entry": 1793.99113,
-          "exit": 1745.51103126,
+          "exit": 1745.51135961,
           "return_pct": 2.602,
           "exit_reason": "TP"
         },
@@ -112,7 +57,7 @@
           "time": 1795319999999,
           "side": "SHORT",
           "entry": 1660.387856,
-          "exit": 1689.37055214,
+          "exit": 1689.37055188,
           "return_pct": -1.846,
           "exit_reason": "SL"
         }
@@ -122,34 +67,42 @@
     {
       "symbol": "SOXLUSDT",
       "interval": "1h",
-      "from": 1794438000000,
-      "to": 1795514399999,
+      "from": 1794445200000,
+      "to": 1795521599999,
       "assumptions": {
         "fee_bps_each_side": 5,
         "slippage_bps_each_side": 2,
         "funding_included": false
       },
-      "trades": 2,
-      "win_rate": 50.0,
-      "average_return_pct": 0.271,
-      "total_compounded_pct": -0.08,
-      "max_drawdown_pct": -7.61,
+      "trades": 3,
+      "win_rate": 33.3,
+      "average_return_pct": -0.113,
+      "total_compounded_pct": -0.96,
+      "max_drawdown_pct": -8.43,
       "sample": [
         {
           "time": 1794801599999,
           "side": "SHORT",
           "entry": 54.479102,
-          "exit": 49.98152558,
-          "return_pct": 8.156,
+          "exit": 49.98270077,
+          "return_pct": 8.153,
           "exit_reason": "TP"
         },
         {
           "time": 1794934799999,
           "side": "SHORT",
           "entry": 46.64067,
-          "exit": 50.14523733,
+          "exit": 50.14519947,
           "return_pct": -7.614,
           "exit_reason": "SL"
+        },
+        {
+          "time": 1795013999999,
+          "side": "SHORT",
+          "entry": 50.159966,
+          "exit": 50.550108,
+          "return_pct": -0.878,
+          "exit_reason": "TIME"
         }
       ],
       "note": "Kiểm định lịch sử gần đây, không phải kết quả giao dịch thật; chưa tính funding/liquidation, không có ý nghĩa dự báo chắc chắn."
@@ -157,8 +110,8 @@
     {
       "symbol": "NVDAUSDT",
       "interval": "1h",
-      "from": 1794438000000,
-      "to": 1795514399999,
+      "from": 1794445200000,
+      "to": 1795521599999,
       "assumptions": {
         "fee_bps_each_side": 5,
         "slippage_bps_each_side": 2,
@@ -174,7 +127,7 @@
           "time": 1794931199999,
           "side": "SHORT",
           "entry": 153.999194,
-          "exit": 157.25108457,
+          "exit": 157.25095449,
           "return_pct": -2.212,
           "exit_reason": "SL"
         },
@@ -182,7 +135,7 @@
           "time": 1795111199999,
           "side": "SHORT",
           "entry": 149.410112,
-          "exit": 142.90451805,
+          "exit": 142.90452444,
           "return_pct": 4.254,
           "exit_reason": "TP"
         },
@@ -190,7 +143,7 @@
           "time": 1795402799999,
           "side": "SHORT",
           "entry": 132.203554,
-          "exit": 134.39645158,
+          "exit": 134.39645157,
           "return_pct": -1.759,
           "exit_reason": "SL"
         }
@@ -200,8 +153,8 @@
     {
       "symbol": "SOLUSDT",
       "interval": "1h",
-      "from": 1794438000000,
-      "to": 1795514399999,
+      "from": 1794445200000,
+      "to": 1795521599999,
       "assumptions": {
         "fee_bps_each_side": 5,
         "slippage_bps_each_side": 2,
@@ -209,7 +162,7 @@
       },
       "trades": 3,
       "win_rate": 33.3,
-      "average_return_pct": -0.533,
+      "average_return_pct": -0.532,
       "total_compounded_pct": -1.67,
       "max_drawdown_pct": -4.23,
       "sample": [
@@ -217,15 +170,15 @@
           "time": 1794844799999,
           "side": "SHORT",
           "entry": 70.715854,
-          "exit": 72.3392784,
-          "return_pct": -2.396,
+          "exit": 72.33895806,
+          "return_pct": -2.395,
           "exit_reason": "SL"
         },
         {
           "time": 1795064399999,
           "side": "LONG",
           "entry": 74.574912,
-          "exit": 73.25117023,
+          "exit": 73.25117371,
           "return_pct": -1.875,
           "exit_reason": "SL"
         },
@@ -233,7 +186,7 @@
           "time": 1795406399999,
           "side": "LONG",
           "entry": 71.36427,
-          "exit": 73.34293973,
+          "exit": 73.34293972,
           "return_pct": 2.673,
           "exit_reason": "TP"
         }
