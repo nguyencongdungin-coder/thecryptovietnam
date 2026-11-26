@@ -1,11 +1,11 @@
 {
-  "generated_at": 1795649299603,
+  "generated_at": 1795652949289,
   "sample": [
     {
       "symbol": "BTCUSDT",
       "interval": "1h",
-      "from": 1794571200000,
-      "to": 1795647599999,
+      "from": 1794574800000,
+      "to": 1795651199999,
       "assumptions": {
         "fee_bps_each_side": 5,
         "slippage_bps_each_side": 2,
@@ -21,16 +21,16 @@
           "time": 1794931199999,
           "side": "SHORT",
           "entry": 64068.88366,
-          "exit": 64957.97638835,
-          "return_pct": -1.488,
+          "exit": 64958.79433255,
+          "return_pct": -1.489,
           "exit_reason": "SL"
         },
         {
           "time": 1795006799999,
           "side": "SHORT",
           "entry": 64038.28978,
-          "exit": 62686.34725586,
-          "return_pct": 2.011,
+          "exit": 62686.00221119,
+          "return_pct": 2.012,
           "exit_reason": "TP"
         },
         {
@@ -45,7 +45,7 @@
           "time": 1795413599999,
           "side": "LONG",
           "entry": 61663.53024,
-          "exit": 63430.35568229,
+          "exit": 63430.35576188,
           "return_pct": 2.765,
           "exit_reason": "TP"
         },
@@ -63,8 +63,8 @@
     {
       "symbol": "ETHUSDT",
       "interval": "1h",
-      "from": 1794571200000,
-      "to": 1795647599999,
+      "from": 1794574800000,
+      "to": 1795651199999,
       "assumptions": {
         "fee_bps_each_side": 5,
         "slippage_bps_each_side": 2,
@@ -72,24 +72,24 @@
       },
       "trades": 5,
       "win_rate": 80.0,
-      "average_return_pct": 1.415,
-      "total_compounded_pct": 7.2,
+      "average_return_pct": 1.416,
+      "total_compounded_pct": 7.21,
       "max_drawdown_pct": -1.85,
       "sample": [
         {
           "time": 1794909599999,
           "side": "SHORT",
           "entry": 1810.827762,
-          "exit": 1759.97139142,
-          "return_pct": 2.708,
+          "exit": 1759.87647285,
+          "return_pct": 2.714,
           "exit_reason": "TP"
         },
         {
           "time": 1795006799999,
           "side": "SHORT",
           "entry": 1793.99113,
-          "exit": 1745.51652252,
-          "return_pct": 2.602,
+          "exit": 1745.50368844,
+          "return_pct": 2.603,
           "exit_reason": "TP"
         },
         {
@@ -104,7 +104,7 @@
           "time": 1795319999999,
           "side": "SHORT",
           "entry": 1660.387856,
-          "exit": 1689.37054779,
+          "exit": 1689.37055796,
           "return_pct": -1.846,
           "exit_reason": "SL"
         },
@@ -122,34 +122,26 @@
     {
       "symbol": "SOXLUSDT",
       "interval": "1h",
-      "from": 1794571200000,
-      "to": 1795647599999,
+      "from": 1794574800000,
+      "to": 1795651199999,
       "assumptions": {
         "fee_bps_each_side": 5,
         "slippage_bps_each_side": 2,
         "funding_included": false
       },
-      "trades": 2,
+      "trades": 1,
       "win_rate": 0.0,
-      "average_return_pct": -4.246,
-      "total_compounded_pct": -8.43,
-      "max_drawdown_pct": -8.43,
+      "average_return_pct": -7.616,
+      "total_compounded_pct": -7.62,
+      "max_drawdown_pct": -7.62,
       "sample": [
         {
           "time": 1794934799999,
           "side": "SHORT",
           "entry": 46.64067,
-          "exit": 50.14564698,
-          "return_pct": -7.615,
+          "exit": 50.14618224,
+          "return_pct": -7.616,
           "exit_reason": "SL"
-        },
-        {
-          "time": 1795013999999,
-          "side": "SHORT",
-          "entry": 50.159966,
-          "exit": 50.550108,
-          "return_pct": -0.878,
-          "exit_reason": "TIME"
         }
       ],
       "note": "Kiểm định lịch sử gần đây, không phải kết quả giao dịch thật; chưa tính funding/liquidation, không có ý nghĩa dự báo chắc chắn."
@@ -157,8 +149,8 @@
     {
       "symbol": "ZECUSDT",
       "interval": "1h",
-      "from": 1794571200000,
-      "to": 1795647599999,
+      "from": 1794574800000,
+      "to": 1795651199999,
       "assumptions": {
         "fee_bps_each_side": 5,
         "slippage_bps_each_side": 2,
@@ -175,8 +167,8 @@
     {
       "symbol": "SNDKUSDT",
       "interval": "1h",
-      "from": 1794571200000,
-      "to": 1795647599999,
+      "from": 1794574800000,
+      "to": 1795651199999,
       "assumptions": {
         "fee_bps_each_side": 5,
         "slippage_bps_each_side": 2,
@@ -192,15 +184,15 @@
           "time": 1794909599999,
           "side": "SHORT",
           "entry": 796.8406,
-          "exit": 818.20867227,
-          "return_pct": -2.782,
+          "exit": 818.20166159,
+          "return_pct": -2.781,
           "exit_reason": "SL"
         },
         {
           "time": 1794931199999,
           "side": "SHORT",
           "entry": 773.54526,
-          "exit": 803.42976295,
+          "exit": 803.42526875,
           "return_pct": -3.963,
           "exit_reason": "SL"
         },
@@ -208,7 +200,7 @@
           "time": 1795111199999,
           "side": "SHORT",
           "entry": 774.59505,
-          "exit": 714.61120082,
+          "exit": 714.61142185,
           "return_pct": 7.644,
           "exit_reason": "TP"
         }
