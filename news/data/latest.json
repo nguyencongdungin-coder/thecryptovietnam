@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T13:55:03Z",
+  "updated_at": "2026-11-26T15:05:29Z",
   "items": [
     {
       "title": "UK Regulator Cites Binance Hack as It Plans Tougher DeFi Rules Than US and EU: Report",
@@ -7,7 +7,7 @@
       "source": "Decrypt",
       "published_at": "2026-11-26T11:50:23Z",
       "category": "Pháp lý",
-      "priority": 14.83
+      "priority": 14.73
     },
     {
       "title": "Bitcoin ETF November outflows top $5B, Morgan Stanley bucks trend",
@@ -15,7 +15,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-26T09:42:34Z",
       "category": "ETF & tổ chức",
-      "priority": 14.65
+      "priority": 14.55
     },
     {
       "title": "Bill to lock up U.S. government bitcoin for 20 years advances to full House",
@@ -23,7 +23,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-26T04:46:01Z",
       "category": "Pháp lý",
-      "priority": 14.24
+      "priority": 14.14
     },
     {
       "title": "Switzerland’s first spot Bitcoin ETF ticks up 0.6% in opening hour",
@@ -31,7 +31,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-26T09:18:15Z",
       "category": "ETF & tổ chức",
-      "priority": 14.62
+      "priority": 14.52
     },
     {
       "title": "UK regulator plans tighter DeFi rules, citing $6.3B Binance hack: Report",
@@ -39,7 +39,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-26T05:53:08Z",
       "category": "Pháp lý",
-      "priority": 14.33
+      "priority": 14.23
     },
     {
       "title": "Senate Democrats urge SEC to scrap crypto, tokenized stock exemptions",
@@ -47,7 +47,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-26T04:24:45Z",
       "category": "Pháp lý",
-      "priority": 14.21
+      "priority": 14.11
     },
     {
       "title": "Nvidia to Pay $290 Million to Settle Long-Running Crypto Mining Revenue Lawsuit",
@@ -55,7 +55,7 @@
       "source": "Decrypt",
       "published_at": "2026-11-25T19:28:54Z",
       "category": "Pháp lý",
-      "priority": 13.46
+      "priority": 13.37
     },
     {
       "title": "French Senate blocks new crypto tax and wallet list critics called a kidnapping risk",
@@ -63,21 +63,13 @@
       "source": "CoinDesk",
       "published_at": "2026-11-25T18:24:47Z",
       "category": "Pháp lý",
-      "priority": 13.37
+      "priority": 13.28
     },
     {
       "title": "Elon Musk’s X Wins Court Judgment Against Alleged Bitcoin Bot Farm Operators",
       "url": "https://decrypt.co/383985/elon-musk-x-court-judgment-bitcoin-bot-farm-operators",
       "source": "Decrypt",
       "published_at": "2026-11-25T17:16:02Z",
-      "category": "Pháp lý",
-      "priority": 13.28
-    },
-    {
-      "title": "Ukrainian lawmakers pass crypto tax and regulation bill expected to bring in $330 million",
-      "url": "https://www.coindesk.com/business/2026/11/25/ukrainian-lawmakers-pass-crypto-tax-and-regulation-bill-expected-to-bring-in-usd330-million",
-      "source": "CoinDesk",
-      "published_at": "2026-11-25T16:02:07Z",
       "category": "Pháp lý",
       "priority": 13.18
     },
@@ -87,7 +79,15 @@
       "source": "Decrypt",
       "published_at": "2026-11-25T16:07:35Z",
       "category": "Pháp lý",
-      "priority": 13.18
+      "priority": 13.09
+    },
+    {
+      "title": "Ukrainian lawmakers pass crypto tax and regulation bill expected to bring in $330 million",
+      "url": "https://www.coindesk.com/business/2026/11/25/ukrainian-lawmakers-pass-crypto-tax-and-regulation-bill-expected-to-bring-in-usd330-million",
+      "source": "CoinDesk",
+      "published_at": "2026-11-25T16:02:07Z",
+      "category": "Pháp lý",
+      "priority": 13.08
     },
     {
       "title": "South Korean crypto exchange Bithumb warns of phishing after deeper October breach probe",
@@ -95,7 +95,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-25T14:47:17Z",
       "category": "Bảo mật",
-      "priority": 13.07
+      "priority": 12.97
     },
     {
       "title": "Morning Minute: Ethereum Focuses on Security As AI Threats Rise",
@@ -103,7 +103,7 @@
       "source": "Decrypt",
       "published_at": "2026-11-25T13:41:38Z",
       "category": "Bảo mật",
-      "priority": 12.98
+      "priority": 12.88
     },
     {
       "title": "French Senate Rejects Plan to Make Crypto Holders Declare Self-Custody Wallets",
@@ -111,7 +111,7 @@
       "source": "Decrypt",
       "published_at": "2026-11-25T13:15:24Z",
       "category": "Pháp lý",
-      "priority": 12.94
+      "priority": 12.85
     },
     {
       "title": "Ukraine passes bill to legalize crypto and tax profits at 23%",
@@ -119,7 +119,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-25T13:02:09Z",
       "category": "Pháp lý",
-      "priority": 12.93
+      "priority": 12.83
     },
     {
       "title": "Galaxy Research Withdraws Call That Bitcoin's Bear Market Is Over",
@@ -127,7 +127,7 @@
       "source": "Decrypt",
       "published_at": "2026-11-26T12:26:08Z",
       "category": "Bitcoin",
-      "priority": 12.88
+      "priority": 12.78
     },
     {
       "title": "Bitcoin ETFs are bleeding cash and the Fed is unlikely to help",
@@ -135,7 +135,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-26T12:14:46Z",
       "category": "Bitcoin",
-      "priority": 12.86
+      "priority": 12.76
     },
     {
       "title": "Florida Man Jailed for Using AI to Pose as Streamer N3ON in $260K Crypto Scam",
@@ -143,7 +143,7 @@
       "source": "Decrypt",
       "published_at": "2026-11-25T11:52:06Z",
       "category": "Bảo mật",
-      "priority": 12.83
+      "priority": 12.73
     }
   ]
 }
