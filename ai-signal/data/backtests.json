@@ -1,19 +1,147 @@
 {
-  "generated_at": 1795709456547,
+  "generated_at": 1795714010617,
   "sample": [
     {
       "symbol": "BTCUSDT",
-      "error": "OKX market API HTTP 429; keep last valid data"
+      "interval": "1h",
+      "from": 1794636000000,
+      "to": 1795712399999,
+      "assumptions": {
+        "fee_bps_each_side": 5,
+        "slippage_bps_each_side": 2,
+        "funding_included": false
+      },
+      "trades": 5,
+      "win_rate": 80.0,
+      "average_return_pct": 1.407,
+      "total_compounded_pct": 7.18,
+      "max_drawdown_pct": -1.49,
+      "sample": [
+        {
+          "time": 1794931199999,
+          "side": "SHORT",
+          "entry": 64068.88366,
+          "exit": 64956.99905928,
+          "return_pct": -1.486,
+          "exit_reason": "SL"
+        },
+        {
+          "time": 1795006799999,
+          "side": "SHORT",
+          "entry": 64038.28978,
+          "exit": 62686.75953605,
+          "return_pct": 2.011,
+          "exit_reason": "TP"
+        },
+        {
+          "time": 1795107599999,
+          "side": "SHORT",
+          "entry": 62737.64996,
+          "exit": 61496.7969,
+          "return_pct": 1.878,
+          "exit_reason": "TIME"
+        },
+        {
+          "time": 1795413599999,
+          "side": "LONG",
+          "entry": 61663.53024,
+          "exit": 63430.3555872,
+          "return_pct": 2.765,
+          "exit_reason": "TP"
+        },
+        {
+          "time": 1795571999999,
+          "side": "SHORT",
+          "entry": 59227.1522,
+          "exit": 58062.71022,
+          "return_pct": 1.866,
+          "exit_reason": "TIME"
+        }
+      ],
+      "note": "Kiểm định lịch sử gần đây, không phải kết quả giao dịch thật; chưa tính funding/liquidation, không có ý nghĩa dự báo chắc chắn."
     },
     {
       "symbol": "ETHUSDT",
-      "error": "OKX market API HTTP 429; keep last valid data"
+      "interval": "1h",
+      "from": 1794636000000,
+      "to": 1795712399999,
+      "assumptions": {
+        "fee_bps_each_side": 5,
+        "slippage_bps_each_side": 2,
+        "funding_included": false
+      },
+      "trades": 5,
+      "win_rate": 80.0,
+      "average_return_pct": 1.414,
+      "total_compounded_pct": 7.2,
+      "max_drawdown_pct": -1.85,
+      "sample": [
+        {
+          "time": 1794909599999,
+          "side": "SHORT",
+          "entry": 1810.827762,
+          "exit": 1760.06061415,
+          "return_pct": 2.704,
+          "exit_reason": "TP"
+        },
+        {
+          "time": 1795006799999,
+          "side": "SHORT",
+          "entry": 1793.99113,
+          "exit": 1745.52858645,
+          "return_pct": 2.601,
+          "exit_reason": "TP"
+        },
+        {
+          "time": 1795107599999,
+          "side": "SHORT",
+          "entry": 1767.056518,
+          "exit": 1726.915314,
+          "return_pct": 2.172,
+          "exit_reason": "TIME"
+        },
+        {
+          "time": 1795319999999,
+          "side": "SHORT",
+          "entry": 1660.387856,
+          "exit": 1689.37053823,
+          "return_pct": -1.846,
+          "exit_reason": "SL"
+        },
+        {
+          "time": 1795571999999,
+          "side": "SHORT",
+          "entry": 1657.138506,
+          "exit": 1631.636262,
+          "return_pct": 1.439,
+          "exit_reason": "TIME"
+        }
+      ],
+      "note": "Kiểm định lịch sử gần đây, không phải kết quả giao dịch thật; chưa tính funding/liquidation, không có ý nghĩa dự báo chắc chắn."
+    },
+    {
+      "symbol": "ZECUSDT",
+      "interval": "1h",
+      "from": 1794636000000,
+      "to": 1795712399999,
+      "assumptions": {
+        "fee_bps_each_side": 5,
+        "slippage_bps_each_side": 2,
+        "funding_included": false
+      },
+      "trades": 0,
+      "win_rate": null,
+      "average_return_pct": null,
+      "total_compounded_pct": null,
+      "max_drawdown_pct": null,
+      "sample": [],
+      "note": "Chưa đủ giao dịch để đánh giá"
     },
     {
       "symbol": "SOXLUSDT",
       "interval": "1h",
-      "from": 1794632400000,
-      "to": 1795708799999,
+      "from": 1794636000000,
+      "to": 1795712399999,
       "assumptions": {
         "fee_bps_each_side": 5,
         "slippage_bps_each_side": 2,
@@ -29,7 +157,7 @@
           "time": 1794931199999,
           "side": "SHORT",
           "entry": 46.470704,
-          "exit": 49.90400309,
+          "exit": 49.90372759,
           "return_pct": -7.488,
           "exit_reason": "SL"
         }
@@ -37,28 +165,10 @@
       "note": "Kiểm định lịch sử gần đây, không phải kết quả giao dịch thật; chưa tính funding/liquidation, không có ý nghĩa dự báo chắc chắn."
     },
     {
-      "symbol": "ZECUSDT",
-      "interval": "1h",
-      "from": 1794632400000,
-      "to": 1795708799999,
-      "assumptions": {
-        "fee_bps_each_side": 5,
-        "slippage_bps_each_side": 2,
-        "funding_included": false
-      },
-      "trades": 0,
-      "win_rate": null,
-      "average_return_pct": null,
-      "total_compounded_pct": null,
-      "max_drawdown_pct": null,
-      "sample": [],
-      "note": "Chưa đủ giao dịch để đánh giá"
-    },
-    {
       "symbol": "SOLUSDT",
       "interval": "1h",
-      "from": 1794632400000,
-      "to": 1795708799999,
+      "from": 1794636000000,
+      "to": 1795712399999,
       "assumptions": {
         "fee_bps_each_side": 5,
         "slippage_bps_each_side": 2,
@@ -74,7 +184,7 @@
           "time": 1795064399999,
           "side": "LONG",
           "entry": 74.574912,
-          "exit": 73.25123706,
+          "exit": 73.25123041,
           "return_pct": -1.875,
           "exit_reason": "SL"
         },
@@ -82,7 +192,7 @@
           "time": 1795406399999,
           "side": "LONG",
           "entry": 71.36427,
-          "exit": 73.34293961,
+          "exit": 73.34293962,
           "return_pct": 2.673,
           "exit_reason": "TP"
         },
