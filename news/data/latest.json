@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T11:40:58Z",
+  "updated_at": "2026-11-27T12:48:44Z",
   "items": [
     {
       "title": "Tether can freeze stolen crypto in minutes. Getting it back can take years.",
@@ -7,7 +7,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-27T10:00:00Z",
       "category": "Bảo mật",
-      "priority": 14.86
+      "priority": 14.77
     },
     {
       "title": "Japan’s crypto security group taps SEAL to speed up hack response",
@@ -15,7 +15,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-27T05:22:36Z",
       "category": "Bảo mật",
-      "priority": 14.47
+      "priority": 14.38
     },
     {
       "title": "Spain Lets Its Financial Intelligence Unit Freeze Crypto Accounts Without a Court Order",
@@ -23,7 +23,7 @@
       "source": "Decrypt",
       "published_at": "2026-11-26T16:43:02Z",
       "category": "Pháp lý",
-      "priority": 13.42
+      "priority": 13.33
     },
     {
       "title": "Binance says customer withdrawals are fully restored, four weeks after the $6.3 billion hack",
@@ -31,7 +31,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-27T04:45:47Z",
       "category": "Bảo mật",
-      "priority": 14.42
+      "priority": 14.33
     },
     {
       "title": "Binance completes withdrawal recovery four weeks after $6.3B hack",
@@ -39,7 +39,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-26T21:33:47Z",
       "category": "Bảo mật",
-      "priority": 13.82
+      "priority": 13.73
     },
     {
       "title": "UK is ‘getting it wrong’ on DeFi regulation, says Coinbase",
@@ -47,7 +47,15 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-26T21:13:53Z",
       "category": "Pháp lý",
-      "priority": 13.8
+      "priority": 13.7
+    },
+    {
+      "title": "Bitcoin 'death cross' is coming. Here's what happened after previous 13.",
+      "url": "https://www.coindesk.com/daybook-us/2026/11/27/bitcoin-death-cross-is-coming-here-s-what-happened-after-previous-13",
+      "source": "CoinDesk",
+      "published_at": "2026-11-27T12:16:07Z",
+      "category": "Bitcoin",
+      "priority": 12.95
     },
     {
       "title": "UK Regulator Cites Binance Hack as It Plans Tougher DeFi Rules Than US and EU: Report",
@@ -55,7 +63,15 @@
       "source": "Decrypt",
       "published_at": "2026-11-26T11:50:23Z",
       "category": "Pháp lý",
-      "priority": 13.01
+      "priority": 12.92
+    },
+    {
+      "title": "Bitcoin on course to end seven-week losing streak while trailing stock rebound",
+      "url": "https://www.coindesk.com/markets/2026/11/27/bitcoin-on-course-to-end-seven-week-losing-streak-while-trailing-stock-rebound",
+      "source": "CoinDesk",
+      "published_at": "2026-11-27T11:45:47Z",
+      "category": "Bitcoin",
+      "priority": 12.91
     },
     {
       "title": "Live news: Bitcoin rebounds above $61,000 as AI stocks lead premarket gains",
@@ -63,7 +79,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-27T11:34:37Z",
       "category": "Bitcoin",
-      "priority": 12.99
+      "priority": 12.9
     },
     {
       "title": "Next ECB chief favors tokenized bank deposits over stablecoins and bitcoin",
@@ -71,7 +87,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-27T11:22:42Z",
       "category": "Bitcoin",
-      "priority": 12.97
+      "priority": 12.88
     },
     {
       "title": "Bitcoin supply metric hits 11-year low as new ‘capitulation’ signal arrives",
@@ -79,7 +95,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-27T11:14:28Z",
       "category": "Bitcoin",
-      "priority": 12.96
+      "priority": 12.87
     },
     {
       "title": "Ethereum Sets December 15 Date for Delayed Glamsterdam Testnet Upgrade",
@@ -87,7 +103,7 @@
       "source": "Decrypt",
       "published_at": "2026-11-27T10:15:51Z",
       "category": "Ethereum",
-      "priority": 12.88
+      "priority": 12.79
     },
     {
       "title": "Bitcoin tops $61,000 as Nasdaq futures extend Wednesday’s rebound",
@@ -95,7 +111,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-27T09:49:55Z",
       "category": "Bitcoin",
-      "priority": 12.85
+      "priority": 12.75
     },
     {
       "title": "Bitcoin ETF November outflows top $5B, Morgan Stanley bucks trend",
@@ -103,7 +119,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-26T09:42:34Z",
       "category": "ETF & tổ chức",
-      "priority": 12.84
+      "priority": 12.74
     },
     {
       "title": "Switzerland’s first spot Bitcoin ETF ticks up 0.6% in opening hour",
@@ -111,7 +127,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-26T09:18:15Z",
       "category": "ETF & tổ chức",
-      "priority": 12.8
+      "priority": 12.71
     },
     {
       "title": "UK regulator plans tighter DeFi rules, citing $6.3B Binance hack: Report",
@@ -119,7 +135,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-26T05:53:08Z",
       "category": "Pháp lý",
-      "priority": 12.52
+      "priority": 12.42
     },
     {
       "title": "Ethereum devs set Glamsterdam’s Hoodi rollout for mid-December after delays",
@@ -127,23 +143,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-27T04:47:36Z",
       "category": "Ethereum",
-      "priority": 12.43
-    },
-    {
-      "title": "Bill to lock up U.S. government bitcoin for 20 years advances to full House",
-      "url": "https://www.coindesk.com/policy/2026/11/26/strategic-bitcoin-reserve-bill-to-lock-up-u-s-government-held-bitcoin-for-20-years-goes-to-full-house",
-      "source": "CoinDesk",
-      "published_at": "2026-11-26T04:46:01Z",
-      "category": "Pháp lý",
-      "priority": 12.42
-    },
-    {
-      "title": "Ethereum's much-awaited Glamsterdam upgrade cleared for December test. Here's what to know",
-      "url": "https://www.coindesk.com/tech/2026/11/27/ethereum-s-much-awaited-glamsterdam-upgrade-cleared-for-december-test-here-s-what-to-know",
-      "source": "CoinDesk",
-      "published_at": "2026-11-27T04:29:47Z",
-      "category": "Ethereum",
-      "priority": 12.4
+      "priority": 12.33
     }
   ]
 }
