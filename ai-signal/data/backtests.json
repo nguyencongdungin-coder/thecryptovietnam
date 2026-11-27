@@ -1,38 +1,22 @@
 {
-  "generated_at": 1795754480247,
+  "generated_at": 1795758397192,
   "sample": [
     {
       "symbol": "BTCUSDT",
       "interval": "1h",
-      "from": 1794675600000,
-      "to": 1795751999999,
+      "from": 1794679200000,
+      "to": 1795755599999,
       "assumptions": {
         "fee_bps_each_side": 5,
         "slippage_bps_each_side": 2,
         "funding_included": false
       },
-      "trades": 6,
-      "win_rate": 83.3,
-      "average_return_pct": 1.173,
-      "total_compounded_pct": 7.18,
-      "max_drawdown_pct": -1.49,
+      "trades": 4,
+      "win_rate": 100.0,
+      "average_return_pct": 1.632,
+      "total_compounded_pct": 6.67,
+      "max_drawdown_pct": 0.0,
       "sample": [
-        {
-          "time": 1794931199999,
-          "side": "SHORT",
-          "entry": 64068.88366,
-          "exit": 64962.30551316,
-          "return_pct": -1.494,
-          "exit_reason": "SL"
-        },
-        {
-          "time": 1795006799999,
-          "side": "SHORT",
-          "entry": 64038.28978,
-          "exit": 62684.52104151,
-          "return_pct": 2.014,
-          "exit_reason": "TP"
-        },
         {
           "time": 1795107599999,
           "side": "SHORT",
@@ -45,7 +29,7 @@
           "time": 1795413599999,
           "side": "LONG",
           "entry": 61663.53024,
-          "exit": 63430.35610351,
+          "exit": 63430.35569607,
           "return_pct": 2.765,
           "exit_reason": "TP"
         },
@@ -61,8 +45,8 @@
           "time": 1795748399999,
           "side": "LONG",
           "entry": 61312.46004,
-          "exit": 61379.82158,
-          "return_pct": 0.01,
+          "exit": 61385.12052,
+          "return_pct": 0.019,
           "exit_reason": "TIME"
         }
       ],
@@ -71,8 +55,8 @@
     {
       "symbol": "ETHUSDT",
       "interval": "1h",
-      "from": 1794675600000,
-      "to": 1795751999999,
+      "from": 1794679200000,
+      "to": 1795755599999,
       "assumptions": {
         "fee_bps_each_side": 5,
         "slippage_bps_each_side": 2,
@@ -80,16 +64,16 @@
       },
       "trades": 5,
       "win_rate": 80.0,
-      "average_return_pct": 0.921,
-      "total_compounded_pct": 4.62,
+      "average_return_pct": 0.963,
+      "total_compounded_pct": 4.84,
       "max_drawdown_pct": -1.85,
       "sample": [
         {
           "time": 1795006799999,
           "side": "SHORT",
           "entry": 1793.99113,
-          "exit": 1745.43566899,
-          "return_pct": 2.607,
+          "exit": 1745.52015792,
+          "return_pct": 2.602,
           "exit_reason": "TP"
         },
         {
@@ -104,7 +88,7 @@
           "time": 1795319999999,
           "side": "SHORT",
           "entry": 1660.387856,
-          "exit": 1689.37061185,
+          "exit": 1689.37054491,
           "return_pct": -1.846,
           "exit_reason": "SL"
         },
@@ -120,8 +104,8 @@
           "time": 1795748399999,
           "side": "LONG",
           "entry": 1721.774286,
-          "exit": 1727.484434,
-          "return_pct": 0.232,
+          "exit": 1731.183694,
+          "return_pct": 0.446,
           "exit_reason": "TIME"
         }
       ],
@@ -130,8 +114,8 @@
     {
       "symbol": "ZECUSDT",
       "interval": "1h",
-      "from": 1794675600000,
-      "to": 1795751999999,
+      "from": 1794679200000,
+      "to": 1795755599999,
       "assumptions": {
         "fee_bps_each_side": 5,
         "slippage_bps_each_side": 2,
@@ -148,33 +132,25 @@
     {
       "symbol": "SOXLUSDT",
       "interval": "1h",
-      "from": 1794675600000,
-      "to": 1795751999999,
+      "from": 1794679200000,
+      "to": 1795755599999,
       "assumptions": {
         "fee_bps_each_side": 5,
         "slippage_bps_each_side": 2,
         "funding_included": false
       },
-      "trades": 2,
-      "win_rate": 50.0,
-      "average_return_pct": -1.237,
-      "total_compounded_pct": -2.85,
-      "max_drawdown_pct": -7.49,
+      "trades": 1,
+      "win_rate": 100.0,
+      "average_return_pct": 4.903,
+      "total_compounded_pct": 4.9,
+      "max_drawdown_pct": 0.0,
       "sample": [
-        {
-          "time": 1794931199999,
-          "side": "SHORT",
-          "entry": 46.470704,
-          "exit": 49.90561459,
-          "return_pct": -7.492,
-          "exit_reason": "SL"
-        },
         {
           "time": 1795744799999,
           "side": "LONG",
           "entry": 34.696938,
-          "exit": 36.472704,
-          "return_pct": 5.018,
+          "exit": 36.432712,
+          "return_pct": 4.903,
           "exit_reason": "TIME"
         }
       ],
@@ -183,8 +159,8 @@
     {
       "symbol": "SOLUSDT",
       "interval": "1h",
-      "from": 1794675600000,
-      "to": 1795751999999,
+      "from": 1794679200000,
+      "to": 1795755599999,
       "assumptions": {
         "fee_bps_each_side": 5,
         "slippage_bps_each_side": 2,
@@ -192,15 +168,15 @@
       },
       "trades": 4,
       "win_rate": 50.0,
-      "average_return_pct": -0.189,
-      "total_compounded_pct": -0.83,
+      "average_return_pct": -0.182,
+      "total_compounded_pct": -0.8,
       "max_drawdown_pct": -1.94,
       "sample": [
         {
           "time": 1795064399999,
           "side": "LONG",
           "entry": 74.574912,
-          "exit": 73.25084769,
+          "exit": 73.25116618,
           "return_pct": -1.875,
           "exit_reason": "SL"
         },
@@ -208,7 +184,7 @@
           "time": 1795406399999,
           "side": "LONG",
           "entry": 71.36427,
-          "exit": 73.34294029,
+          "exit": 73.34293973,
           "return_pct": 2.673,
           "exit_reason": "TP"
         },
@@ -216,7 +192,7 @@
           "time": 1795593599999,
           "side": "SHORT",
           "entry": 67.756446,
-          "exit": 69.00332776,
+          "exit": 69.00332775,
           "return_pct": -1.94,
           "exit_reason": "SL"
         },
@@ -224,8 +200,8 @@
           "time": 1795748399999,
           "side": "LONG",
           "entry": 72.344466,
-          "exit": 72.695458,
-          "return_pct": 0.385,
+          "exit": 72.715454,
+          "return_pct": 0.413,
           "exit_reason": "TIME"
         }
       ],
