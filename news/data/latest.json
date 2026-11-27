@@ -1,13 +1,29 @@
 {
-  "updated_at": "2026-11-27T12:48:44Z",
+  "updated_at": "2026-11-27T14:07:00Z",
   "items": [
+    {
+      "title": "Binance to launch tokenized IPO program after regulatory approval: Yi He",
+      "url": "https://cointelegraph.com/news/binance-ipo-program-regulatory-approval-yi-he?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-27T13:44:00Z",
+      "category": "Pháp lý",
+      "priority": 14.97
+    },
+    {
+      "title": "Binance Fully Lifts Withdrawal Suspension Four Weeks After $6.4B Hack",
+      "url": "https://decrypt.co/384121/binance-fully-lifts-withdrawal-suspension-four-weeks-after-6-4b-hack",
+      "source": "Decrypt",
+      "published_at": "2026-11-27T13:24:17Z",
+      "category": "Bảo mật",
+      "priority": 14.94
+    },
     {
       "title": "Tether can freeze stolen crypto in minutes. Getting it back can take years.",
       "url": "https://www.coindesk.com/business/2026/11/27/tether-can-freeze-stolen-crypto-in-minutes-getting-it-back-can-take-years",
       "source": "CoinDesk",
       "published_at": "2026-11-27T10:00:00Z",
       "category": "Bảo mật",
-      "priority": 14.77
+      "priority": 14.66
     },
     {
       "title": "Japan’s crypto security group taps SEAL to speed up hack response",
@@ -15,15 +31,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-27T05:22:36Z",
       "category": "Bảo mật",
-      "priority": 14.38
-    },
-    {
-      "title": "Spain Lets Its Financial Intelligence Unit Freeze Crypto Accounts Without a Court Order",
-      "url": "https://decrypt.co/384063/spain-lets-its-financial-intelligence-unit-freeze-crypto-accounts-without-a-court-order",
-      "source": "Decrypt",
-      "published_at": "2026-11-26T16:43:02Z",
-      "category": "Pháp lý",
-      "priority": 13.33
+      "priority": 14.27
     },
     {
       "title": "Binance says customer withdrawals are fully restored, four weeks after the $6.3 billion hack",
@@ -31,7 +39,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-27T04:45:47Z",
       "category": "Bảo mật",
-      "priority": 14.33
+      "priority": 14.22
     },
     {
       "title": "Binance completes withdrawal recovery four weeks after $6.3B hack",
@@ -39,7 +47,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-26T21:33:47Z",
       "category": "Bảo mật",
-      "priority": 13.73
+      "priority": 13.62
     },
     {
       "title": "UK is ‘getting it wrong’ on DeFi regulation, says Coinbase",
@@ -47,7 +55,23 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-26T21:13:53Z",
       "category": "Pháp lý",
-      "priority": 13.7
+      "priority": 13.59
+    },
+    {
+      "title": "Spain Lets Its Financial Intelligence Unit Freeze Crypto Accounts Without a Court Order",
+      "url": "https://decrypt.co/384063/spain-lets-its-financial-intelligence-unit-freeze-crypto-accounts-without-a-court-order",
+      "source": "Decrypt",
+      "published_at": "2026-11-26T16:43:02Z",
+      "category": "Pháp lý",
+      "priority": 13.22
+    },
+    {
+      "title": "What's on the Ethereum Roadmap: Glamsterdam, Hegotá and Beyond",
+      "url": "https://decrypt.co/resources/whats-on-ethereum-roadmap-glamsterdam-hegota-beyond",
+      "source": "Decrypt",
+      "published_at": "2026-11-27T13:50:04Z",
+      "category": "Ethereum",
+      "priority": 12.98
     },
     {
       "title": "Bitcoin 'death cross' is coming. Here's what happened after previous 13.",
@@ -55,7 +79,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-27T12:16:07Z",
       "category": "Bitcoin",
-      "priority": 12.95
+      "priority": 12.85
     },
     {
       "title": "UK Regulator Cites Binance Hack as It Plans Tougher DeFi Rules Than US and EU: Report",
@@ -63,7 +87,7 @@
       "source": "Decrypt",
       "published_at": "2026-11-26T11:50:23Z",
       "category": "Pháp lý",
-      "priority": 12.92
+      "priority": 12.81
     },
     {
       "title": "Bitcoin on course to end seven-week losing streak while trailing stock rebound",
@@ -71,15 +95,15 @@
       "source": "CoinDesk",
       "published_at": "2026-11-27T11:45:47Z",
       "category": "Bitcoin",
-      "priority": 12.91
+      "priority": 12.8
     },
     {
-      "title": "Live news: Bitcoin rebounds above $61,000 as AI stocks lead premarket gains",
+      "title": "Live updates: Bitcoin rebounds above $61,000 as AI stocks lead premarket gains",
       "url": "https://www.coindesk.com/tech/2026/11/27/live-news-bitcoin-rebounds-above-usd61-000-as-ai-stocks-lead-premarket-gains",
       "source": "CoinDesk",
       "published_at": "2026-11-27T11:34:37Z",
       "category": "Bitcoin",
-      "priority": 12.9
+      "priority": 12.79
     },
     {
       "title": "Next ECB chief favors tokenized bank deposits over stablecoins and bitcoin",
@@ -87,7 +111,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-27T11:22:42Z",
       "category": "Bitcoin",
-      "priority": 12.88
+      "priority": 12.77
     },
     {
       "title": "Bitcoin supply metric hits 11-year low as new ‘capitulation’ signal arrives",
@@ -95,7 +119,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-27T11:14:28Z",
       "category": "Bitcoin",
-      "priority": 12.87
+      "priority": 12.76
     },
     {
       "title": "Ethereum Sets December 15 Date for Delayed Glamsterdam Testnet Upgrade",
@@ -103,7 +127,7 @@
       "source": "Decrypt",
       "published_at": "2026-11-27T10:15:51Z",
       "category": "Ethereum",
-      "priority": 12.79
+      "priority": 12.68
     },
     {
       "title": "Bitcoin tops $61,000 as Nasdaq futures extend Wednesday’s rebound",
@@ -111,7 +135,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-27T09:49:55Z",
       "category": "Bitcoin",
-      "priority": 12.75
+      "priority": 12.64
     },
     {
       "title": "Bitcoin ETF November outflows top $5B, Morgan Stanley bucks trend",
@@ -119,31 +143,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-26T09:42:34Z",
       "category": "ETF & tổ chức",
-      "priority": 12.74
-    },
-    {
-      "title": "Switzerland’s first spot Bitcoin ETF ticks up 0.6% in opening hour",
-      "url": "https://cointelegraph.com/markets/bit-debuts-switzerlands-first-spot-bitcoin-etf?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-26T09:18:15Z",
-      "category": "ETF & tổ chức",
-      "priority": 12.71
-    },
-    {
-      "title": "UK regulator plans tighter DeFi rules, citing $6.3B Binance hack: Report",
-      "url": "https://cointelegraph.com/news/uk-fca-defi-regulation-binance-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-26T05:53:08Z",
-      "category": "Pháp lý",
-      "priority": 12.42
-    },
-    {
-      "title": "Ethereum devs set Glamsterdam’s Hoodi rollout for mid-December after delays",
-      "url": "https://cointelegraph.com/news/ethereum-devs-set-glamsterdams-hoodi-rollout-for-mid-december-after-delays?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-27T04:47:36Z",
-      "category": "Ethereum",
-      "priority": 12.33
+      "priority": 12.63
     }
   ]
 }
