@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-28T09:28:12Z",
+  "updated_at": "2026-11-28T10:28:55Z",
   "items": [
     {
       "title": "Binance receives in-principle approval, plans Asia hub in Bhutan",
@@ -7,7 +7,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-28T07:43:00Z",
       "category": "Pháp lý",
-      "priority": 14.85
+      "priority": 14.77
     },
     {
       "title": "Binance Fully Lifts Withdrawal Suspension Four Weeks After $6.4B Hack",
@@ -15,7 +15,7 @@
       "source": "Decrypt",
       "published_at": "2026-11-27T13:24:17Z",
       "category": "Bảo mật",
-      "priority": 13.33
+      "priority": 13.24
     },
     {
       "title": "Tether can freeze stolen crypto in minutes. Getting it back can take years.",
@@ -23,7 +23,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-27T10:00:00Z",
       "category": "Bảo mật",
-      "priority": 13.04
+      "priority": 12.96
     },
     {
       "title": "Franklin Templeton makes room for HYPE in crypto index ETF",
@@ -31,7 +31,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-27T21:15:29Z",
       "category": "ETF & tổ chức",
-      "priority": 13.98
+      "priority": 13.9
     },
     {
       "title": "Binance to launch tokenized IPO program after regulatory approval: Yi He",
@@ -39,7 +39,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-27T13:44:00Z",
       "category": "Pháp lý",
-      "priority": 13.36
+      "priority": 13.27
     },
     {
       "title": "Japan’s crypto security group taps SEAL to speed up hack response",
@@ -47,7 +47,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-27T05:22:36Z",
       "category": "Bảo mật",
-      "priority": 12.66
+      "priority": 12.57
     },
     {
       "title": "Binance says customer withdrawals are fully restored, four weeks after the $6.3 billion hack",
@@ -55,7 +55,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-27T04:45:47Z",
       "category": "Bảo mật",
-      "priority": 12.61
+      "priority": 12.52
     },
     {
       "title": "Binance completes withdrawal recovery four weeks after $6.3B hack",
@@ -63,7 +63,15 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-26T21:33:47Z",
       "category": "Bảo mật",
-      "priority": 12.01
+      "priority": 11.92
+    },
+    {
+      "title": "Trump-linked crypto token WLFI plunges 50% to record lows",
+      "url": "https://www.coindesk.com/markets/2026/11/28/trump-linked-crypto-token-wlfi-plunges-over-50",
+      "source": "CoinDesk",
+      "published_at": "2026-11-28T09:32:51Z",
+      "category": "Altcoin & DeFi",
+      "priority": 11.92
     },
     {
       "title": "UK is ‘getting it wrong’ on DeFi regulation, says Coinbase",
@@ -71,7 +79,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-26T21:13:53Z",
       "category": "Pháp lý",
-      "priority": 11.98
+      "priority": 11.9
     },
     {
       "title": "Could AI Break Bitcoin? Not Yet, Research Firm K33 Says",
@@ -79,7 +87,7 @@
       "source": "Decrypt",
       "published_at": "2026-11-27T20:46:02Z",
       "category": "Bitcoin",
-      "priority": 11.94
+      "priority": 11.86
     },
     {
       "title": "4 Scary Bitcoin Charts That Suggest This Bear Market Is Different",
@@ -87,7 +95,7 @@
       "source": "Decrypt",
       "published_at": "2026-11-27T19:46:02Z",
       "category": "Bitcoin",
-      "priority": 11.86
+      "priority": 11.77
     },
     {
       "title": "Bitcoin whales pile into BTC despite shrinking profit cushion",
@@ -95,7 +103,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-27T19:23:00Z",
       "category": "Bitcoin",
-      "priority": 11.83
+      "priority": 11.74
     },
     {
       "title": "$7 Billion in Bitcoin Options Just Expired: Here’s What It Means",
@@ -103,7 +111,7 @@
       "source": "Decrypt",
       "published_at": "2026-11-27T18:16:03Z",
       "category": "Bitcoin",
-      "priority": 11.73
+      "priority": 11.65
     },
     {
       "title": "Bitcoin price drops below $59K as Anthropic joins tech stock rebound",
@@ -111,7 +119,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-27T16:48:51Z",
       "category": "Bitcoin",
-      "priority": 11.61
+      "priority": 11.53
     },
     {
       "title": "Spain Lets Its Financial Intelligence Unit Freeze Crypto Accounts Without a Court Order",
@@ -119,7 +127,7 @@
       "source": "Decrypt",
       "published_at": "2026-11-26T16:43:02Z",
       "category": "Pháp lý",
-      "priority": 11.6
+      "priority": 11.52
     },
     {
       "title": "What's on the Ethereum Roadmap: Glamsterdam, Hegotá and Beyond",
@@ -127,7 +135,7 @@
       "source": "Decrypt",
       "published_at": "2026-11-27T13:50:04Z",
       "category": "Ethereum",
-      "priority": 11.36
+      "priority": 11.28
     },
     {
       "title": "Bitcoin 'death cross' is coming. Here's what happened after previous 13.",
@@ -135,15 +143,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-27T12:16:07Z",
       "category": "Bitcoin",
-      "priority": 11.23
-    },
-    {
-      "title": "UK Regulator Cites Binance Hack as It Plans Tougher DeFi Rules Than US and EU: Report",
-      "url": "https://decrypt.co/384027/uk-regulator-cites-binance-hack-as-it-plans-tougher-defi-rules-than-us-and-eu-report",
-      "source": "Decrypt",
-      "published_at": "2026-11-26T11:50:23Z",
-      "category": "Pháp lý",
-      "priority": 11.2
+      "priority": 11.15
     }
   ]
 }
