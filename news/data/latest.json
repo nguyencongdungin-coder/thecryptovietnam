@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T23:39:31Z",
+  "updated_at": "2026-11-28T00:40:56Z",
   "items": [
     {
       "title": "Franklin Templeton makes room for HYPE in crypto index ETF",
@@ -7,7 +7,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-27T21:15:29Z",
       "category": "ETF & tổ chức",
-      "priority": 14.8
+      "priority": 14.71
     },
     {
       "title": "Binance Fully Lifts Withdrawal Suspension Four Weeks After $6.4B Hack",
@@ -15,7 +15,7 @@
       "source": "Decrypt",
       "published_at": "2026-11-27T13:24:17Z",
       "category": "Bảo mật",
-      "priority": 14.15
+      "priority": 14.06
     },
     {
       "title": "Tether can freeze stolen crypto in minutes. Getting it back can take years.",
@@ -23,7 +23,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-27T10:00:00Z",
       "category": "Bảo mật",
-      "priority": 13.86
+      "priority": 13.78
     },
     {
       "title": "Binance to launch tokenized IPO program after regulatory approval: Yi He",
@@ -31,7 +31,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-27T13:44:00Z",
       "category": "Pháp lý",
-      "priority": 14.17
+      "priority": 14.09
     },
     {
       "title": "Japan’s crypto security group taps SEAL to speed up hack response",
@@ -39,7 +39,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-27T05:22:36Z",
       "category": "Bảo mật",
-      "priority": 13.48
+      "priority": 13.39
     },
     {
       "title": "Binance says customer withdrawals are fully restored, four weeks after the $6.3 billion hack",
@@ -47,7 +47,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-27T04:45:47Z",
       "category": "Bảo mật",
-      "priority": 13.43
+      "priority": 13.34
     },
     {
       "title": "Binance completes withdrawal recovery four weeks after $6.3B hack",
@@ -55,7 +55,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-26T21:33:47Z",
       "category": "Bảo mật",
-      "priority": 12.83
+      "priority": 12.74
     },
     {
       "title": "UK is ‘getting it wrong’ on DeFi regulation, says Coinbase",
@@ -63,7 +63,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-26T21:13:53Z",
       "category": "Pháp lý",
-      "priority": 12.8
+      "priority": 12.71
     },
     {
       "title": "Could AI Break Bitcoin? Not Yet, Research Firm K33 Says",
@@ -71,7 +71,7 @@
       "source": "Decrypt",
       "published_at": "2026-11-27T20:46:02Z",
       "category": "Bitcoin",
-      "priority": 12.76
+      "priority": 12.67
     },
     {
       "title": "4 Scary Bitcoin Charts That Suggest This Bear Market Is Different",
@@ -79,7 +79,7 @@
       "source": "Decrypt",
       "published_at": "2026-11-27T19:46:02Z",
       "category": "Bitcoin",
-      "priority": 12.68
+      "priority": 12.59
     },
     {
       "title": "Bitcoin whales pile into BTC despite shrinking profit cushion",
@@ -87,7 +87,7 @@
       "source": "Cointelegraph",
       "published_at": "2026-11-27T19:23:00Z",
       "category": "Bitcoin",
-      "priority": 12.64
+      "priority": 12.56
     },
     {
       "title": "$7 Billion in Bitcoin Options Just Expired: Here’s What It Means",
@@ -95,15 +95,7 @@
       "source": "Decrypt",
       "published_at": "2026-11-27T18:16:03Z",
       "category": "Bitcoin",
-      "priority": 12.55
-    },
-    {
-      "title": "Bitcoin price drops below $59K as Anthropic joins tech stock rebound",
-      "url": "https://cointelegraph.com/markets/bitcoin-price-below-59k-anthropic-tech-stock-rebound?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "published_at": "2026-11-27T16:48:51Z",
-      "category": "Bitcoin",
-      "priority": 12.43
+      "priority": 12.47
     },
     {
       "title": "Spain Lets Its Financial Intelligence Unit Freeze Crypto Accounts Without a Court Order",
@@ -111,7 +103,15 @@
       "source": "Decrypt",
       "published_at": "2026-11-26T16:43:02Z",
       "category": "Pháp lý",
-      "priority": 12.42
+      "priority": 12.34
+    },
+    {
+      "title": "Bitcoin price drops below $59K as Anthropic joins tech stock rebound",
+      "url": "https://cointelegraph.com/markets/bitcoin-price-below-59k-anthropic-tech-stock-rebound?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "published_at": "2026-11-27T16:48:51Z",
+      "category": "Bitcoin",
+      "priority": 12.34
     },
     {
       "title": "What's on the Ethereum Roadmap: Glamsterdam, Hegotá and Beyond",
@@ -119,7 +119,7 @@
       "source": "Decrypt",
       "published_at": "2026-11-27T13:50:04Z",
       "category": "Ethereum",
-      "priority": 12.18
+      "priority": 12.1
     },
     {
       "title": "Bitcoin 'death cross' is coming. Here's what happened after previous 13.",
@@ -127,7 +127,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-27T12:16:07Z",
       "category": "Bitcoin",
-      "priority": 12.05
+      "priority": 11.97
     },
     {
       "title": "UK Regulator Cites Binance Hack as It Plans Tougher DeFi Rules Than US and EU: Report",
@@ -135,7 +135,7 @@
       "source": "Decrypt",
       "published_at": "2026-11-26T11:50:23Z",
       "category": "Pháp lý",
-      "priority": 12.02
+      "priority": 11.93
     },
     {
       "title": "Bitcoin on course to end seven-week losing streak while trailing stock rebound",
@@ -143,7 +143,7 @@
       "source": "CoinDesk",
       "published_at": "2026-11-27T11:45:47Z",
       "category": "Bitcoin",
-      "priority": 12.01
+      "priority": 11.92
     }
   ]
 }
